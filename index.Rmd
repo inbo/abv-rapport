@@ -24,6 +24,7 @@ Voor een ecologische interpretatie van de resultaten verwijzen we naar andere pu
 
 # Beschikbare rapporten
 
-| versie | [DOI](https://nl.wikipedia.org/wiki/Digital_object_identifier) | link |
-| - | - | - |
-| 2018 | [10.5281/zenodo.1494832](https://doi.org/10.5281/zenodo.1494832) | [pdf](2018/abv.pdf) |
+| periode | [DOI](https://nl.wikipedia.org/wiki/Digital_object_identifier) | interactief | pdf | [E-boek](https://nl.wikipedia.org/wiki/E-boek) |
+| - | - | - | - | - |
+| 2007 - 2018 | [10.5281/zenodo.1494832](https://doi.org/10.5281/zenodo.1494832) | | [pdf](2018/abv.pdf) | |
+| 2007 - 2019 | [10.21436/inbor.17888433](https://doi.org/10.21436/inbor.17888433) | [html](2019/index.html) | [pdf](2019/abv_standaard_rapport.pdf) | [epub](2019/abv_standaard_rapport.epub) |

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>52 Holenduif | Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)</title>
+  <meta name="description" content="52 Holenduif | Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="52 Holenduif | Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="cover.jpg" />
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="52 Holenduif | Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)" />
+  
+  
+  <meta name="twitter:image" content="cover.jpg" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="51-soort-heggenmus.html"/>
+<link rel="next" href="53-soort-houtduif.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.1/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.49.4/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.49.4/plotly-latest.min.js"></script>
+
+
+
+<link rel="stylesheet" href="css/inbo_rapport.css" type="text/css"/>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Inleiding</a></li>
+<li class="part"><span><b>I Methodologie</b></span></li>
+<li class="chapter" data-level="2" data-path="2-inzameling-van-de-tellingen-in-het-veld.html"><a href="2-inzameling-van-de-tellingen-in-het-veld.html"><i class="fa fa-check"></i><b>2</b> Inzameling van de tellingen in het veld</a><ul>
+<li class="chapter" data-level="2.1" data-path="2-inzameling-van-de-tellingen-in-het-veld.html"><a href="2-inzameling-van-de-tellingen-in-het-veld.html#s:steekproef"><i class="fa fa-check"></i><b>2.1</b> Steekproef</a></li>
+<li class="chapter" data-level="2.2" data-path="2-inzameling-van-de-tellingen-in-het-veld.html"><a href="2-inzameling-van-de-tellingen-in-het-veld.html#steekproefeenheid"><i class="fa fa-check"></i><b>2.2</b> Steekproefeenheid</a></li>
+<li class="chapter" data-level="2.3" data-path="2-inzameling-van-de-tellingen-in-het-veld.html"><a href="2-inzameling-van-de-tellingen-in-het-veld.html#tellingen"><i class="fa fa-check"></i><b>2.3</b> Tellingen</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html"><i class="fa fa-check"></i><b>3</b> Verwerking van de gegevens</a><ul>
+<li class="chapter" data-level="3.1" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#s:relevant"><i class="fa fa-check"></i><b>3.1</b> Selectie van relevante gegevens per soort</a></li>
+<li class="chapter" data-level="3.2" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#s:trendberekening"><i class="fa fa-check"></i><b>3.2</b> Trendberekening</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#niet-lineaire-trends"><i class="fa fa-check"></i><b>3.2.1</b> Niet-lineaire trends</a></li>
+<li class="chapter" data-level="3.2.2" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#statistische-verdelingen"><i class="fa fa-check"></i><b>3.2.2</b> Statistische verdelingen</a></li>
+<li class="chapter" data-level="3.2.3" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#s:lineairetrend"><i class="fa fa-check"></i><b>3.2.3</b> Lineaire trends</a></li>
+<li class="chapter" data-level="3.2.4" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#resultaten-per-driejarige-cyclus"><i class="fa fa-check"></i><b>3.2.4</b> Resultaten per driejarige cyclus</a></li>
+<li class="chapter" data-level="3.2.5" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#modellen-fitten"><i class="fa fa-check"></i><b>3.2.5</b> Modellen fitten</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#gemiddeld-aantal-dieren-per-meetpunt"><i class="fa fa-check"></i><b>3.3</b> Gemiddeld aantal dieren per meetpunt</a></li>
+<li class="chapter" data-level="3.4" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#vergelijken-van-jaren"><i class="fa fa-check"></i><b>3.4</b> Vergelijken van jaren</a></li>
+<li class="chapter" data-level="3.5" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#s:stratumgewicht"><i class="fa fa-check"></i><b>3.5</b> Gewicht van de strata</a></li>
+<li class="chapter" data-level="3.6" data-path="3-verwerking-van-de-gegevens.html"><a href="3-verwerking-van-de-gegevens.html#s:samengesteld"><i class="fa fa-check"></i><b>3.6</b> Samengestelde indices</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-voorstelling-van-de-gegevens.html"><a href="4-voorstelling-van-de-gegevens.html"><i class="fa fa-check"></i><b>4</b> Voorstelling van de gegevens</a><ul>
+<li class="chapter" data-level="4.1" data-path="4-voorstelling-van-de-gegevens.html"><a href="4-voorstelling-van-de-gegevens.html#s:onzekerheid"><i class="fa fa-check"></i><b>4.1</b> Onzekerheid</a></li>
+<li class="chapter" data-level="4.2" data-path="4-voorstelling-van-de-gegevens.html"><a href="4-voorstelling-van-de-gegevens.html#s:trendklasse"><i class="fa fa-check"></i><b>4.2</b> Opdeling van de effecten in een aantal klassen</a></li>
+<li class="chapter" data-level="4.3" data-path="4-voorstelling-van-de-gegevens.html"><a href="4-voorstelling-van-de-gegevens.html#overzicht-van-de-lineaire-trends"><i class="fa fa-check"></i><b>4.3</b> Overzicht van de lineaire trends</a></li>
+<li class="chapter" data-level="4.4" data-path="4-voorstelling-van-de-gegevens.html"><a href="4-voorstelling-van-de-gegevens.html#evolutie-van-gemiddelde-aantallen-per-soort"><i class="fa fa-check"></i><b>4.4</b> Evolutie van gemiddelde aantallen per soort</a></li>
+<li class="chapter" data-level="4.5" data-path="4-voorstelling-van-de-gegevens.html"><a href="4-voorstelling-van-de-gegevens.html#paarsgewijze-vergelijking-van-jaren"><i class="fa fa-check"></i><b>4.5</b> Paarsgewijze vergelijking van jaren</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><i class="fa fa-check"></i><b>5</b> Reproduceerbaarheid en traceerbaarheid van de gegevensverwerking</a><ul>
+<li class="chapter" data-level="5.1" data-path="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#versiebeheer"><i class="fa fa-check"></i><b>5.1</b> Versiebeheer</a></li>
+<li class="chapter" data-level="5.2" data-path="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#reproduceerbaarheid"><i class="fa fa-check"></i><b>5.2</b> Reproduceerbaarheid</a></li>
+<li class="chapter" data-level="5.3" data-path="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#s:traceerbaarheid"><i class="fa fa-check"></i><b>5.3</b> Traceerbaarheid</a></li>
+</ul></li>
+<li class="part"><span><b>II Indicatoren</b></span></li>
+<li class="chapter" data-level="6" data-path="6-index-Bos.html"><a href="6-index-Bos.html"><i class="fa fa-check"></i><b>6</b> Bos</a></li>
+<li class="chapter" data-level="7" data-path="7-index-Generalist.html"><a href="7-index-Generalist.html"><i class="fa fa-check"></i><b>7</b> Generalist</a></li>
+<li class="chapter" data-level="8" data-path="8-index-Landbouw.html"><a href="8-index-Landbouw.html"><i class="fa fa-check"></i><b>8</b> Landbouw</a></li>
+<li class="chapter" data-level="9" data-path="9-index-NARA2020.html"><a href="9-index-NARA2020.html"><i class="fa fa-check"></i><b>9</b> NARA2020</a></li>
+<li class="chapter" data-level="10" data-path="10-index-Standvogel.html"><a href="10-index-Standvogel.html"><i class="fa fa-check"></i><b>10</b> Standvogel</a></li>
+<li class="chapter" data-level="11" data-path="11-index-SubSaharaMigrant.html"><a href="11-index-SubSaharaMigrant.html"><i class="fa fa-check"></i><b>11</b> SubSaharaMigrant</a></li>
+<li class="chapter" data-level="12" data-path="12-index-Watervogel.html"><a href="12-index-Watervogel.html"><i class="fa fa-check"></i><b>12</b> Watervogel</a></li>
+<li class="part"><span><b>III Resultaten per soort</b></span></li>
+<li class="chapter" data-level="13" data-path="13-overzicht-van-de-trends.html"><a href="13-overzicht-van-de-trends.html"><i class="fa fa-check"></i><b>13</b> Overzicht van de trends</a></li>
+<li class="chapter" data-level="14" data-path="14-soort-aalscholver.html"><a href="14-soort-aalscholver.html"><i class="fa fa-check"></i><b>14</b> Aalscholver</a></li>
+<li class="chapter" data-level="15" data-path="15-soort-bergeend.html"><a href="15-soort-bergeend.html"><i class="fa fa-check"></i><b>15</b> Bergeend</a></li>
+<li class="chapter" data-level="16" data-path="16-soort-blauwborst.html"><a href="16-soort-blauwborst.html"><i class="fa fa-check"></i><b>16</b> Blauwborst</a></li>
+<li class="chapter" data-level="17" data-path="17-soort-blauwe-reiger.html"><a href="17-soort-blauwe-reiger.html"><i class="fa fa-check"></i><b>17</b> Blauwe reiger</a></li>
+<li class="chapter" data-level="18" data-path="18-soort-boerenzwaluw.html"><a href="18-soort-boerenzwaluw.html"><i class="fa fa-check"></i><b>18</b> Boerenzwaluw</a></li>
+<li class="chapter" data-level="19" data-path="19-soort-bonte-vliegenvanger.html"><a href="19-soort-bonte-vliegenvanger.html"><i class="fa fa-check"></i><b>19</b> Bonte vliegenvanger</a></li>
+<li class="chapter" data-level="20" data-path="20-soort-boomklever.html"><a href="20-soort-boomklever.html"><i class="fa fa-check"></i><b>20</b> Boomklever</a></li>
+<li class="chapter" data-level="21" data-path="21-soort-boomkruiper.html"><a href="21-soort-boomkruiper.html"><i class="fa fa-check"></i><b>21</b> Boomkruiper</a></li>
+<li class="chapter" data-level="22" data-path="22-soort-boomleeuwerik.html"><a href="22-soort-boomleeuwerik.html"><i class="fa fa-check"></i><b>22</b> Boomleeuwerik</a></li>
+<li class="chapter" data-level="23" data-path="23-soort-boompieper.html"><a href="23-soort-boompieper.html"><i class="fa fa-check"></i><b>23</b> Boompieper</a></li>
+<li class="chapter" data-level="24" data-path="24-soort-bosrietzanger.html"><a href="24-soort-bosrietzanger.html"><i class="fa fa-check"></i><b>24</b> Bosrietzanger</a></li>
+<li class="chapter" data-level="25" data-path="25-soort-bruine-kiekendief.html"><a href="25-soort-bruine-kiekendief.html"><i class="fa fa-check"></i><b>25</b> Bruine kiekendief</a></li>
+<li class="chapter" data-level="26" data-path="26-soort-buizerd.html"><a href="26-soort-buizerd.html"><i class="fa fa-check"></i><b>26</b> Buizerd</a></li>
+<li class="chapter" data-level="27" data-path="27-soort-canadese-gans.html"><a href="27-soort-canadese-gans.html"><i class="fa fa-check"></i><b>27</b> Canadese gans</a></li>
+<li class="chapter" data-level="28" data-path="28-soort-cettis-zanger.html"><a href="28-soort-cettis-zanger.html"><i class="fa fa-check"></i><b>28</b> Cetti’s zanger</a></li>
+<li class="chapter" data-level="29" data-path="29-soort-dodaars.html"><a href="29-soort-dodaars.html"><i class="fa fa-check"></i><b>29</b> Dodaars</a></li>
+<li class="chapter" data-level="30" data-path="30-soort-ekster.html"><a href="30-soort-ekster.html"><i class="fa fa-check"></i><b>30</b> Ekster</a></li>
+<li class="chapter" data-level="31" data-path="31-soort-fazant.html"><a href="31-soort-fazant.html"><i class="fa fa-check"></i><b>31</b> Fazant</a></li>
+<li class="chapter" data-level="32" data-path="32-soort-fitis.html"><a href="32-soort-fitis.html"><i class="fa fa-check"></i><b>32</b> Fitis</a></li>
+<li class="chapter" data-level="33" data-path="33-soort-fuut.html"><a href="33-soort-fuut.html"><i class="fa fa-check"></i><b>33</b> Fuut</a></li>
+<li class="chapter" data-level="34" data-path="34-soort-gaai.html"><a href="34-soort-gaai.html"><i class="fa fa-check"></i><b>34</b> Gaai</a></li>
+<li class="chapter" data-level="35" data-path="35-soort-geelgors.html"><a href="35-soort-geelgors.html"><i class="fa fa-check"></i><b>35</b> Geelgors</a></li>
+<li class="chapter" data-level="36" data-path="36-soort-gekraagde-roodstaart.html"><a href="36-soort-gekraagde-roodstaart.html"><i class="fa fa-check"></i><b>36</b> Gekraagde roodstaart</a></li>
+<li class="chapter" data-level="37" data-path="37-soort-gele-kwikstaart.html"><a href="37-soort-gele-kwikstaart.html"><i class="fa fa-check"></i><b>37</b> Gele kwikstaart</a></li>
+<li class="chapter" data-level="38" data-path="38-soort-gierzwaluw.html"><a href="38-soort-gierzwaluw.html"><i class="fa fa-check"></i><b>38</b> Gierzwaluw</a></li>
+<li class="chapter" data-level="39" data-path="39-soort-glanskop.html"><a href="39-soort-glanskop.html"><i class="fa fa-check"></i><b>39</b> Glanskop</a></li>
+<li class="chapter" data-level="40" data-path="40-soort-goudhaan.html"><a href="40-soort-goudhaan.html"><i class="fa fa-check"></i><b>40</b> Goudhaan</a></li>
+<li class="chapter" data-level="41" data-path="41-soort-grasmus.html"><a href="41-soort-grasmus.html"><i class="fa fa-check"></i><b>41</b> Grasmus</a></li>
+<li class="chapter" data-level="42" data-path="42-soort-graspieper.html"><a href="42-soort-graspieper.html"><i class="fa fa-check"></i><b>42</b> Graspieper</a></li>
+<li class="chapter" data-level="43" data-path="43-soort-grauwe-gans.html"><a href="43-soort-grauwe-gans.html"><i class="fa fa-check"></i><b>43</b> Grauwe gans</a></li>
+<li class="chapter" data-level="44" data-path="44-soort-groene-specht.html"><a href="44-soort-groene-specht.html"><i class="fa fa-check"></i><b>44</b> Groene specht</a></li>
+<li class="chapter" data-level="45" data-path="45-soort-groenling.html"><a href="45-soort-groenling.html"><i class="fa fa-check"></i><b>45</b> Groenling</a></li>
+<li class="chapter" data-level="46" data-path="46-soort-grote-bonte-specht.html"><a href="46-soort-grote-bonte-specht.html"><i class="fa fa-check"></i><b>46</b> Grote bonte specht</a></li>
+<li class="chapter" data-level="47" data-path="47-soort-grote-lijster.html"><a href="47-soort-grote-lijster.html"><i class="fa fa-check"></i><b>47</b> Grote lijster</a></li>
+<li class="chapter" data-level="48" data-path="48-soort-grutto.html"><a href="48-soort-grutto.html"><i class="fa fa-check"></i><b>48</b> Grutto</a></li>
+<li class="chapter" data-level="49" data-path="49-soort-halsbandparkiet.html"><a href="49-soort-halsbandparkiet.html"><i class="fa fa-check"></i><b>49</b> Halsbandparkiet</a></li>
+<li class="chapter" data-level="50" data-path="50-soort-havik.html"><a href="50-soort-havik.html"><i class="fa fa-check"></i><b>50</b> Havik</a></li>
+<li class="chapter" data-level="51" data-path="51-soort-heggenmus.html"><a href="51-soort-heggenmus.html"><i class="fa fa-check"></i><b>51</b> Heggenmus</a></li>
+<li class="chapter" data-level="52" data-path="52-soort-holenduif.html"><a href="52-soort-holenduif.html"><i class="fa fa-check"></i><b>52</b> Holenduif</a></li>
+<li class="chapter" data-level="53" data-path="53-soort-houtduif.html"><a href="53-soort-houtduif.html"><i class="fa fa-check"></i><b>53</b> Houtduif</a></li>
+<li class="chapter" data-level="54" data-path="54-soort-huismus.html"><a href="54-soort-huismus.html"><i class="fa fa-check"></i><b>54</b> Huismus</a></li>
+<li class="chapter" data-level="55" data-path="55-soort-huiszwaluw.html"><a href="55-soort-huiszwaluw.html"><i class="fa fa-check"></i><b>55</b> Huiszwaluw</a></li>
+<li class="chapter" data-level="56" data-path="56-soort-kauw.html"><a href="56-soort-kauw.html"><i class="fa fa-check"></i><b>56</b> Kauw</a></li>
+<li class="chapter" data-level="57" data-path="57-soort-kievit.html"><a href="57-soort-kievit.html"><i class="fa fa-check"></i><b>57</b> Kievit</a></li>
+<li class="chapter" data-level="58" data-path="58-soort-kleine-karekiet.html"><a href="58-soort-kleine-karekiet.html"><i class="fa fa-check"></i><b>58</b> Kleine karekiet</a></li>
+<li class="chapter" data-level="59" data-path="59-soort-kleine-mantelmeeuw.html"><a href="59-soort-kleine-mantelmeeuw.html"><i class="fa fa-check"></i><b>59</b> Kleine mantelmeeuw</a></li>
+<li class="chapter" data-level="60" data-path="60-soort-kneu.html"><a href="60-soort-kneu.html"><i class="fa fa-check"></i><b>60</b> Kneu</a></li>
+<li class="chapter" data-level="61" data-path="61-soort-knobbelzwaan.html"><a href="61-soort-knobbelzwaan.html"><i class="fa fa-check"></i><b>61</b> Knobbelzwaan</a></li>
+<li class="chapter" data-level="62" data-path="62-soort-koekoek.html"><a href="62-soort-koekoek.html"><i class="fa fa-check"></i><b>62</b> Koekoek</a></li>
+<li class="chapter" data-level="63" data-path="63-soort-kokmeeuw.html"><a href="63-soort-kokmeeuw.html"><i class="fa fa-check"></i><b>63</b> Kokmeeuw</a></li>
+<li class="chapter" data-level="64" data-path="64-soort-koolmees.html"><a href="64-soort-koolmees.html"><i class="fa fa-check"></i><b>64</b> Koolmees</a></li>
+<li class="chapter" data-level="65" data-path="65-soort-krakeend.html"><a href="65-soort-krakeend.html"><i class="fa fa-check"></i><b>65</b> Krakeend</a></li>
+<li class="chapter" data-level="66" data-path="66-soort-kuifmees.html"><a href="66-soort-kuifmees.html"><i class="fa fa-check"></i><b>66</b> Kuifmees</a></li>
+<li class="chapter" data-level="67" data-path="67-soort-matkop.html"><a href="67-soort-matkop.html"><i class="fa fa-check"></i><b>67</b> Matkop</a></li>
+<li class="chapter" data-level="68" data-path="68-soort-meerkoet.html"><a href="68-soort-meerkoet.html"><i class="fa fa-check"></i><b>68</b> Meerkoet</a></li>
+<li class="chapter" data-level="69" data-path="69-soort-merel.html"><a href="69-soort-merel.html"><i class="fa fa-check"></i><b>69</b> Merel</a></li>
+<li class="chapter" data-level="70" data-path="70-soort-nachtegaal.html"><a href="70-soort-nachtegaal.html"><i class="fa fa-check"></i><b>70</b> Nachtegaal</a></li>
+<li class="chapter" data-level="71" data-path="71-soort-nijlgans.html"><a href="71-soort-nijlgans.html"><i class="fa fa-check"></i><b>71</b> Nijlgans</a></li>
+<li class="chapter" data-level="72" data-path="72-soort-patrijs.html"><a href="72-soort-patrijs.html"><i class="fa fa-check"></i><b>72</b> Patrijs</a></li>
+<li class="chapter" data-level="73" data-path="73-soort-pimpelmees.html"><a href="73-soort-pimpelmees.html"><i class="fa fa-check"></i><b>73</b> Pimpelmees</a></li>
+<li class="chapter" data-level="74" data-path="74-soort-putter.html"><a href="74-soort-putter.html"><i class="fa fa-check"></i><b>74</b> Putter</a></li>
+<li class="chapter" data-level="75" data-path="75-soort-rietgors.html"><a href="75-soort-rietgors.html"><i class="fa fa-check"></i><b>75</b> Rietgors</a></li>
+<li class="chapter" data-level="76" data-path="76-soort-rietzanger.html"><a href="76-soort-rietzanger.html"><i class="fa fa-check"></i><b>76</b> Rietzanger</a></li>
+<li class="chapter" data-level="77" data-path="77-soort-ringmus.html"><a href="77-soort-ringmus.html"><i class="fa fa-check"></i><b>77</b> Ringmus</a></li>
+<li class="chapter" data-level="78" data-path="78-soort-roek.html"><a href="78-soort-roek.html"><i class="fa fa-check"></i><b>78</b> Roek</a></li>
+<li class="chapter" data-level="79" data-path="79-soort-roodborst.html"><a href="79-soort-roodborst.html"><i class="fa fa-check"></i><b>79</b> Roodborst</a></li>
+<li class="chapter" data-level="80" data-path="80-soort-roodborsttapuit.html"><a href="80-soort-roodborsttapuit.html"><i class="fa fa-check"></i><b>80</b> Roodborsttapuit</a></li>
+<li class="chapter" data-level="81" data-path="81-soort-scholekster.html"><a href="81-soort-scholekster.html"><i class="fa fa-check"></i><b>81</b> Scholekster</a></li>
+<li class="chapter" data-level="82" data-path="82-soort-sperwer.html"><a href="82-soort-sperwer.html"><i class="fa fa-check"></i><b>82</b> Sperwer</a></li>
+<li class="chapter" data-level="83" data-path="83-soort-spotvogel.html"><a href="83-soort-spotvogel.html"><i class="fa fa-check"></i><b>83</b> Spotvogel</a></li>
+<li class="chapter" data-level="84" data-path="84-soort-spreeuw.html"><a href="84-soort-spreeuw.html"><i class="fa fa-check"></i><b>84</b> Spreeuw</a></li>
+<li class="chapter" data-level="85" data-path="85-soort-sprinkhaanzanger.html"><a href="85-soort-sprinkhaanzanger.html"><i class="fa fa-check"></i><b>85</b> Sprinkhaanzanger</a></li>
+<li class="chapter" data-level="86" data-path="86-soort-staartmees.html"><a href="86-soort-staartmees.html"><i class="fa fa-check"></i><b>86</b> Staartmees</a></li>
+<li class="chapter" data-level="87" data-path="87-soort-stadsduif.html"><a href="87-soort-stadsduif.html"><i class="fa fa-check"></i><b>87</b> Stadsduif</a></li>
+<li class="chapter" data-level="88" data-path="88-soort-tjiftjaf.html"><a href="88-soort-tjiftjaf.html"><i class="fa fa-check"></i><b>88</b> Tjiftjaf</a></li>
+<li class="chapter" data-level="89" data-path="89-soort-torenvalk.html"><a href="89-soort-torenvalk.html"><i class="fa fa-check"></i><b>89</b> Torenvalk</a></li>
+<li class="chapter" data-level="90" data-path="90-soort-tuinfluiter.html"><a href="90-soort-tuinfluiter.html"><i class="fa fa-check"></i><b>90</b> Tuinfluiter</a></li>
+<li class="chapter" data-level="91" data-path="91-soort-turkse-tortel.html"><a href="91-soort-turkse-tortel.html"><i class="fa fa-check"></i><b>91</b> Turkse tortel</a></li>
+<li class="chapter" data-level="92" data-path="92-soort-veldleeuwerik.html"><a href="92-soort-veldleeuwerik.html"><i class="fa fa-check"></i><b>92</b> Veldleeuwerik</a></li>
+<li class="chapter" data-level="93" data-path="93-soort-vink.html"><a href="93-soort-vink.html"><i class="fa fa-check"></i><b>93</b> Vink</a></li>
+<li class="chapter" data-level="94" data-path="94-soort-waterhoen.html"><a href="94-soort-waterhoen.html"><i class="fa fa-check"></i><b>94</b> Waterhoen</a></li>
+<li class="chapter" data-level="95" data-path="95-soort-wielewaal.html"><a href="95-soort-wielewaal.html"><i class="fa fa-check"></i><b>95</b> Wielewaal</a></li>
+<li class="chapter" data-level="96" data-path="96-soort-wilde-eend.html"><a href="96-soort-wilde-eend.html"><i class="fa fa-check"></i><b>96</b> Wilde eend</a></li>
+<li class="chapter" data-level="97" data-path="97-soort-winterkoning.html"><a href="97-soort-winterkoning.html"><i class="fa fa-check"></i><b>97</b> Winterkoning</a></li>
+<li class="chapter" data-level="98" data-path="98-soort-witte-kwikstaart.html"><a href="98-soort-witte-kwikstaart.html"><i class="fa fa-check"></i><b>98</b> Witte kwikstaart</a></li>
+<li class="chapter" data-level="99" data-path="99-soort-wulp.html"><a href="99-soort-wulp.html"><i class="fa fa-check"></i><b>99</b> Wulp</a></li>
+<li class="chapter" data-level="100" data-path="100-soort-zanglijster.html"><a href="100-soort-zanglijster.html"><i class="fa fa-check"></i><b>100</b> Zanglijster</a></li>
+<li class="chapter" data-level="101" data-path="101-soort-zilvermeeuw.html"><a href="101-soort-zilvermeeuw.html"><i class="fa fa-check"></i><b>101</b> Zilvermeeuw</a></li>
+<li class="chapter" data-level="102" data-path="102-soort-zwarte-kraai.html"><a href="102-soort-zwarte-kraai.html"><i class="fa fa-check"></i><b>102</b> Zwarte kraai</a></li>
+<li class="chapter" data-level="103" data-path="103-soort-zwarte-mees.html"><a href="103-soort-zwarte-mees.html"><i class="fa fa-check"></i><b>103</b> Zwarte mees</a></li>
+<li class="chapter" data-level="104" data-path="104-soort-zwarte-roodstaart.html"><a href="104-soort-zwarte-roodstaart.html"><i class="fa fa-check"></i><b>104</b> Zwarte roodstaart</a></li>
+<li class="chapter" data-level="105" data-path="105-soort-zwarte-specht.html"><a href="105-soort-zwarte-specht.html"><i class="fa fa-check"></i><b>105</b> Zwarte specht</a></li>
+<li class="chapter" data-level="106" data-path="106-soort-zwartkop.html"><a href="106-soort-zwartkop.html"><i class="fa fa-check"></i><b>106</b> Zwartkop</a></li>
+<li class="chapter" data-level="" data-path="bibliografie.html"><a href="bibliografie.html"><i class="fa fa-check"></i>Bibliografie</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="soort-holenduif" class="section level1">
+<h1><span class="header-section-number">52</span> Holenduif</h1>
+<p>Op basis van driejaarlijkse gegevens zien we gemiddeld een matige afname met -1.3% (-2.0%; -0.6%) per jaar of -15% (-22%; -7%) over de volledige looptijd van het meetnet.
+Deze trend is niet-lineair.</p>
+<p>Op basis van jaarlijkse gegevens zien we gemiddeld een matige afname met -1.4% (-2.1%; -0.7%) per jaar of -15% (-23%; -8%) over de volledige looptijd van het meetnet.
+Deze trend is niet-lineair.</p>
+
+<div class="figure"><span id="fig:a9c9eac2bf1813ed1941568ecf12a3cce83e7dbe-aantal"></span>
+<div id="htmlwidget-4c5c56f8ea63dd88855b" style="width:756px;height:576px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4c5c56f8ea63dd88855b">{"x":{"visdat":{"6eec1a492a44":["function () ","plotlyVisDat"],"6eec153d3935":["function () ","data"],"6eec36a5280e":["function () ","data"],"6eec7a079c13":["function () ","data"],"6eec7b0c746e":["function () ","data"],"6eec60573234":["function () ","data"],"6eec3f8cbf19":["function () ","data"],"6eec7df033ec":["function () ","data"],"6eece2c918d":["function () ","data"]},"cur_data":"6eece2c918d","attrs":{"6eec153d3935":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","line":{"width":0},"visible":false,"inherit":true},"6eec36a5280e":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"inherit":true},"6eec7a079c13":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","line":{"width":0},"visible":false,"inherit":true},"6eec7b0c746e":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"inherit":true},"6eec60573234":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","line":{"width":0},"visible":false,"inherit":true},"6eec3f8cbf19":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"inherit":true},"6eec7df033ec":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"text","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"lines","visible":false,"line":{"color":"#356196","width":4},"text":{},"inherit":true},"6eece2c918d":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"text","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"lines","text":{},"line":{"color":"#356196","width":4},"inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"updatemenus":[{"active":0,"showactive":false,"type":"dropdown","y":1.2,"buttons":[{"label":"Driejaarlijks","method":"update","args":[{"visible":[false,true]},{"xaxis":{"tickvals":[2007,2010,2013,2016,2019],"ticktext":["2007-2009","2010-2012","2013-2015","2016-2018","2019-2021"]}}]},{"label":"Jaarlijks","method":"update","args":[{"visible":[true,false]},{"xaxis":{"tick0":2007}}]}]}],"xaxis":{"domain":[0,1],"automargin":true,"title":"","tickvals":[2007,2010,2013,2016,2019],"ticktext":["2007-2009","2010-2012","2013-2015","2016-2018","2019-2021"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"gemiddeld aantal dieren per meetpunt","range":[0,0.35]},"title":"Holenduif","hoverlabel":{"bgcolor":"#BDDDD7","bordercolor":"#356196"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d","hoverClosestCartesian","hoverCompareCartesian","toggleSpikelines"],"displaylogo":false},"data":[{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"x":[2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2019,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","line":{"color":"rgba(31,119,180,1)","width":0},"visible":false,"y":[0.207400734241727,0.209570441370391,0.200865690291941,0.203711592173334,0.247033442485963,0.194140951236714,0.193506065384371,0.147154566710629,0.14416674140109,0.195190776456604,0.174731800162931,0.175957425699401,0.185587561350904,0.185587561350904,0.250488523443384,0.241647649601178,0.231125233561852,0.255509226218783,0.197389841326505,0.198596082085017,0.253620786971018,0.263043410857611,0.322100844249693,0.267620493312449,0.263847566917277,0.270191169801143,0.267930453696774],"name":"#356196","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2005.6,2008.4,2008.4,2005.6,null,2008.6,2011.4,2011.4,2008.6,null,2011.6,2014.4,2014.4,2011.6,null,2014.6,2017.4,2017.4,2014.6,null,2017.6,2020.4,2020.4,2017.6],"y":[0.208680569118594,0.208680569118594,0.259875714548369,0.259875714548369,null,0.217298121251065,0.217298121251065,0.270587593473374,0.270587593473374,null,0.173289838824663,0.173289838824663,0.2190110054396,0.2190110054396,null,0.189127844273426,0.189127844273426,0.237413222084511,0.237413222084511,null,0.181908102710153,0.181908102710153,0.243615579904134,0.243615579904134],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(255,127,14,1)","width":0},"name":"#356196","marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"x":[2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2019,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","line":{"color":"rgba(44,160,44,1)","width":0},"visible":false,"y":[0.219348746613584,0.222037896748696,0.213554781932146,0.217789155798099,0.264134176309803,0.208495484874677,0.207572457281667,0.157837613833028,0.155992768353917,0.207632647463048,0.186746982094957,0.189602702018895,0.197975896673968,0.197975896673968,0.231502934128209,0.223013058694758,0.214858816164742,0.23885971186878,0.18410042962104,0.185412669104676,0.236406585118691,0.242389229080262,0.302314907828785,0.250460365041057,0.246375880540761,0.252630924120812,0.250318494938134],"name":"#356196","marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2005.6,2008.4,2008.4,2005.6,null,2008.6,2011.4,2011.4,2008.6,null,2011.6,2014.4,2014.4,2011.6,null,2014.6,2017.4,2017.4,2014.6,null,2017.6,2020.4,2020.4,2017.6],"y":[0.21924616867675,0.21924616867675,0.246460163458983,0.246460163458983,null,0.228866288604009,0.228866288604009,0.257346600870271,0.257346600870271,null,0.184030032204626,0.184030032204626,0.207123644117519,0.207123644117519,null,0.199825476731422,0.199825476731422,0.22472381482897,0.22472381482897,null,0.195318250563849,0.195318250563849,0.225702203779347,0.225702203779347],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(214,39,40,1)","width":0},"name":"#356196","marker":{"color":"rgba(214,39,40,1)","line":{"color":"rgba(214,39,40,1)"}},"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"x":[2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2019,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","line":{"color":"rgba(148,103,189,1)","width":0},"visible":false,"y":[0.226898435724595,0.229775136580426,0.222352899655446,0.226085047679704,0.274134606244264,0.216819696305338,0.216010641177478,0.16570441621743,0.163247519651192,0.215800700225496,0.193678828506921,0.19913754048863,0.207083135430242,0.207083135430242,0.222551836791516,0.213752354921887,0.207804057713324,0.230515414362698,0.175699457265449,0.17862222549111,0.229297611050429,0.232509631623246,0.291053257642636,0.240761042493438,0.236724424317839,0.244038184678079,0.240937188794615],"name":"#356196","marker":{"color":"rgba(148,103,189,1)","line":{"color":"rgba(148,103,189,1)"}},"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2005.6,2008.4,2008.4,2005.6,null,2008.6,2011.4,2011.4,2008.6,null,2011.6,2014.4,2014.4,2011.6,null,2014.6,2017.4,2017.4,2014.6,null,2017.6,2020.4,2020.4,2017.6],"y":[0.226480747082273,0.226480747082273,0.239611754913591,0.239611754913591,null,0.236122897332459,0.236122897332459,0.250191874862973,0.250191874862973,null,0.18944908744163,0.18944908744163,0.200780184604137,0.200780184604137,null,0.206195222255623,0.206195222255623,0.217404851501113,0.217404851501113,null,0.203057572895352,0.203057572895352,0.217847685233473,0.217847685233473],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(140,86,75,1)","width":0},"name":"#356196","marker":{"color":"rgba(140,86,75,1)","line":{"color":"rgba(140,86,75,1)"}},"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text"],"x":[2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.234236932674758,0.236900877400233,0.229678975583558,0.233436361727755,0.282763203707489,0.225257936936708,0.222618447119854,0.171510601553512,0.16962087993156,0.223016866032339,0.199931540219723,0.206307930297023,0.214762036363944],"type":"scatter","mode":"lines","visible":false,"line":{"color":"#356196","width":4},"text":["2007: 0.234 (0.201; 0.273)","2008: 0.237 (0.204; 0.276)","2009: 0.230 (0.195; 0.270)","2010: 0.234 (0.199; 0.274)","2011: 0.283 (0.242; 0.330)","2012: 0.225 (0.188; 0.270)","2013: 0.222 (0.190; 0.260)","2014: 0.171 (0.143; 0.205)","2015: 0.169 (0.140; 0.205)","2016: 0.223 (0.189; 0.263)","2017: 0.200 (0.169; 0.237)","2018: 0.206 (0.171; 0.248)","2019: 0.215 (0.179; 0.257)"],"name":"#356196","marker":{"color":"rgba(227,119,194,1)","line":{"color":"rgba(227,119,194,1)"}},"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["text","text","text",null,"text","text","text",null,"text","text","text",null,"text","text","text",null,"text","text","text"],"x":[2005.6,2007,2008.4,null,2008.6,2010,2011.4,null,2011.6,2013,2014.4,null,2014.6,2016,2017.4,null,2017.6,2019,2020.4],"y":[0.232636729620083,0.232636729620083,0.232636729620083,null,0.243711289997755,0.243711289997755,0.243711289997755,null,0.194921035894105,0.194921035894105,0.194921035894105,null,0.211789315352176,0.211789315352176,0.211789315352176,null,0.210060873923905,0.210060873923905,0.210060873923905],"type":"scatter","mode":"lines","text":["2007-2009: 0.233 (0.204; 0.266)","2007-2009: 0.233 (0.204; 0.266)","2007-2009: 0.233 (0.204; 0.266)",null,"2010-2012: 0.243 (0.213; 0.277)","2010-2012: 0.243 (0.213; 0.277)","2010-2012: 0.243 (0.213; 0.277)",null,"2013-2015: 0.195 (0.170; 0.224)","2013-2015: 0.195 (0.170; 0.224)","2013-2015: 0.195 (0.170; 0.224)",null,"2016-2018: 0.212 (0.185; 0.243)","2016-2018: 0.212 (0.185; 0.243)","2016-2018: 0.212 (0.185; 0.243)",null,"2019-2021: 0.210 (0.177; 0.250)","2019-2021: 0.210 (0.177; 0.250)","2019-2021: 0.210 (0.177; 0.250)"],"line":{"color":"#356196","width":4},"name":"#356196","marker":{"color":"rgba(127,127,127,1)","line":{"color":"rgba(127,127,127,1)"}},"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figuur 52.1: Evolutie van het gemodeleerde gemiddeld aantal waargenomen dieren op een meetpunt voor Holenduif tijdens de referentieperiode. Zie §<a href="4-voorstelling-van-de-gegevens.html#s:onzekerheid">4.1</a> voor een verklaring van de intervallen.
+</p>
+</div>
+
+<div class="figure"><span id="fig:a9c9eac2bf1813ed1941568ecf12a3cce83e7dbe-wijziging-jaar"></span>
+<div id="htmlwidget-ac4af869cb21fb4a4f1c" style="width:756px;height:576px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ac4af869cb21fb4a4f1c">{"x":{"visdat":{"6eec76ff2391":["function () ","plotlyVisDat"],"6eec1bab3c57":["function () ","data"],"6eec16fb7064":["function () ","data"],"6eec4841c656":["function () ","data"],"6eec123d195d":["function () ","data"],"6eec29b8b663":["function () ","data"],"6eec2efe8f91":["function () ","data"],"6eec21381a6f":["function () ","data"],"6eec31eba876":["function () ","data"],"6eec2725984":["function () ","data"],"6eec283263a5":["function () ","data"],"6eec83fd5a4":["function () ","data"],"6eec1e259c2b":["function () ","data"],"6eec33ee1914":["function () ","data"],"6eec436abd79":["function () ","data"]},"cur_data":"6eec436abd79","attrs":{"6eec1bab3c57":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"visible":false,"inherit":true},"6eec16fb7064":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"inherit":true},"6eec4841c656":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"visible":false,"inherit":true},"6eec123d195d":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"inherit":true},"6eec29b8b663":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"visible":false,"inherit":true},"6eec2efe8f91":{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","fill":"toself","mode":"lines","line":{"width":0},"inherit":true},"6eec21381a6f":{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"text":{},"type":"scatter","mode":"text","textfont":{"color":"#356196","size":20},"visible":false,"inherit":true},"6eec31eba876":{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"text":{},"type":"scatter","mode":"text","textfont":{"color":"#356196","size":20},"inherit":true},"6eec2725984":{"fillcolor":"#356196","opacity":0,"showlegend":false,"hoverinfo":"text","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","text":{},"visible":false,"inherit":true},"6eec283263a5":{"fillcolor":"#356196","opacity":0,"showlegend":false,"hoverinfo":"text","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"markers","text":{},"inherit":true},"6eec83fd5a4":{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"lines","line":{"color":"#356196","dash":"dash"},"visible":false,"inherit":true},"6eec1e259c2b":{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"lines","line":{"color":"#356196","dash":"dash"},"inherit":true},"6eec33ee1914":{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"lines","line":{"color":"#356196"},"visible":false,"inherit":true},"6eec436abd79":{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":"none","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"x":{},"y":{},"type":"scatter","mode":"lines","line":{"color":"#356196"},"inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"updatemenus":[{"active":0,"showactive":false,"type":"dropdown","y":1.2,"buttons":[{"label":"Driejaarlijks","method":"update","args":[{"visible":[false,true]},{"title":"Wijziging t.o.v. 2007-2009 voor Holenduif","xaxis":{"tickvals":[2007,2007,2007,2007,2010,2010,2010,2013,2013,2016,2010,2013,2016,2019,2013,2016,2019,2016,2019,2019],"ticktext":["2007-2009","2007-2009","2007-2009","2007-2009","2010-2012","2010-2012","2010-2012","2013-2015","2013-2015","2016-2018","2010-2012","2013-2015","2016-2018","2019-2021","2013-2015","2016-2018","2019-2021","2016-2018","2019-2021","2019-2021"]}}]},{"label":"Jaarlijks","method":"update","args":[{"visible":[true,false]},{"title":"Wijziging t.o.v. 2007 voor Holenduif","xaxis":{"tick0":2008,"dtick":1}}]}]}],"xaxis":{"domain":[0,1],"automargin":true,"title":"","tickvals":[2007,2007,2007,2007,2010,2010,2010,2013,2013,2016,2010,2013,2016,2019,2013,2016,2019,2016,2019,2019],"ticktext":["2007-2009","2007-2009","2007-2009","2007-2009","2010-2012","2010-2012","2010-2012","2013-2015","2013-2015","2016-2018","2010-2012","2013-2015","2016-2018","2019-2021","2013-2015","2016-2018","2019-2021","2016-2018","2019-2021","2019-2021"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Procentuele wijziging","tickvals":[-0.693147180559945,-0.405465108108164,-0.287682072451781,-0.22314355131421,0,0.693147180559945,0.405465108108164,0.287682072451781,0.22314355131421],"ticktext":["-50%","-33%","-25%","-20%","+0%","+100%","+50%","+33%","+25%"],"zeroline":false},"title":"Wijziging t.o.v. 2007-2009 voor Holenduif","hoverlabel":{"bgcolor":"#BDDDD7","bordercolor":"#356196"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d","hoverClosestCartesian","hoverCompareCartesian","toggleSpikelines"],"displaylogo":false},"data":[{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2007.6,2008.4,2008.4,2007.6,null,2008.6,2009.4,2009.4,2008.6,null,2009.6,2010.4,2010.4,2009.6,null,2010.6,2011.4,2011.4,2010.6,null,2011.6,2012.4,2012.4,2011.6,null,2012.6,2013.4,2013.4,2012.6,null,2013.6,2014.4,2014.4,2013.6,null,2014.6,2015.4,2015.4,2014.6,null,2015.6,2016.4,2016.4,2015.6,null,2016.6,2017.4,2017.4,2016.6,null,2017.6,2018.4,2018.4,2017.6,null,2018.6,2019.4,2019.4,2018.6],"y":[-0.108961095035479,-0.108961095035479,0.136793594765264,0.136793594765264,null,-0.150816147123605,-0.150816147123605,0.114187327011528,0.114187327011528,null,-0.112764111479974,-0.112764111479974,0.0975826693090363,0.0975826693090363,null,0.0566564298424011,0.0566564298424011,0.332320863521773,0.332320863521773,null,-0.194395160382964,-0.194395160382964,0.110699090437131,0.110699090437131,null,-0.161462178675958,-0.161462178675958,0.0631363786928753,0.0631363786928753,null,-0.470664184687473,-0.470664184687473,-0.158800211525638,-0.158800211525638,null,-0.485757566534418,-0.485757566534418,-0.171908657860616,-0.171908657860616,null,-0.163055240826409,-0.163055240826409,0.0693943136106397,0.0693943136106397,null,-0.300482599335143,-0.300482599335143,-0.0194297794128895,-0.0194297794128895,null,-0.281692238898789,-0.281692238898789,0.022829660442767,0.022829660442767,null,-0.220661532013278,-0.220661532013278,0.0400290336007546,0.0400290336007546],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(31,119,180,1)","width":0},"visible":false,"name":"#356196","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2008.6,2011.4,2011.4,2008.6,null,2011.6,2014.4,2014.4,2011.6,null,2014.6,2017.4,2017.4,2014.6,null,2017.6,2020.4,2020.4,2017.6],"y":[-0.0312905431894569,-0.0312905431894569,0.11341912881536,0.11341912881536,null,-0.255911271400239,-0.255911271400239,-0.0978260219739439,-0.0978260219739439,null,-0.171514829010817,-0.171514829010817,-0.0127471376502755,-0.0127471376502755,null,-0.22386901704497,-0.22386901704497,0.0173724686633679,0.0173724686633679],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(255,127,14,1)","width":0},"name":"#356196","marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2007.6,2008.4,2008.4,2007.6,null,2008.6,2009.4,2009.4,2008.6,null,2009.6,2010.4,2010.4,2009.6,null,2010.6,2011.4,2011.4,2010.6,null,2011.6,2012.4,2012.4,2011.6,null,2012.6,2013.4,2013.4,2012.6,null,2013.6,2014.4,2014.4,2013.6,null,2014.6,2015.4,2015.4,2014.6,null,2015.6,2016.4,2016.4,2015.6,null,2016.6,2017.4,2017.4,2016.6,null,2017.6,2018.4,2018.4,2017.6,null,2018.6,2019.4,2019.4,2018.6],"y":[-0.0550441943455959,-0.0550441943455959,0.070970773945873,0.070970773945873,null,-0.092104137507665,-0.092104137507665,0.0495590896641786,0.0495590896641786,null,-0.060088719620071,-0.060088719620071,0.0532587794088385,0.0532587794088385,null,0.12080112975122,0.12080112975122,0.255398018079326,0.255398018079326,null,-0.118580945500793,-0.118580945500793,0.0387301603597027,0.0387301603597027,null,-0.107685204321196,-0.107685204321196,0.00117243467133269,0.00117243467133269,null,-0.392864706756205,-0.392864706756205,-0.234588439314141,-0.234588439314141,null,-0.402487074083433,-0.402487074083433,-0.238729019987795,-0.238729019987795,null,-0.105168745532128,-0.105168745532128,0.00567852386770771,0.00567852386770771,null,-0.228333116657321,-0.228333116657321,-0.0841950212592384,-0.0841950212592384,null,-0.208648499316585,-0.208648499316585,-0.0493900591682984,-0.0493900591682984,null,-0.156097517852884,-0.156097517852884,-0.0205609023933952,-0.0205609023933952],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(44,160,44,1)","width":0},"visible":false,"name":"#356196","marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2008.6,2011.4,2011.4,2008.6,null,2011.6,2014.4,2014.4,2011.6,null,2014.6,2017.4,2017.4,2014.6,null,2017.6,2020.4,2020.4,2017.6],"y":[0.00588212738880234,0.00588212738880234,0.0782277928421213,0.0782277928421213,null,-0.217084499976181,-0.217084499976181,-0.139237785381457,-0.139237785381457,null,-0.136587692386706,-0.136587692386706,-0.0536353409593728,-0.0536353409593728,null,-0.16286000488218,-0.16286000488218,-0.0447150568895486,-0.0447150568895486],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(214,39,40,1)","width":0},"name":"#356196","marker":{"color":"rgba(214,39,40,1)","line":{"color":"rgba(214,39,40,1)"}},"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2007.6,2008.4,2008.4,2007.6,null,2008.6,2009.4,2009.4,2008.6,null,2009.6,2010.4,2010.4,2009.6,null,2010.6,2011.4,2011.4,2010.6,null,2011.6,2012.4,2012.4,2011.6,null,2012.6,2013.4,2013.4,2012.6,null,2013.6,2014.4,2014.4,2013.6,null,2014.6,2015.4,2015.4,2014.6,null,2015.6,2016.4,2016.4,2015.6,null,2016.6,2017.4,2017.4,2016.6,null,2017.6,2018.4,2018.4,2017.6,null,2018.6,2019.4,2019.4,2018.6],"y":[-0.0173236307019034,-0.0173236307019034,0.0401535593143485,0.0401535593143485,null,-0.0502606137039011,-0.0502606137039011,0.01045815176824,0.01045815176824,null,-0.027229550517266,-0.027229550517266,0.0247089832462863,0.0247089832462863,null,0.1530069926945,0.1530069926945,0.216105529116044,0.216105529116044,null,-0.0752240078670225,-0.0752240078670225,-0.00504696853886068,-0.00504696853886068,null,-0.0800800918116019,-0.0800800918116019,-0.0293222128973266,-0.0293222128973266,null,-0.35000879272733,-0.35000879272733,-0.279687918319692,-0.279687918319692,null,-0.360751387889301,-0.360751387889301,-0.290637159817265,-0.290637159817265,null,-0.0745744368965508,-0.0745744368965508,-0.0238134190170174,-0.0238134190170174,null,-0.188754071384033,-0.188754071384033,-0.125084458808211,-0.125084458808211,null,-0.163333199122563,-0.163333199122563,-0.0923858971992212,-0.0923858971992212,null,-0.121121669333497,-0.121121669333497,-0.0558752315173024,-0.0558752315173024],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(148,103,189,1)","width":0},"visible":false,"name":"#356196","marker":{"color":"rgba(148,103,189,1)","line":{"color":"rgba(148,103,189,1)"}},"error_y":{"color":"rgba(148,103,189,1)"},"error_x":{"color":"rgba(148,103,189,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0.3,"showlegend":false,"hoverinfo":["none","none","none","none",null,"none","none","none","none",null,"none","none","none","none",null,"none","none","none","none"],"x":[2008.6,2011.4,2011.4,2008.6,null,2011.6,2014.4,2014.4,2011.6,null,2014.6,2017.4,2017.4,2014.6,null,2017.6,2020.4,2020.4,2017.6],"y":[0.0257881811470924,0.0257881811470924,0.0591561481070433,0.0591561481070433,null,-0.195775789616176,-0.195775789616176,-0.160563165690173,-0.160563165690173,null,-0.114058939253932,-0.114058939253932,-0.0755678071035248,-0.0755678071035248,null,-0.129170967131713,-0.129170967131713,-0.075453111725319,-0.075453111725319],"type":"scatter","fill":"toself","mode":"lines","line":{"color":"rgba(140,86,75,1)","width":0},"name":"#356196","marker":{"color":"rgba(140,86,75,1)","line":{"color":"rgba(140,86,75,1)"}},"error_y":{"color":"rgba(140,86,75,1)"},"error_x":{"color":"rgba(140,86,75,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":["none","none","none","none","none","none","none","none","none","none","none","none"],"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.0116837318943512,-0.0200875139014622,-0.00313664379551468,0.187705138583431,-0.040169959365295,-0.0530858298728227,-0.313766530590762,-0.324532812160744,-0.0494328834043407,-0.157209416783635,-0.128864057802287,-0.0877930534294801],"text":["◉","◉","◉","▸","◉","◉","◂","◂","◉","◂","◉","◉"],"type":"scatter","mode":"text","textfont":{"color":"#356196","size":20},"visible":false,"name":"#356196","marker":{"color":"rgba(227,119,194,1)","line":{"color":"rgba(227,119,194,1)"}},"error_y":{"color":"rgba(227,119,194,1)"},"error_x":{"color":"rgba(227,119,194,1)"},"line":{"color":"rgba(227,119,194,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":["none","none","none","none"],"x":[2010,2013,2016,2019],"y":[0.0418818328062145,-0.17760750695791,-0.0944963601474844,-0.10229576678546],"text":["◉","◒","◒","◉"],"type":"scatter","mode":"text","textfont":{"color":"#356196","size":20},"name":"#356196","marker":{"color":"rgba(127,127,127,1)","line":{"color":"rgba(127,127,127,1)"}},"error_y":{"color":"rgba(127,127,127,1)"},"error_x":{"color":"rgba(127,127,127,1)"},"line":{"color":"rgba(127,127,127,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0,"showlegend":false,"hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text"],"x":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],"y":[0.0116837318943512,-0.0200875139014622,-0.00313664379551468,0.187705138583431,-0.040169959365295,-0.0530858298728227,-0.313766530590762,-0.324532812160744,-0.0494328834043407,-0.157209416783635,-0.128864057802287,-0.0877930534294801],"type":"scatter","mode":"markers","text":["2008: +1.1% (-10.3%; +14.7%) t.o.v. 2007 (~)","2009: -1.8% (-14.0%; +12.1%) t.o.v. 2007 (~)","2010: -0.1% (-10.7%; +10.3%) t.o.v. 2007 (~)","2011: +20% (+6%; +39%) t.o.v. 2007 (+)","2012: -3.8% (-17.7%; +11.7%) t.o.v. 2007 (~)","2013: -5.3% (-14.9%; +6.5%) t.o.v. 2007 (~)","2014: -27% (-38%; -15%) t.o.v. 2007 (-)","2015: -28% (-38%; -16%) t.o.v. 2007 (-)","2016: -4.9% (-15.0%; +7.2%) t.o.v. 2007 (~)","2017: -15% (-26%; -2%) t.o.v. 2007 (-)","2018: -12% (-25%; +2%) t.o.v. 2007 (~)","2019: -8.4% (-19.8%; +4.1%) t.o.v. 2007 (~)"],"visible":false,"name":"#356196","marker":{"color":"rgba(188,189,34,1)","line":{"color":"rgba(188,189,34,1)"}},"error_y":{"color":"rgba(188,189,34,1)"},"error_x":{"color":"rgba(188,189,34,1)"},"line":{"color":"rgba(188,189,34,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":0,"showlegend":false,"hoverinfo":["text","text","text","text"],"x":[2010,2013,2016,2019],"y":[0.0418818328062145,-0.17760750695791,-0.0944963601474844,-0.10229576678546],"type":"scatter","mode":"markers","text":["2010-2012: +4.3% (-3.1%; +12.0%) t.o.v. 2007-2009 (~)","2013-2015: -16% (-23%; -9%) t.o.v. 2007-2009 (-~)","2016-2018: -9.1% (-15.8%; -1.3%) t.o.v. 2007-2009 (-~)","2019-2021: -10% (-20%; +2%) t.o.v. 2007-2009 (~)"],"name":"#356196","marker":{"color":"rgba(23,190,207,1)","line":{"color":"rgba(23,190,207,1)"}},"error_y":{"color":"rgba(23,190,207,1)"},"error_x":{"color":"rgba(23,190,207,1)"},"line":{"color":"rgba(23,190,207,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":["none","none",null,"none","none"],"x":[2007.5,2019.5,null,2007.5,2019.5],"y":[-0.287682072451781,-0.287682072451781,null,0.287682072451781,0.287682072451781],"type":"scatter","mode":"lines","line":{"color":"#356196","dash":"dash"},"visible":false,"name":"#356196","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":["none","none",null,"none","none"],"x":[2008.5,2020.5,null,2008.5,2020.5],"y":[-0.287682072451781,-0.287682072451781,null,0.287682072451781,0.287682072451781],"type":"scatter","mode":"lines","line":{"color":"#356196","dash":"dash"},"name":"#356196","marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":["none","none"],"x":[2007.5,2019.5],"y":[0,0],"type":"scatter","mode":"lines","line":{"color":"#356196"},"visible":false,"name":"#356196","marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","opacity":1,"showlegend":false,"hoverinfo":["none","none"],"x":[2008.5,2020.5],"y":[0,0],"type":"scatter","mode":"lines","line":{"color":"#356196"},"name":"#356196","marker":{"color":"rgba(214,39,40,1)","line":{"color":"rgba(214,39,40,1)"}},"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figuur 52.2: Wijzigingen t.o.v. de start van het meetnet voor Holenduif. Zie §<a href="4-voorstelling-van-de-gegevens.html#s:onzekerheid">4.1</a> voor een verklaring van de intervallen en §<a href="4-voorstelling-van-de-gegevens.html#s:trendklasse">4.2</a> voor uitleg over de symbolen en referentielijnen.
+</p>
+</div>
+
+
+
+
+
+<div class="figure"><span id="fig:a9c9eac2bf1813ed1941568ecf12a3cce83e7dbe-wijziging-jaar-alles"></span>
+<div id="htmlwidget-f3aae132d1bd11d9b983" style="width:756px;height:576px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-f3aae132d1bd11d9b983">{"x":{"visdat":{"6eec3274ebfb":["function () ","plotlyVisDat"],"6eec36c2367":["function () ","data"],"6eecd1b4009":["function () ","data"],"6eec691a1409":["function () ","data"]},"cur_data":"6eec691a1409","attrs":{"6eec3274ebfb":{"x":{},"y":{},"text":{},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","mode":"text","textfont":{"color":{},"size":20},"hoverinfo":"none","visible":false,"inherit":true},"6eec36c2367":{"x":{},"y":{},"text":{},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","mode":"text","textfont":{"color":{},"size":20},"hoverinfo":"none","inherit":true},"6eecd1b4009":{"x":{},"y":{},"text":{},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","mode":"markers","hoverinfo":"text","opacity":0,"visible":false,"inherit":true},"6eec691a1409":{"x":{},"y":{},"text":{},"showlegend":false,"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter","mode":"markers","hoverinfo":"text","opacity":0,"inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"updatemenus":[{"active":0,"showactive":false,"type":"dropdown","y":1.2,"buttons":[{"label":"Driejaarlijks","method":"update","args":[{"visible":[false,true]},{"title":"Paarsgewijze wijzigingen tussen driejarige cycli<br />voor Holenduif","xaxis":{"tickvals":[2007,2007,2007,2007,2010,2010,2010,2013,2013,2016,2010,2013,2016,2019,2013,2016,2019,2016,2019,2019],"ticktext":["2007-2009","2007-2009","2007-2009","2007-2009","2010-2012","2010-2012","2010-2012","2013-2015","2013-2015","2016-2018","2010-2012","2013-2015","2016-2018","2019-2021","2013-2015","2016-2018","2019-2021","2016-2018","2019-2021","2019-2021"]},"yaxis":{"title":"Referentiecyclus","tickvals":[2007,2007,2007,2007,2010,2010,2010,2013,2013,2016,2010,2013,2016,2019,2013,2016,2019,2016,2019,2019],"ticktext":["2007-2009","2007-2009","2007-2009","2007-2009","2010-2012","2010-2012","2010-2012","2013-2015","2013-2015","2016-2018","2010-2012","2013-2015","2016-2018","2019-2021","2013-2015","2016-2018","2019-2021","2016-2018","2019-2021","2019-2021"]}}]},{"label":"Jaarlijks","method":"update","args":[{"visible":[true,false]},{"title":"Paarsgewijze wijzigingen tussen jaren<br />voor Holenduif","xaxis":{"tick0":2008,"dtick":1},"yaxis":{"tick0":2008,"dtick":1,"title":"Referentiejaar"}}]}]}],"xaxis":{"domain":[0,1],"automargin":true,"title":"","tickvals":[2007,2007,2007,2007,2010,2010,2010,2013,2013,2016,2010,2013,2016,2019,2013,2016,2019,2016,2019,2019],"ticktext":["2007-2009","2007-2009","2007-2009","2007-2009","2010-2012","2010-2012","2010-2012","2013-2015","2013-2015","2016-2018","2010-2012","2013-2015","2016-2018","2019-2021","2013-2015","2016-2018","2019-2021","2016-2018","2019-2021","2019-2021"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Referentiecyclus","tickvals":[2007,2007,2007,2007,2010,2010,2010,2013,2013,2016,2010,2013,2016,2019,2013,2016,2019,2016,2019,2019],"ticktext":["2007-2009","2007-2009","2007-2009","2007-2009","2010-2012","2010-2012","2010-2012","2013-2015","2013-2015","2016-2018","2010-2012","2013-2015","2016-2018","2019-2021","2013-2015","2016-2018","2019-2021","2016-2018","2019-2021","2019-2021"]},"title":"Paarsgewijze wijzigingen tussen driejarige cycli<br />voor Holenduif","hoverlabel":{"bgcolor":"#BDDDD7","bordercolor":"#356196"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false,"modeBarButtonsToRemove":["lasso2d","select2d","autoScale2d","hoverClosestCartesian","hoverCompareCartesian","toggleSpikelines"],"displaylogo":false},"data":[{"x":[2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2008,2008,2008,2008,2008,2008,2008,2008,2008,2008,2008,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2010,2010,2010,2010,2010,2010,2010,2010,2010,2011,2011,2011,2011,2011,2011,2011,2011,2012,2012,2012,2012,2012,2012,2012,2013,2013,2013,2013,2013,2013,2014,2014,2014,2014,2014,2015,2015,2015,2015,2016,2016,2016,2017,2017,2018,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2011,2012,2013,2014,2015,2016,2017,2018,2019,2012,2013,2014,2015,2016,2017,2018,2019,2013,2014,2015,2016,2017,2018,2019,2014,2015,2016,2017,2018,2019,2015,2016,2017,2018,2019,2016,2017,2018,2019,2017,2018,2019,2018,2019,2019],"y":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2011,2012,2013,2014,2015,2016,2017,2018,2019,2012,2013,2014,2015,2016,2017,2018,2019,2013,2014,2015,2016,2017,2018,2019,2014,2015,2016,2017,2018,2019,2015,2016,2017,2018,2019,2016,2017,2018,2019,2017,2018,2019,2018,2019,2019,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2008,2008,2008,2008,2008,2008,2008,2008,2008,2008,2008,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2010,2010,2010,2010,2010,2010,2010,2010,2010,2011,2011,2011,2011,2011,2011,2011,2011,2012,2012,2012,2012,2012,2012,2012,2013,2013,2013,2013,2013,2013,2014,2014,2014,2014,2014,2015,2015,2015,2015,2016,2016,2016,2017,2017,2018],"text":["◉","◉","◉","◂","◉","◉","▸","▸","◉","▸","◉","◉","◉","◉","◂","◉","◉","▸","▸","◉","▸","△","◉","◉","◂","◉","◉","▸","▸","◉","◉","◉","◉","◂","◉","◉","▸","▸","◉","▸","◉","◉","▸","▸","▲","▲","▸","▸","▸","▸","◉","▸","▸","◉","◉","◉","◉","▸","▸","◉","◉","◉","◉","◉","◂","◂","◂","◂","◂","▽","◂","◂","◉","◉","◉","◉","◉","◉","◉","◉","◉","▸","◉","◉","◂","◂","◉","◂","◉","◉","◉","◉","▸","◉","◉","◂","◂","◉","◂","▽","◉","◉","▸","◉","◉","◂","◂","◉","◉","◉","◉","▸","◉","◉","◂","◂","◉","◂","◉","◉","◂","◂","▼","▼","◂","◂","◂","◂","◉","◂","◂","◉","◉","◉","◉","◂","◂","◉","◉","◉","◉","◉","▸","▸","▸","▸","▸","△","▸","▸","◉","◉","◉","◉","◉","◉"],"showlegend":false,"type":"scatter","mode":"text","textfont":{"color":["#BBC1CA","#B5C0CB","#B9C3CD","#C4949E","#B0BCC9","#ADB9C7","#6D86AB","#6A84AA","#AEBAC8","#94A4BC","#9BAABF","#A5B2C4","#B2BDCA","#B6C1CB","#C497A1","#ADB9C7","#AAB7C6","#6A83AA","#6781A9","#ABB7C6","#91A2BB","#98A7BE","#A2B0C2","#BBC0C9","#C58E99","#B5C0CB","#B2BDC9","#7289AD","#6F87AC","#B3BECA","#99A8BE","#A0AEC1","#AAB6C6","#C4939E","#B1BCC9","#AEBAC8","#6E86AC","#6B84AB","#AFBBC8","#95A5BC","#9CAAC0","#A6B3C4","#8396B5","#7F94B3","#396397","#356196","#8094B4","#6580A8","#6C85AB","#778DAF","#B7C1CC","#778DB0","#758BAE","#B8C2CC","#9EACC0","#A5B2C3","#AEBAC8","#7A90B1","#788EB0","#BAC3CC","#A1AFC2","#A8B5C5","#B2BDC9","#B7C2CC","#C57F8C","#C39CA6","#C4949F","#C58A95","#C57C89","#C499A3","#C4929C","#C58793","#A0AEC1","#A7B4C4","#B1BCC9","#BCBDC6","#BFB2BB","#BDB9C3","#B7C2CC","#BCBFC8","#BAC3CC","#8C9EB9","#BDBAC3","#BEB6C0","#C57280","#C56F7E","#BEB7C0","#C39CA6","#C2A3AD","#C0ADB7","#BDBCC5","#BBC0C9","#8FA0BA","#BEB7C0","#BFB3BD","#C56F7E","#C46C7B","#BFB4BE","#C499A3","#C3A0AA","#C1AAB4","#B6C1CB","#889AB7","#BCBFC8","#BDBCC5","#C57785","#C57483","#BCBCC6","#C3A1AB","#C1A8B2","#BFB3BC","#8C9DB9","#BDBBC4","#BEB7C0","#C57381","#C5707F","#BEB8C1","#C39CA7","#C2A4AD","#C0AEB8","#C58995","#C58692","#BF3656","#BE3254","#C58792","#C46979","#C57180","#C57C89","#BBC1CA","#C57D8A","#C57A87","#BBC2CB","#C2A6B0","#C0ADB7","#BEB8C1","#C5808D","#C57D8A","#B9C3CD","#C1A9B3","#C0B1BA","#BDBBC4","#BBC1CA","#7A8FB1","#94A4BC","#8D9FB9","#8397B5","#778DAF","#91A2BB","#8A9DB8","#8094B4","#C1A8B2","#C0B0B9","#BDBAC3","#B3BECA","#A9B6C6","#B0BCC9"],"size":20},"hoverinfo":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"visible":false,"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2007,2007,2007,2007,2010,2010,2010,2013,2013,2016,2010,2013,2016,2019,2013,2016,2019,2016,2019,2019],"y":[2010,2013,2016,2019,2013,2016,2019,2016,2019,2019,2007,2007,2007,2007,2010,2010,2010,2013,2013,2016],"text":["◉","◓","◓","◉","▸","◓","◓","◒","◉","◉","◉","◒","◒","◉","◂","◒","◒","◓","◉","◉"],"showlegend":false,"type":"scatter","mode":"text","textfont":{"color":["#C1ABB4","#5373A1","#8498B5","#8094B3","#356196","#6C85AB","#6781A9","#C4929D","#C497A1","#B6C0CB","#A2B0C3","#C25569","#C58B96","#C58692","#BE3254","#C5717F","#C46B7B","#8B9DB8","#8FA0BA","#BCBFC8"],"size":20},"hoverinfo":["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"],"marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"line":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2008,2008,2008,2008,2008,2008,2008,2008,2008,2008,2008,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2010,2010,2010,2010,2010,2010,2010,2010,2010,2011,2011,2011,2011,2011,2011,2011,2011,2012,2012,2012,2012,2012,2012,2012,2013,2013,2013,2013,2013,2013,2014,2014,2014,2014,2014,2015,2015,2015,2015,2016,2016,2016,2017,2017,2018,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2011,2012,2013,2014,2015,2016,2017,2018,2019,2012,2013,2014,2015,2016,2017,2018,2019,2013,2014,2015,2016,2017,2018,2019,2014,2015,2016,2017,2018,2019,2015,2016,2017,2018,2019,2016,2017,2018,2019,2017,2018,2019,2018,2019,2019],"y":[2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2011,2012,2013,2014,2015,2016,2017,2018,2019,2012,2013,2014,2015,2016,2017,2018,2019,2013,2014,2015,2016,2017,2018,2019,2014,2015,2016,2017,2018,2019,2015,2016,2017,2018,2019,2016,2017,2018,2019,2017,2018,2019,2018,2019,2019,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2007,2008,2008,2008,2008,2008,2008,2008,2008,2008,2008,2008,2009,2009,2009,2009,2009,2009,2009,2009,2009,2009,2010,2010,2010,2010,2010,2010,2010,2010,2010,2011,2011,2011,2011,2011,2011,2011,2011,2012,2012,2012,2012,2012,2012,2012,2013,2013,2013,2013,2013,2013,2014,2014,2014,2014,2014,2015,2015,2015,2015,2016,2016,2016,2017,2017,2018],"text":["2007: -1.1% (-12.8%; +11.5%) t.o.v. 2008 (~)","2007: +1.9% (-10.8%; +16.3%) t.o.v. 2009 (~)","2007: +0.1% (-9.3%; +11.9%) t.o.v. 2010 (~)","2007: -17% (-28%; -6%) t.o.v. 2011 (-)","2007: +4% (-10%; +21%) t.o.v. 2012 (~)","2007: +5.5% (-6.1%; +17.5%) t.o.v. 2013 (~)","2007: +37% (+17%; +60%) t.o.v. 2014 (+)","2007: +39% (+19%; +63%) t.o.v. 2015 (+)","2007: +5.1% (-6.7%; +17.7%) t.o.v. 2016 (~)","2007: +17% (+2%; +35%) t.o.v. 2017 (+)","2007: +14% (-2%; +33%) t.o.v. 2018 (~)","2007: +9% (-4%; +25%) t.o.v. 2019 (~)","2008: +3.3% (-9.9%; +18.5%) t.o.v. 2009 (~)","2008: +1.5% (-11.3%; +17.1%) t.o.v. 2010 (~)","2008: -16% (-26%; -6%) t.o.v. 2011 (-)","2008: +5% (-9%; +23%) t.o.v. 2012 (~)","2008: +7% (-6%; +22%) t.o.v. 2013 (~)","2008: +38% (+20%; +60%) t.o.v. 2014 (+)","2008: +39% (+20%; +65%) t.o.v. 2015 (+)","2008: +6% (-7%; +23%) t.o.v. 2016 (~)","2008: +18% (+4%; +35%) t.o.v. 2017 (+)","2008: +15% (-1%; +34%) t.o.v. 2018 (?+)","2008: +10% (-5%; +28%) t.o.v. 2019 (~)","2009: -1.7% (-13.2%; +11.5%) t.o.v. 2010 (~)","2009: -19% (-29%; -7%) t.o.v. 2011 (-)","2009: +1.8% (-11.1%; +16.4%) t.o.v. 2012 (~)","2009: +3.4% (-9.6%; +19.4%) t.o.v. 2013 (~)","2009: +34% (+15%; +56%) t.o.v. 2014 (+)","2009: +36% (+16%; +57%) t.o.v. 2015 (+)","2009: +3.2% (-10.3%; +17.9%) t.o.v. 2016 (~)","2009: +15% (-1%; +33%) t.o.v. 2017 (~)","2009: +12% (-3%; +28%) t.o.v. 2018 (~)","2009: +7% (-8%; +26%) t.o.v. 2019 (~)","2010: -17% (-29%; -6%) t.o.v. 2011 (-)","2010: +3.9% (-10.4%; +19.4%) t.o.v. 2012 (~)","2010: +5.0% (-5.8%; +16.9%) t.o.v. 2013 (~)","2010: +37% (+16%; +60%) t.o.v. 2014 (+)","2010: +38% (+18%; +64%) t.o.v. 2015 (+)","2010: +4.9% (-7.3%; +18.2%) t.o.v. 2016 (~)","2010: +17% (+0%; +35%) t.o.v. 2017 (+)","2010: +13% (-3%; +31%) t.o.v. 2018 (~)","2010: +9% (-5%; +24%) t.o.v. 2019 (~)","2011: +26% (+8%; +46%) t.o.v. 2012 (+)","2011: +27% (+12%; +46%) t.o.v. 2013 (+)","2011: +65% (+41%; +93%) t.o.v. 2014 (++)","2011: +67% (+42%; +98%) t.o.v. 2015 (++)","2011: +27% (+11%; +45%) t.o.v. 2016 (+)","2011: +41% (+23%; +63%) t.o.v. 2017 (+)","2011: +37% (+17%; +63%) t.o.v. 2018 (+)","2011: +32% (+14%; +53%) t.o.v. 2019 (+)","2012: +1.3% (-13.0%; +17.5%) t.o.v. 2013 (~)","2012: +31% (+12%; +53%) t.o.v. 2014 (+)","2012: +33% (+14%; +56%) t.o.v. 2015 (+)","2012: +1.3% (-14.3%; +16.7%) t.o.v. 2016 (~)","2012: +13% (-4%; +30%) t.o.v. 2017 (~)","2012: +9% (-6%; +27%) t.o.v. 2018 (~)","2012: +5% (-12%; +24%) t.o.v. 2019 (~)","2013: +30% (+12%; +51%) t.o.v. 2014 (+)","2013: +31% (+13%; +55%) t.o.v. 2015 (+)","2013: -0.2% (-11.0%; +11.1%) t.o.v. 2016 (~)","2013: +11% (-4%; +28%) t.o.v. 2017 (~)","2013: +8% (-7%; +25%) t.o.v. 2018 (~)","2013: +3.4% (-9.7%; +18.7%) t.o.v. 2019 (~)","2014: +0.8% (-13.9%; +18.2%) t.o.v. 2015 (~)","2014: -23% (-35%; -9%) t.o.v. 2016 (-)","2014: -14% (-26%; -2%) t.o.v. 2017 (-)","2014: -17% (-30%; -2%) t.o.v. 2018 (-)","2014: -20% (-33%; -6%) t.o.v. 2019 (-)","2015: -24% (-36%; -11%) t.o.v. 2016 (-)","2015: -15% (-28%; +0%) t.o.v. 2017 (?-)","2015: -18% (-30%; -4%) t.o.v. 2018 (-)","2015: -21% (-34%; -5%) t.o.v. 2019 (-)","2016: +11% (-3%; +29%) t.o.v. 2017 (~)","2016: +9% (-7%; +27%) t.o.v. 2018 (~)","2016: +3.8% (-9.1%; +19.0%) t.o.v. 2019 (~)","2017: -2.9% (-16.3%; +12.9%) t.o.v. 2018 (~)","2017: -6% (-20%; +10%) t.o.v. 2019 (~)","2018: -3.9% (-18.6%; +12.3%) t.o.v. 2019 (~)","2008: +1.1% (-10.3%; +14.7%) t.o.v. 2007 (~)","2009: -1.8% (-14.0%; +12.1%) t.o.v. 2007 (~)","2010: -0.1% (-10.7%; +10.3%) t.o.v. 2007 (~)","2011: +20% (+6%; +39%) t.o.v. 2007 (+)","2012: -3.8% (-17.7%; +11.7%) t.o.v. 2007 (~)","2013: -5.3% (-14.9%; +6.5%) t.o.v. 2007 (~)","2014: -27% (-38%; -15%) t.o.v. 2007 (-)","2015: -28% (-38%; -16%) t.o.v. 2007 (-)","2016: -4.9% (-15.0%; +7.2%) t.o.v. 2007 (~)","2017: -15% (-26%; -2%) t.o.v. 2007 (-)","2018: -12% (-25%; +2%) t.o.v. 2007 (~)","2019: -8.4% (-19.8%; +4.1%) t.o.v. 2007 (~)","2009: -3.2% (-15.6%; +10.9%) t.o.v. 2008 (~)","2010: -1.5% (-14.6%; +12.7%) t.o.v. 2008 (~)","2011: +19% (+6%; +35%) t.o.v. 2008 (+)","2012: -4.9% (-18.8%; +10.1%) t.o.v. 2008 (~)","2013: -6.2% (-18.0%; +6.8%) t.o.v. 2008 (~)","2014: -28% (-38%; -16%) t.o.v. 2008 (-)","2015: -28% (-39%; -17%) t.o.v. 2008 (-)","2016: -5.9% (-18.4%; +7.6%) t.o.v. 2008 (~)","2017: -15% (-26%; -4%) t.o.v. 2008 (-)","2018: -13% (-25%; +1%) t.o.v. 2008 (?-)","2019: -9% (-22%; +6%) t.o.v. 2008 (~)","2010: +1.7% (-10.3%; +15.2%) t.o.v. 2009 (~)","2011: +23% (+7%; +42%) t.o.v. 2009 (+)","2012: -1.8% (-14.1%; +12.5%) t.o.v. 2009 (~)","2013: -3.3% (-16.3%; +10.6%) t.o.v. 2009 (~)","2014: -26% (-36%; -13%) t.o.v. 2009 (-)","2015: -26% (-36%; -14%) t.o.v. 2009 (-)","2016: -3.1% (-15.2%; +11.5%) t.o.v. 2009 (~)","2017: -13% (-25%; +1%) t.o.v. 2009 (~)","2018: -10% (-22%; +3%) t.o.v. 2009 (~)","2019: -7% (-20%; +8%) t.o.v. 2009 (~)","2011: +21% (+6%; +40%) t.o.v. 2010 (+)","2012: -3.8% (-16.2%; +11.6%) t.o.v. 2010 (~)","2013: -4.8% (-14.5%; +6.2%) t.o.v. 2010 (~)","2014: -27% (-37%; -14%) t.o.v. 2010 (-)","2015: -27% (-39%; -15%) t.o.v. 2010 (-)","2016: -4.7% (-15.4%; +7.9%) t.o.v. 2010 (~)","2017: -14% (-26%; -0%) t.o.v. 2010 (-)","2018: -12% (-24%; +3%) t.o.v. 2010 (~)","2019: -8.2% (-19.6%; +5.2%) t.o.v. 2010 (~)","2012: -20% (-32%; -8%) t.o.v. 2011 (-)","2013: -21% (-31%; -11%) t.o.v. 2011 (-)","2014: -39% (-48%; -29%) t.o.v. 2011 (--)","2015: -40% (-50%; -29%) t.o.v. 2011 (--)","2016: -21% (-31%; -10%) t.o.v. 2011 (-)","2017: -29% (-39%; -19%) t.o.v. 2011 (-)","2018: -27% (-39%; -15%) t.o.v. 2011 (-)","2019: -24% (-34%; -12%) t.o.v. 2011 (-)","2013: -1.3% (-14.9%; +15.0%) t.o.v. 2012 (~)","2014: -24% (-35%; -10%) t.o.v. 2012 (-)","2015: -25% (-36%; -12%) t.o.v. 2012 (-)","2016: -1.3% (-14.3%; +16.6%) t.o.v. 2012 (~)","2017: -12% (-23%; +4%) t.o.v. 2012 (~)","2018: -8% (-21%; +6%) t.o.v. 2012 (~)","2019: -4.8% (-19.2%; +14.2%) t.o.v. 2012 (~)","2014: -23% (-34%; -11%) t.o.v. 2013 (-)","2015: -24% (-35%; -11%) t.o.v. 2013 (-)","2016: +0.2% (-10.0%; +12.4%) t.o.v. 2013 (~)","2017: -10% (-22%; +4%) t.o.v. 2013 (~)","2018: -7% (-20%; +7%) t.o.v. 2013 (~)","2019: -3.3% (-15.8%; +10.7%) t.o.v. 2013 (~)","2015: -0.7% (-15.4%; +16.1%) t.o.v. 2014 (~)","2016: +30% (+10%; +53%) t.o.v. 2014 (+)","2017: +17% (+2%; +35%) t.o.v. 2014 (+)","2018: +20% (+2%; +42%) t.o.v. 2014 (+)","2019: +25% (+6%; +49%) t.o.v. 2014 (+)","2016: +32% (+12%; +55%) t.o.v. 2015 (+)","2017: +18% (-0%; +39%) t.o.v. 2015 (?+)","2018: +21% (+4%; +42%) t.o.v. 2015 (+)","2019: +27% (+6%; +52%) t.o.v. 2015 (+)","2017: -10% (-22%; +3%) t.o.v. 2016 (~)","2018: -8% (-21%; +8%) t.o.v. 2016 (~)","2019: -3.7% (-16.0%; +10.0%) t.o.v. 2016 (~)","2018: +3.0% (-11.4%; +19.5%) t.o.v. 2017 (~)","2019: +7% (-9%; +25%) t.o.v. 2017 (~)","2019: +4% (-11%; +23%) t.o.v. 2018 (~)"],"showlegend":false,"type":"scatter","mode":"markers","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"opacity":0,"visible":false,"marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"line":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[2007,2007,2007,2007,2010,2010,2010,2013,2013,2016,2010,2013,2016,2019,2013,2016,2019,2016,2019,2019],"y":[2010,2013,2016,2019,2013,2016,2019,2016,2019,2019,2007,2007,2007,2007,2010,2010,2010,2013,2013,2016],"text":["2007-2009: -4.2% (-10.7%; +3.2%) t.o.v. 2010-2012 (~)","2007-2009: +20% (+10%; +29%) t.o.v. 2013-2015 (+~)","2007-2009: +10.0% (+1.3%; +18.7%) t.o.v. 2016-2018 (+~)","2007-2009: +11% (-2%; +25%) t.o.v. 2019-2021 (~)","2010-2012: +25% (+15%; +35%) t.o.v. 2013-2015 (+)","2010-2012: +15% (+5%; +24%) t.o.v. 2016-2018 (+~)","2010-2012: +16% (+2%; +30%) t.o.v. 2019-2021 (+~)","2013-2015: -7.9% (-15.1%; -0.1%) t.o.v. 2016-2018 (-~)","2013-2015: -7.1% (-18.2%; +4.9%) t.o.v. 2019-2021 (~)","2016-2018: +0.8% (-11.0%; +14.1%) t.o.v. 2019-2021 (~)","2010-2012: +4.3% (-3.1%; +12.0%) t.o.v. 2007-2009 (~)","2013-2015: -16% (-23%; -9%) t.o.v. 2007-2009 (-~)","2016-2018: -9.1% (-15.8%; -1.3%) t.o.v. 2007-2009 (-~)","2019-2021: -10% (-20%; +2%) t.o.v. 2007-2009 (~)","2013-2015: -20% (-26%; -13%) t.o.v. 2010-2012 (-)","2016-2018: -12.9% (-19.6%; -5.2%) t.o.v. 2010-2012 (-~)","2019-2021: -14% (-23%; -2%) t.o.v. 2010-2012 (-~)","2016-2018: +8.6% (+0.1%; +17.8%) t.o.v. 2013-2015 (+~)","2019-2021: +8% (-5%; +22%) t.o.v. 2013-2015 (~)","2019-2021: -0.8% (-12.3%; +12.4%) t.o.v. 2016-2018 (~)"],"showlegend":false,"type":"scatter","mode":"markers","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"opacity":0,"marker":{"color":"rgba(214,39,40,1)","line":{"color":"rgba(214,39,40,1)"}},"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"line":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figuur 52.3: Paarsgewijze vergelijking tussen jaren of driejarige cycli voor Holenduif. Uitleg van de symbolen in tabel <a href="4-voorstelling-van-de-gegevens.html#tab:regels">4.1</a>.
+</p>
+</div>
+
+<table>
+<caption><span id="tab:a9c9eac2bf1813ed1941568ecf12a3cce83e7dbe-sd">Tabel 52.1: </span>Stratumgewicht, raming aan het aantal hokken waarin de soort aanwezig is, aantal relevant hokken voor de analyse, aantal onderzochte hokken in het stratum, totaal aantal hokken van het stratum in Vlaanderen en aantal bezoeken aan een meetpunt voor Holenduif (zie §<a href="3-verwerking-van-de-gegevens.html#s:stratumgewicht">3.5</a>).</caption>
+<thead>
+<tr class="header">
+<th align="left">stratum</th>
+<th align="right">gewicht</th>
+<th align="right">aanwezig</th>
+<th align="right">relevant</th>
+<th align="right">onderzocht</th>
+<th align="right">totaal</th>
+<th align="right">bezoeken</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Landbouw</td>
+<td align="right">89.6%</td>
+<td align="right">3377.7</td>
+<td align="right">228</td>
+<td align="right">426</td>
+<td align="right">6311</td>
+<td align="right">14066</td>
+</tr>
+<tr class="even">
+<td align="left">Bos</td>
+<td align="right">3.2%</td>
+<td align="right">117.5</td>
+<td align="right">70</td>
+<td align="right">190</td>
+<td align="right">319</td>
+<td align="right">4988</td>
+</tr>
+<tr class="odd">
+<td align="left">Urbaan</td>
+<td align="right">2.3%</td>
+<td align="right">81.3</td>
+<td align="right">17</td>
+<td align="right">87</td>
+<td align="right">416</td>
+<td align="right">1079</td>
+</tr>
+<tr class="even">
+<td align="left">Suburbaan</td>
+<td align="right">2.1%</td>
+<td align="right">76.9</td>
+<td align="right">26</td>
+<td align="right">68</td>
+<td align="right">201</td>
+<td align="right">1421</td>
+</tr>
+<tr class="odd">
+<td align="left">Moeras en water</td>
+<td align="right">1.5%</td>
+<td align="right">56.5</td>
+<td align="right">33</td>
+<td align="right">80</td>
+<td align="right">137</td>
+<td align="right">2027</td>
+</tr>
+<tr class="even">
+<td align="left">Heide en duin</td>
+<td align="right">1.3%</td>
+<td align="right">45.9</td>
+<td align="right">21</td>
+<td align="right">91</td>
+<td align="right">199</td>
+<td align="right">1668</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<caption><span id="tab:a9c9eac2bf1813ed1941568ecf12a3cce83e7dbe-hash">Tabel 52.2: </span> Data-hashes van de analyses in het kader van traceerbaarheid (zie §<a href="5-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#s:traceerbaarheid">5.3</a>).</caption>
+<colgroup>
+<col width="20%" />
+<col width="19%" />
+<col width="29%" />
+<col width="29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">frequentie</th>
+<th align="center">model</th>
+<th align="center">analyse</th>
+<th align="center">status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">jaarlijks</td>
+<td align="center">lineair</td>
+<td align="center">351f1b8ec8a9942e910b
+8c31fc30ba22ee83d5ec</td>
+<td align="center">0dd06faf47d0ed437c63
+f14f019ebdda6538661c</td>
+</tr>
+<tr class="even">
+<td align="center">jaarlijks</td>
+<td align="center">niet-lineair</td>
+<td align="center">a8932f97f9c774781738
+2641a5df1e89e6a4113a</td>
+<td align="center">ed0099404b74b44464dc
+ed99953132aab8939ce0</td>
+</tr>
+<tr class="odd">
+<td align="center">driejaarlijks</td>
+<td align="center">lineair</td>
+<td align="center">ae71bbd8a0bdc30bcce2
+999a4c3a721f7f00417a</td>
+<td align="center">d48ca7d9e23ed8c4818e
+bad48399e5b80eb70a8b</td>
+</tr>
+<tr class="even">
+<td align="center">driejaarlijks</td>
+<td align="center">niet-lineair</td>
+<td align="center">679f22b59585d4706cff
+ea98f0592fc846061f66</td>
+<td align="center">98a3b583feec5af74d17
+08350d8d955c0d42f7d3</td>
+</tr>
+</tbody>
+</table>
+</div>
+            </section>
+        </div>
+      </div>
+    </div>
+<a href="51-soort-heggenmus.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="53-soort-houtduif.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["abv_standaard_rapport.pdf", "abv_standaard_rapport.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, "");
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+
+</html>
