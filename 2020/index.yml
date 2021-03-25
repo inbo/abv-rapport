@@ -1,0 +1,46 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: no
+  NA string: NA
+  sorting:
+  - soort
+  - frequentie
+  - referentie
+  - naar
+  hash: 7aa8198401eab434798989585d6adfac4a73b3e5
+  data_hash: e6fe02dc725aca7dfd7812d05af090cc5100dbee
+soort:
+  class: character
+frequentie:
+  class: factor
+  labels:
+  - driejaarlijks
+  - jaarlijks
+  index:
+  - 1
+  - 2
+  ordered: no
+wijziging:
+  class: character
+referentie:
+  class: integer
+naar:
+  class: integer
+schatting:
+  class: numeric
+lcl90:
+  class: numeric
+ucl90:
+  class: numeric
+lcl60:
+  class: numeric
+ucl60:
+  class: numeric
+lcl30:
+  class: numeric
+ucl30:
+  class: numeric
+analyse:
+  class: character
+status:
+  class: character

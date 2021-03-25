@@ -1,0 +1,443 @@
+soort	stratum	gewicht	aanwezig	relevant	onderzocht	totaal	bezoeken
+Aalscholver	Heide en duin	0.063	15.3	7	91	199	504
+Aalscholver	Landbouw	0.791	207.4	14	426	6311	998
+Aalscholver	Moeras en water	0.147	41.1	24	80	137	1571
+Bergeend	Bos	0.008	5	3	190	319	231
+Bergeend	Heide en duin	0.026	19.7	9	91	199	630
+Bergeend	Landbouw	0.888	755.5	51	426	6311	3399
+Bergeend	Moeras en water	0.051	41.1	24	80	137	1489
+Bergeend	Suburbaan	0.028	20.7	7	68	201	399
+Blauwborst	Heide en duin	0.019	13.1	6	91	199	416
+Blauwborst	Landbouw	0.928	740.7	50	426	6311	3508
+Blauwborst	Moeras en water	0.034	25.7	15	80	137	991
+Blauwborst	Suburbaan	0.019	11.8	4	68	201	180
+Blauwe reiger	Bos	0.022	20.1	12	190	319	927
+Blauwe reiger	Heide en duin	0.031	28.4	13	91	199	867
+Blauwe reiger	Landbouw	0.89	888.9	60	426	6311	4133
+Blauwe reiger	Moeras en water	0.045	42.8	25	80	137	1670
+Blauwe reiger	Suburbaan	0.012	8.9	3	68	201	360
+Boerenzwaluw	Bos	0.005	18.5	11	190	319	519
+Boerenzwaluw	Heide en duin	0.012	48.1	22	91	199	979
+Boerenzwaluw	Landbouw	0.947	3881.4	262	426	6311	11292
+Boerenzwaluw	Moeras en water	0.011	44.5	26	80	137	1126
+Boerenzwaluw	Suburbaan	0.009	35.5	12	68	201	450
+Boerenzwaluw	Urbaan	0.015	57.4	12	87	416	618
+Bonte vliegenvanger	Bos	0.592	26.9	16	190	319	766
+Bonte vliegenvanger	Heide en duin	0.408	19.7	9	91	199	678
+Boomklever	Bos	0.211	199.8	119	190	319	7597
+Boomklever	Heide en duin	0.078	72.2	33	91	199	2387
+Boomklever	Landbouw	0.56	518.5	35	426	6311	2473
+Boomklever	Moeras en water	0.038	34.2	20	80	137	1208
+Boomklever	Suburbaan	0.053	47.3	16	68	201	1001
+Boomklever	Urbaan	0.06	52.6	11	87	416	786
+Boomkruiper	Bos	0.114	193.1	115	190	319	7639
+Boomkruiper	Heide en duin	0.064	107.2	49	91	199	3317
+Boomkruiper	Landbouw	0.694	1170.3	79	426	6311	5467
+Boomkruiper	Moeras en water	0.027	44.5	26	80	137	1817
+Boomkruiper	Suburbaan	0.037	59.1	20	68	201	1313
+Boomkruiper	Urbaan	0.065	105.2	22	87	416	1481
+Boomleeuwerik	Bos	0.172	31.9	19	190	319	1742
+Boomleeuwerik	Heide en duin	0.482	94	43	91	199	3047
+Boomleeuwerik	Landbouw	0.302	44.4	3	426	6311	175
+Boomleeuwerik	Moeras en water	0.044	6.8	4	80	137	287
+Boompieper	Bos	0.244	90.7	54	190	319	3969
+Boompieper	Heide en duin	0.323	118.1	54	91	199	3545
+Boompieper	Landbouw	0.396	133.3	9	426	6311	787
+Boompieper	Moeras en water	0.037	12	7	80	137	503
+Bosrietzanger	Heide en duin	0.019	6.6	3	91	199	128
+Bosrietzanger	Landbouw	0.85	400	27	426	6311	1290
+Bosrietzanger	Moeras en water	0.08	36	21	80	137	947
+Bosrietzanger	Suburbaan	0.051	20.7	7	68	201	375
+Bruine kiekendief	Landbouw	0.966	340.7	23	426	6311	1742
+Bruine kiekendief	Moeras en water	0.034	10.3	6	80	137	359
+Buizerd	Bos	0.064	181.3	108	190	319	7251
+Buizerd	Heide en duin	0.032	87.5	40	91	199	2871
+Buizerd	Landbouw	0.877	2474	167	426	6311	11485
+Buizerd	Moeras en water	0.018	49.7	29	80	137	1867
+Buizerd	Suburbaan	0.009	23.6	8	68	201	528
+Canadese gans	Bos	0.014	20.1	12	190	319	906
+Canadese gans	Heide en duin	0.041	63.4	29	91	199	2006
+Canadese gans	Landbouw	0.863	1392.6	94	426	6311	6351
+Canadese gans	Moeras en water	0.042	65.1	38	80	137	2444
+Canadese gans	Suburbaan	0.02	29.6	10	68	201	773
+Canadese gans	Urbaan	0.021	28.7	6	87	416	389
+Cetti's zanger	Heide en duin	0.112	10.9	5	91	199	155
+Cetti's zanger	Landbouw	0.756	74.1	5	426	6311	322
+Cetti's zanger	Moeras en water	0.132	15.4	9	80	137	521
+Dodaars	Bos	0.09	10.1	6	190	319	594
+Dodaars	Heide en duin	0.235	28.4	13	91	199	866
+Dodaars	Landbouw	0.452	44.4	3	426	6311	172
+Dodaars	Moeras en water	0.223	29.1	17	80	137	1233
+Ekster	Bos	0.013	63.8	38	190	319	2966
+Ekster	Heide en duin	0.015	76.5	35	91	199	1973
+Ekster	Landbouw	0.853	4370.3	295	426	6311	18373
+Ekster	Moeras en water	0.018	90.8	53	80	137	3240
+Ekster	Suburbaan	0.032	162.6	55	68	201	3213
+Ekster	Urbaan	0.068	344.3	72	87	416	4338
+Fazant	Bos	0.015	63.8	38	190	319	2712
+Fazant	Heide en duin	0.018	76.5	35	91	199	2407
+Fazant	Landbouw	0.928	4014.7	271	426	6311	17325
+Fazant	Moeras en water	0.016	66.8	39	80	137	2505
+Fazant	Suburbaan	0.012	47.3	16	68	201	1015
+Fazant	Urbaan	0.011	43	9	87	416	701
+Fitis	Bos	0.138	92.3	55	190	319	4039
+Fitis	Heide en duin	0.237	161.8	74	91	199	4516
+Fitis	Landbouw	0.497	325.9	22	426	6311	1590
+Fitis	Moeras en water	0.068	44.5	26	80	137	1800
+Fitis	Suburbaan	0.061	38.4	13	68	201	581
+Fuut	Bos	0.062	10.1	6	190	319	552
+Fuut	Heide en duin	0.115	19.7	9	91	199	546
+Fuut	Landbouw	0.464	74.1	5	426	6311	342
+Fuut	Moeras en water	0.359	68.5	40	80	137	2500
+Gaai	Bos	0.065	213.2	127	190	319	8286
+Gaai	Heide en duin	0.039	126.8	58	91	199	3743
+Gaai	Landbouw	0.788	2577.7	174	426	6311	11687
+Gaai	Moeras en water	0.024	77.1	45	80	137	2857
+Gaai	Suburbaan	0.026	82.8	28	68	201	1635
+Gaai	Urbaan	0.057	181.7	38	87	416	2585
+Geelgors	Bos	0.009	6.7	4	190	319	330
+Geelgors	Heide en duin	0.022	17.5	8	91	199	522
+Geelgors	Landbouw	0.959	859.2	58	426	6311	3701
+Geelgors	Moeras en water	0.01	6.8	4	80	137	245
+Gekraagde roodstaart	Bos	0.156	42	25	190	319	1364
+Gekraagde roodstaart	Heide en duin	0.269	70	32	91	199	1569
+Gekraagde roodstaart	Landbouw	0.549	133.3	9	426	6311	418
+Gekraagde roodstaart	Moeras en water	0.026	5.1	3	80	137	174
+Gele kwikstaart	Landbouw	0.994	2429.6	164	426	6311	10831
+Gele kwikstaart	Moeras en water	0.006	12	7	80	137	453
+Gierzwaluw	Bos	0.011	8.4	5	190	319	241
+Gierzwaluw	Heide en duin	0.029	24.1	11	91	199	471
+Gierzwaluw	Landbouw	0.566	503.7	34	426	6311	1617
+Gierzwaluw	Moeras en water	0.038	32.5	19	80	137	905
+Gierzwaluw	Suburbaan	0.068	59.1	20	68	201	887
+Gierzwaluw	Urbaan	0.288	263	55	87	416	2211
+Glanskop	Bos	0.322	42	25	190	319	1606
+Glanskop	Landbouw	0.678	74.1	5	426	6311	370
+Goudhaan	Bos	0.178	149.4	89	190	319	6135
+Goudhaan	Heide en duin	0.073	59	27	91	199	1964
+Goudhaan	Landbouw	0.561	459.3	31	426	6311	2258
+Goudhaan	Moeras en water	0.028	22.3	13	80	137	792
+Goudhaan	Suburbaan	0.053	41.4	14	68	201	947
+Goudhaan	Urbaan	0.108	86.1	18	87	416	1480
+Grasmus	Bos	0.009	25.2	15	190	319	671
+Grasmus	Heide en duin	0.025	74.4	34	91	199	1256
+Grasmus	Landbouw	0.92	2800	189	426	6311	8566
+Grasmus	Moeras en water	0.02	59.9	35	80	137	1469
+Grasmus	Suburbaan	0.015	41.4	14	68	201	699
+Grasmus	Urbaan	0.011	28.7	6	87	416	287
+Graspieper	Heide en duin	0.05	83.1	38	91	199	2371
+Graspieper	Landbouw	0.93	1540.7	104	426	6311	6945
+Graspieper	Moeras en water	0.009	13.7	8	80	137	530
+Graspieper	Suburbaan	0.011	14.8	5	68	201	142
+Grauwe gans	Bos	0.023	10.1	6	190	319	377
+Grauwe gans	Heide en duin	0.044	19.7	9	91	199	570
+Grauwe gans	Landbouw	0.851	429.6	29	426	6311	2109
+Grauwe gans	Moeras en water	0.082	39.4	23	80	137	1413
+Groene specht	Bos	0.03	115.8	69	190	319	5072
+Groene specht	Heide en duin	0.024	91.8	42	91	199	2930
+Groene specht	Landbouw	0.864	3377.7	228	426	6311	14708
+Groene specht	Moeras en water	0.018	68.5	40	80	137	2634
+Groene specht	Suburbaan	0.025	94.6	32	68	201	1981
+Groene specht	Urbaan	0.038	143.4	30	87	416	2036
+Groenling	Bos	0.016	53.7	32	190	319	2320
+Groenling	Heide en duin	0.012	37.2	17	91	199	1122
+Groenling	Landbouw	0.852	2918.5	197	426	6311	12773
+Groenling	Moeras en water	0.013	42.8	25	80	137	1629
+Groenling	Suburbaan	0.028	91.6	31	68	201	2121
+Groenling	Urbaan	0.08	267.8	56	87	416	3487
+Grote bonte specht	Bos	0.066	225	134	190	319	8496
+Grote bonte specht	Heide en duin	0.041	137.8	63	91	199	4127
+Grote bonte specht	Landbouw	0.802	2755.5	186	426	6311	12120
+Grote bonte specht	Moeras en water	0.023	75.3	44	80	137	2835
+Grote bonte specht	Suburbaan	0.021	68	23	68	201	1535
+Grote bonte specht	Urbaan	0.048	157.8	33	87	416	2254
+Grote lijster	Bos	0.056	75.6	45	190	319	3441
+Grote lijster	Heide en duin	0.052	67.8	31	91	199	2267
+Grote lijster	Landbouw	0.874	1170.3	79	426	6311	5616
+Grote lijster	Moeras en water	0.009	10.3	6	80	137	445
+Grote lijster	Suburbaan	0.009	8.9	3	68	201	162
+Grutto	Landbouw	0.984	414.8	28	426	6311	1920
+Grutto	Moeras en water	0.016	5.1	3	80	137	216
+Halsbandparkiet	Bos	0.058	8.4	5	190	319	300
+Halsbandparkiet	Landbouw	0.597	88.9	6	426	6311	349
+Halsbandparkiet	Moeras en water	0.069	10.3	6	80	137	393
+Halsbandparkiet	Suburbaan	0.137	23.6	8	68	201	610
+Halsbandparkiet	Urbaan	0.138	19.1	4	87	416	319
+Havik	Bos	0.615	43.7	26	190	319	2025
+Havik	Heide en duin	0.385	28.4	13	91	199	1020
+Heggenmus	Bos	0.018	89	53	190	319	3917
+Heggenmus	Heide en duin	0.018	89.7	41	91	199	2572
+Heggenmus	Landbouw	0.853	4340.7	293	426	6311	18151
+Heggenmus	Moeras en water	0.017	82.2	48	80	137	3064
+Heggenmus	Suburbaan	0.03	147.8	50	68	201	3019
+Heggenmus	Urbaan	0.065	325.1	68	87	416	4154
+Holenduif	Bos	0.032	124.2	74	190	319	5460
+Holenduif	Heide en duin	0.012	45.9	21	91	199	1764
+Holenduif	Landbouw	0.891	3496.2	236	426	6311	15755
+Holenduif	Moeras en water	0.016	61.6	36	80	137	2337
+Holenduif	Suburbaan	0.022	82.8	28	68	201	1649
+Holenduif	Urbaan	0.026	95.6	20	87	416	1295
+Houtduif	Bos	0.039	233.4	139	190	319	8742
+Houtduif	Heide en duin	0.03	174.9	80	91	199	4776
+Houtduif	Landbouw	0.827	4962.9	335	426	6311	20354
+Houtduif	Moeras en water	0.018	104.5	61	80	137	3710
+Houtduif	Suburbaan	0.028	165.5	56	68	201	3245
+Houtduif	Urbaan	0.058	344.3	72	87	416	4343
+Huismus	Bos	0.004	16.8	10	190	319	753
+Huismus	Heide en duin	0.009	41.5	19	91	199	1037
+Huismus	Landbouw	0.882	4177.7	282	426	6311	17329
+Huismus	Moeras en water	0.009	41.1	24	80	137	1495
+Huismus	Suburbaan	0.023	103.5	35	68	201	2302
+Huismus	Urbaan	0.073	339.5	71	87	416	4314
+Huiszwaluw	Bos	0.01	5	3	190	319	126
+Huiszwaluw	Landbouw	0.932	651.8	44	426	6311	1894
+Huiszwaluw	Moeras en water	0.017	10.3	6	80	137	258
+Huiszwaluw	Urbaan	0.041	23.9	5	87	416	217
+Kauw	Bos	0.018	87.3	52	190	319	3905
+Kauw	Heide en duin	0.017	85.3	39	91	199	2554
+Kauw	Landbouw	0.859	4385.1	296	426	6311	18523
+Kauw	Moeras en water	0.015	73.6	43	80	137	2666
+Kauw	Suburbaan	0.026	130.1	44	68	201	2782
+Kauw	Urbaan	0.065	325.1	68	87	416	4105
+Kievit	Bos	0.006	26.9	16	190	319	1137
+Kievit	Heide en duin	0.006	26.2	12	91	199	936
+Kievit	Landbouw	0.965	4355.5	294	426	6311	18286
+Kievit	Moeras en water	0.01	41.1	24	80	137	1573
+Kievit	Suburbaan	0.005	20.7	7	68	201	395
+Kievit	Urbaan	0.007	28.7	6	87	416	449
+Kleine karekiet	Heide en duin	0.02	15.3	7	91	199	264
+Kleine karekiet	Landbouw	0.883	770.4	52	426	6311	2358
+Kleine karekiet	Moeras en water	0.077	65.1	38	80	137	1734
+Kleine karekiet	Suburbaan	0.02	14.8	5	68	201	130
+Kleine mantelmeeuw	Landbouw	0.84	177.8	12	426	6311	753
+Kleine mantelmeeuw	Moeras en water	0.089	17.1	10	80	137	710
+Kleine mantelmeeuw	Suburbaan	0.07	11.8	4	68	201	355
+Kneu	Bos	0.01	15.1	9	190	319	857
+Kneu	Heide en duin	0.048	83.1	38	91	199	2229
+Kneu	Landbouw	0.913	1614.8	109	426	6311	7374
+Kneu	Moeras en water	0.013	20.6	12	80	137	698
+Kneu	Suburbaan	0.017	26.6	9	68	201	542
+Knobbelzwaan	Heide en duin	0.299	10.9	5	91	199	330
+Knobbelzwaan	Moeras en water	0.701	30.8	18	80	137	1283
+Koekoek	Bos	0.03	47	28	190	319	1429
+Koekoek	Heide en duin	0.05	80.9	37	91	199	1686
+Koekoek	Landbouw	0.877	1407.4	95	426	6311	4427
+Koekoek	Moeras en water	0.034	53.1	31	80	137	1363
+Koekoek	Suburbaan	0.009	11.8	4	68	201	201
+Kokmeeuw	Heide en duin	0.043	15.3	7	91	199	450
+Kokmeeuw	Landbouw	0.835	325.9	22	426	6311	1287
+Kokmeeuw	Moeras en water	0.063	25.7	15	80	137	977
+Kokmeeuw	Suburbaan	0.058	20.7	7	68	201	585
+Koolmees	Bos	0.043	236.7	141	190	319	8796
+Koolmees	Heide en duin	0.032	174.9	80	91	199	4771
+Koolmees	Landbouw	0.814	4548.1	307	426	6311	19082
+Koolmees	Moeras en water	0.018	101	59	80	137	3565
+Koolmees	Suburbaan	0.029	156.7	53	68	201	3140
+Koolmees	Urbaan	0.064	349.1	73	87	416	4373
+Krakeend	Heide en duin	0.066	8.7	4	91	199	258
+Krakeend	Landbouw	0.534	74.1	5	426	6311	280
+Krakeend	Moeras en water	0.31	51.4	30	80	137	1920
+Krakeend	Suburbaan	0.089	11.8	4	68	201	297
+Kuifeend	Bos	0.034	8.4	5	190	319	375
+Kuifeend	Heide en duin	0.095	26.2	12	91	199	722
+Kuifeend	Landbouw	0.638	192.6	13	426	6311	918
+Kuifeend	Moeras en water	0.234	68.5	40	80	137	2596
+Kuifmees	Bos	0.344	131	78	190	319	5696
+Kuifmees	Heide en duin	0.23	85.3	39	91	199	2759
+Kuifmees	Landbouw	0.232	74.1	5	426	6311	552
+Kuifmees	Moeras en water	0.04	13.7	8	80	137	468
+Kuifmees	Suburbaan	0.078	26.6	9	68	201	552
+Kuifmees	Urbaan	0.075	23.9	5	87	416	372
+Matkop	Bos	0.16	25.2	15	190	319	1296
+Matkop	Heide en duin	0.084	10.9	5	91	199	372
+Matkop	Landbouw	0.658	88.9	6	426	6311	376
+Matkop	Moeras en water	0.098	13.7	8	80	137	588
+Meerkoet	Bos	0.025	25.2	15	190	319	1209
+Meerkoet	Heide en duin	0.042	43.7	20	91	199	1227
+Meerkoet	Landbouw	0.797	874.1	59	426	6311	3970
+Meerkoet	Moeras en water	0.082	87.3	51	80	137	3168
+Meerkoet	Suburbaan	0.024	23.6	8	68	201	383
+Meerkoet	Urbaan	0.031	28.7	6	87	416	372
+Merel	Bos	0.04	236.7	141	190	319	8796
+Merel	Heide en duin	0.029	168.4	77	91	199	4680
+Merel	Landbouw	0.825	4918.4	332	426	6311	20210
+Merel	Moeras en water	0.018	107.9	63	80	137	3773
+Merel	Suburbaan	0.028	165.5	56	68	201	3233
+Merel	Urbaan	0.06	349.1	73	87	416	4372
+Nachtegaal	Heide en duin	0.609	24.1	11	91	199	563
+Nachtegaal	Moeras en water	0.391	13.7	8	80	137	624
+Nijlgans	Bos	0.016	21.8	13	190	319	1119
+Nijlgans	Heide en duin	0.021	28.4	13	91	199	822
+Nijlgans	Landbouw	0.908	1318.5	89	426	6311	6065
+Nijlgans	Moeras en water	0.041	58.2	34	80	137	2266
+Nijlgans	Urbaan	0.013	14.3	3	87	416	179
+Patrijs	Landbouw	1	2014.8	136	426	6311	9135
+Pimpelmees	Bos	0.046	214.9	128	190	319	8280
+Pimpelmees	Heide en duin	0.032	146.5	67	91	199	4159
+Pimpelmees	Landbouw	0.802	3777.7	255	426	6311	16578
+Pimpelmees	Moeras en water	0.02	94.2	55	80	137	3385
+Pimpelmees	Suburbaan	0.03	138.9	47	68	201	2869
+Pimpelmees	Urbaan	0.07	325.1	68	87	416	4148
+Putter	Landbouw	0.858	429.6	29	426	6311	2084
+Putter	Moeras en water	0.031	13.7	8	80	137	555
+Putter	Suburbaan	0.053	23.6	8	68	201	493
+Putter	Urbaan	0.058	23.9	5	87	416	390
+Rietgors	Bos	0.013	5	3	190	319	432
+Rietgors	Heide en duin	0.076	39.4	18	91	199	1238
+Rietgors	Landbouw	0.8	400	27	426	6311	1976
+Rietgors	Moeras en water	0.076	37.7	22	80	137	1525
+Rietgors	Suburbaan	0.034	14.8	5	68	201	198
+Rietzanger	Landbouw	0.966	533.3	36	426	6311	2570
+Rietzanger	Moeras en water	0.034	17.1	10	80	137	677
+Ringmus	Landbouw	0.995	1244.4	84	426	6311	5524
+Ringmus	Moeras en water	0.005	5.1	3	80	137	264
+Roek	Landbouw	0.92	385.2	26	426	6311	1696
+Roek	Urbaan	0.08	28.7	6	87	416	408
+Roodborst	Bos	0.061	235.1	140	190	319	8724
+Roodborst	Heide en duin	0.041	155.3	71	91	199	4418
+Roodborst	Landbouw	0.761	2933.3	198	426	6311	12805
+Roodborst	Moeras en water	0.024	90.8	53	80	137	3192
+Roodborst	Suburbaan	0.033	124.1	42	68	201	2602
+Roodborst	Urbaan	0.081	306	64	87	416	3908
+Roodborsttapuit	Bos	0.02	11.8	7	190	319	606
+Roodborsttapuit	Heide en duin	0.148	98.4	45	91	199	3058
+Roodborsttapuit	Landbouw	0.796	518.5	35	426	6311	2574
+Roodborsttapuit	Moeras en water	0.018	10.3	6	80	137	419
+Roodborsttapuit	Suburbaan	0.018	8.9	3	68	201	148
+Scholekster	Bos	0.004	6.7	4	190	319	309
+Scholekster	Heide en duin	0.009	17.5	8	91	199	708
+Scholekster	Landbouw	0.94	2014.8	136	426	6311	8930
+Scholekster	Moeras en water	0.017	34.2	20	80	137	1303
+Scholekster	Suburbaan	0.021	41.4	14	68	201	841
+Scholekster	Urbaan	0.009	14.3	3	87	416	282
+Sperwer	Bos	0.034	18.5	11	190	319	986
+Sperwer	Heide en duin	0.018	8.7	4	91	199	222
+Sperwer	Landbouw	0.845	503.7	34	426	6311	2568
+Sperwer	Moeras en water	0.026	13.7	8	80	137	522
+Sperwer	Suburbaan	0.02	8.9	3	68	201	198
+Sperwer	Urbaan	0.056	28.7	6	87	416	468
+Spotvogel	Heide en duin	0.038	13.1	6	91	199	270
+Spotvogel	Landbouw	0.945	385.2	26	426	6311	1216
+Spotvogel	Moeras en water	0.017	5.1	3	80	137	174
+Spreeuw	Bos	0.011	57.1	34	190	319	2397
+Spreeuw	Heide en duin	0.016	78.7	36	91	199	2514
+Spreeuw	Landbouw	0.878	4577.7	309	426	6311	19156
+Spreeuw	Moeras en water	0.014	68.5	40	80	137	2592
+Spreeuw	Suburbaan	0.023	115.3	39	68	201	2414
+Spreeuw	Urbaan	0.059	301.2	63	87	416	3879
+Sprinkhaanzanger	Heide en duin	0.579	32.8	15	91	199	850
+Sprinkhaanzanger	Moeras en water	0.212	10.3	6	80	137	399
+Sprinkhaanzanger	Suburbaan	0.209	8.9	3	68	201	154
+Staartmees	Bos	0.092	82.3	49	190	319	3703
+Staartmees	Heide en duin	0.051	43.7	20	91	199	1508
+Staartmees	Landbouw	0.66	577.8	39	426	6311	2976
+Staartmees	Moeras en water	0.056	48	28	80	137	1900
+Staartmees	Suburbaan	0.066	56.2	19	68	201	1421
+Staartmees	Urbaan	0.075	62.2	13	87	416	1030
+Stadsduif	Heide en duin	0.024	10.9	5	91	199	227
+Stadsduif	Landbouw	0.742	414.8	28	426	6311	1930
+Stadsduif	Moeras en water	0.022	10.3	6	80	137	364
+Stadsduif	Suburbaan	0.058	29.6	10	68	201	681
+Stadsduif	Urbaan	0.155	81.3	17	87	416	1008
+Tjiftjaf	Bos	0.044	233.4	139	190	319	8724
+Tjiftjaf	Heide en duin	0.032	168.4	77	91	199	4653
+Tjiftjaf	Landbouw	0.813	4325.8	292	426	6311	18249
+Tjiftjaf	Moeras en water	0.02	104.5	61	80	137	3695
+Tjiftjaf	Suburbaan	0.029	153.7	52	68	201	3083
+Tjiftjaf	Urbaan	0.061	320.4	67	87	416	4072
+Torenvalk	Bos	0.004	5	3	190	319	258
+Torenvalk	Heide en duin	0.016	28.4	13	91	199	917
+Torenvalk	Landbouw	0.961	1837	124	426	6311	8428
+Torenvalk	Moeras en water	0.007	12	7	80	137	533
+Torenvalk	Suburbaan	0.012	20.7	7	68	201	542
+Tuinfluiter	Bos	0.052	67.2	40	190	319	1770
+Tuinfluiter	Heide en duin	0.056	70	32	91	199	1377
+Tuinfluiter	Landbouw	0.83	1066.6	72	426	6311	3317
+Tuinfluiter	Moeras en water	0.045	56.5	33	80	137	1508
+Tuinfluiter	Suburbaan	0.018	20.7	7	68	201	375
+Turkse tortel	Bos	0.009	43.7	26	190	319	1790
+Turkse tortel	Heide en duin	0.014	67.8	31	91	199	1793
+Turkse tortel	Landbouw	0.866	4340.7	293	426	6311	18341
+Turkse tortel	Moeras en water	0.012	56.5	33	80	137	2106
+Turkse tortel	Suburbaan	0.028	136	46	68	201	2897
+Turkse tortel	Urbaan	0.071	349.1	73	87	416	4370
+Veldleeuwerik	Bos	0.005	10.1	6	190	319	408
+Veldleeuwerik	Heide en duin	0.026	59	27	91	199	1760
+Veldleeuwerik	Landbouw	0.956	2296.3	155	426	6311	9914
+Veldleeuwerik	Moeras en water	0.007	15.4	9	80	137	553
+Veldleeuwerik	Suburbaan	0.006	11.8	4	68	201	112
+Vink	Bos	0.044	235.1	140	190	319	8737
+Vink	Heide en duin	0.03	157.5	72	91	199	4487
+Vink	Landbouw	0.826	4488.8	303	426	6311	18724
+Vink	Moeras en water	0.018	94.2	55	80	137	3384
+Vink	Suburbaan	0.025	133	45	68	201	2595
+Vink	Urbaan	0.057	306	64	87	416	3928
+Waterhoen	Bos	0.012	23.5	14	190	319	1167
+Waterhoen	Heide en duin	0.013	26.2	12	91	199	762
+Waterhoen	Landbouw	0.896	1970.3	133	426	6311	8633
+Waterhoen	Moeras en water	0.024	51.4	30	80	137	1991
+Waterhoen	Suburbaan	0.018	35.5	12	68	201	823
+Waterhoen	Urbaan	0.037	76.5	16	87	416	1085
+Wielewaal	Bos	0.052	10.1	6	190	319	292
+Wielewaal	Heide en duin	0.039	6.6	3	91	199	138
+Wielewaal	Landbouw	0.849	192.6	13	426	6311	586
+Wielewaal	Moeras en water	0.061	12	7	80	137	308
+Wilde eend	Bos	0.015	62.1	37	190	319	2919
+Wilde eend	Heide en duin	0.024	100.6	46	91	199	3101
+Wilde eend	Landbouw	0.892	3866.6	261	426	6311	16675
+Wilde eend	Moeras en water	0.023	95.9	56	80	137	3411
+Wilde eend	Suburbaan	0.019	79.8	27	68	201	1664
+Wilde eend	Urbaan	0.028	114.8	24	87	416	1612
+Winterkoning	Bos	0.042	231.7	138	190	319	8702
+Winterkoning	Heide en duin	0.027	148.7	68	91	199	4276
+Winterkoning	Landbouw	0.827	4622.1	312	426	6311	19460
+Winterkoning	Moeras en water	0.018	101	59	80	137	3605
+Winterkoning	Suburbaan	0.028	153.7	52	68	201	3083
+Winterkoning	Urbaan	0.058	320.4	67	87	416	4017
+Witte kwikstaart	Bos	0.01	40.3	24	190	319	1866
+Witte kwikstaart	Heide en duin	0.015	59	27	91	199	1944
+Witte kwikstaart	Landbouw	0.924	3777.7	255	426	6311	16578
+Witte kwikstaart	Moeras en water	0.014	56.5	33	80	137	2157
+Witte kwikstaart	Suburbaan	0.02	79.8	27	68	201	1549
+Witte kwikstaart	Urbaan	0.016	62.2	13	87	416	983
+Wulp	Bos	0.015	6.7	4	190	319	258
+Wulp	Heide en duin	0.085	48.1	22	91	199	1568
+Wulp	Landbouw	0.885	488.9	33	426	6311	2222
+Wulp	Moeras en water	0.015	6.8	4	80	137	276
+Zanglijster	Bos	0.046	219.9	131	190	319	8400
+Zanglijster	Heide en duin	0.028	133.4	61	91	199	4112
+Zanglijster	Landbouw	0.825	3955.5	267	426	6311	16983
+Zanglijster	Moeras en water	0.019	89	52	80	137	3282
+Zanglijster	Suburbaan	0.025	115.3	39	68	201	2476
+Zanglijster	Urbaan	0.056	263	55	87	416	3394
+Zilvermeeuw	Heide en duin	0.032	6.6	3	91	199	204
+Zilvermeeuw	Landbouw	0.806	222.2	15	426	6311	878
+Zilvermeeuw	Moeras en water	0.05	12	7	80	137	453
+Zilvermeeuw	Suburbaan	0.043	8.9	3	68	201	277
+Zilvermeeuw	Urbaan	0.07	14.3	3	87	416	156
+Zwarte kraai	Bos	0.038	216.6	129	190	319	8274
+Zwarte kraai	Heide en duin	0.03	168.4	77	91	199	4665
+Zwarte kraai	Landbouw	0.829	4755.5	321	426	6311	19732
+Zwarte kraai	Moeras en water	0.018	102.8	60	80	137	3607
+Zwarte kraai	Suburbaan	0.028	156.7	53	68	201	3117
+Zwarte kraai	Urbaan	0.056	315.6	66	87	416	4077
+Zwarte mees	Bos	0.441	112.5	67	190	319	4808
+Zwarte mees	Heide en duin	0.189	45.9	21	91	199	1535
+Zwarte mees	Landbouw	0.289	59.3	4	426	6311	372
+Zwarte mees	Suburbaan	0.081	17.7	6	68	201	354
+Zwarte roodstaart	Bos	0.006	11.8	7	190	319	504
+Zwarte roodstaart	Heide en duin	0.009	17.5	8	91	199	576
+Zwarte roodstaart	Landbouw	0.886	2059.2	139	426	6311	9650
+Zwarte roodstaart	Moeras en water	0.013	27.4	16	80	137	1029
+Zwarte roodstaart	Suburbaan	0.036	79.8	27	68	201	1702
+Zwarte roodstaart	Urbaan	0.052	114.8	24	87	416	1666
+Zwarte specht	Bos	0.437	107.5	64	190	319	4753
+Zwarte specht	Heide en duin	0.267	63.4	29	91	199	2186
+Zwarte specht	Landbouw	0.24	44.4	3	426	6311	293
+Zwarte specht	Moeras en water	0.056	12	7	80	137	532
+Zwartkop	Bos	0.048	230	137	190	319	8682
+Zwartkop	Heide en duin	0.032	153.1	70	91	199	4395
+Zwartkop	Landbouw	0.813	3940.7	266	426	6311	16908
+Zwartkop	Moeras en water	0.021	97.6	57	80	137	3517
+Zwartkop	Suburbaan	0.029	138.9	47	68	201	2881
+Zwartkop	Urbaan	0.057	267.8	56	87	416	3469

@@ -1,0 +1,25 @@
+..generic:
+  git2rdata: 0.3.1
+  optimize: no
+  NA string: NA
+  sorting:
+  - soort
+  - stratum
+  hash: 4c432fbda0f704ceb1b236e8a08dda56c0983724
+  data_hash: 35f4dee1dd48f3e50bad2c6fa2330d4d0116591b
+soort:
+  class: character
+stratum:
+  class: character
+gewicht:
+  class: numeric
+aanwezig:
+  class: numeric
+relevant:
+  class: integer
+onderzocht:
+  class: integer
+totaal:
+  class: integer
+bezoeken:
+  class: integer

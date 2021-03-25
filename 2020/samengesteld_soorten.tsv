@@ -1,0 +1,185 @@
+soort	indicator	ondergrens	bovengrens
+Bonte vliegenvanger	Bos	0.944	1.059
+Boomklever	Bos	0.944	1.059
+Boomkruiper	Bos	0.944	1.059
+Boompieper	Bos	0.944	1.059
+Buizerd	Bos	0.944	1.059
+Fitis	Bos	0.944	1.059
+Gaai	Bos	0.944	1.059
+Gekraagde roodstaart	Bos	0.944	1.059
+Goudhaan	Bos	0.944	1.059
+Groene specht	Bos	0.944	1.059
+Groenling	Bos	0.944	1.059
+Grote bonte specht	Bos	0.944	1.059
+Grote lijster	Bos	0.944	1.059
+Holenduif	Bos	0.944	1.059
+Koekoek	Bos	0.944	1.059
+Kuifmees	Bos	0.944	1.059
+Matkop	Bos	0.944	1.059
+Nachtegaal	Bos	0.944	1.059
+Sperwer	Bos	0.944	1.059
+Tjiftjaf	Bos	0.944	1.059
+Tuinfluiter	Bos	0.944	1.059
+Wielewaal	Bos	0.944	1.059
+Zwarte mees	Bos	0.944	1.059
+Zwarte specht	Bos	0.944	1.059
+Zwartkop	Bos	0.944	1.059
+Ekster	Generalist	0.936	1.068
+Fazant	Generalist	0.936	1.068
+Groenling	Generalist	0.936	1.068
+Grote bonte specht	Generalist	0.936	1.068
+Heggenmus	Generalist	0.936	1.068
+Houtduif	Generalist	0.936	1.068
+Huismus	Generalist	0.936	1.068
+Kauw	Generalist	0.936	1.068
+Koolmees	Generalist	0.936	1.068
+Merel	Generalist	0.936	1.068
+Pimpelmees	Generalist	0.936	1.068
+Roodborst	Generalist	0.936	1.068
+Spreeuw	Generalist	0.936	1.068
+Staartmees	Generalist	0.936	1.068
+Turkse tortel	Generalist	0.936	1.068
+Vink	Generalist	0.936	1.068
+Winterkoning	Generalist	0.936	1.068
+Zanglijster	Generalist	0.936	1.068
+Zwarte kraai	Generalist	0.936	1.068
+Boerenzwaluw	Landbouw	0.934	1.07
+Geelgors	Landbouw	0.934	1.07
+Gele kwikstaart	Landbouw	0.934	1.07
+Grasmus	Landbouw	0.934	1.07
+Graspieper	Landbouw	0.934	1.07
+Grutto	Landbouw	0.934	1.07
+Kievit	Landbouw	0.934	1.07
+Kneu	Landbouw	0.934	1.07
+Patrijs	Landbouw	0.934	1.07
+Ringmus	Landbouw	0.934	1.07
+Roodborsttapuit	Landbouw	0.934	1.07
+Scholekster	Landbouw	0.934	1.07
+Spotvogel	Landbouw	0.934	1.07
+Torenvalk	Landbouw	0.934	1.07
+Veldleeuwerik	Landbouw	0.934	1.07
+Witte kwikstaart	Landbouw	0.934	1.07
+Wulp	Landbouw	0.934	1.07
+Zwarte roodstaart	Landbouw	0.934	1.07
+Boerenzwaluw	NARA2020	0.964	1.038
+Bonte vliegenvanger	NARA2020	0.964	1.038
+Boomklever	NARA2020	0.964	1.038
+Boomkruiper	NARA2020	0.964	1.038
+Boompieper	NARA2020	0.964	1.038
+Buizerd	NARA2020	0.964	1.038
+Ekster	NARA2020	0.964	1.038
+Fazant	NARA2020	0.964	1.038
+Fitis	NARA2020	0.964	1.038
+Gaai	NARA2020	0.964	1.038
+Geelgors	NARA2020	0.964	1.038
+Gekraagde roodstaart	NARA2020	0.964	1.038
+Gele kwikstaart	NARA2020	0.964	1.038
+Goudhaan	NARA2020	0.964	1.038
+Grasmus	NARA2020	0.964	1.038
+Graspieper	NARA2020	0.964	1.038
+Groene specht	NARA2020	0.964	1.038
+Groenling	NARA2020	0.964	1.038
+Grote bonte specht	NARA2020	0.964	1.038
+Grote lijster	NARA2020	0.964	1.038
+Grutto	NARA2020	0.964	1.038
+Heggenmus	NARA2020	0.964	1.038
+Holenduif	NARA2020	0.964	1.038
+Houtduif	NARA2020	0.964	1.038
+Huismus	NARA2020	0.964	1.038
+Kauw	NARA2020	0.964	1.038
+Kievit	NARA2020	0.964	1.038
+Kneu	NARA2020	0.964	1.038
+Koekoek	NARA2020	0.964	1.038
+Koolmees	NARA2020	0.964	1.038
+Kuifmees	NARA2020	0.964	1.038
+Matkop	NARA2020	0.964	1.038
+Merel	NARA2020	0.964	1.038
+Nachtegaal	NARA2020	0.964	1.038
+Patrijs	NARA2020	0.964	1.038
+Pimpelmees	NARA2020	0.964	1.038
+Ringmus	NARA2020	0.964	1.038
+Roodborst	NARA2020	0.964	1.038
+Roodborsttapuit	NARA2020	0.964	1.038
+Scholekster	NARA2020	0.964	1.038
+Sperwer	NARA2020	0.964	1.038
+Spotvogel	NARA2020	0.964	1.038
+Spreeuw	NARA2020	0.964	1.038
+Staartmees	NARA2020	0.964	1.038
+Tjiftjaf	NARA2020	0.964	1.038
+Torenvalk	NARA2020	0.964	1.038
+Tuinfluiter	NARA2020	0.964	1.038
+Turkse tortel	NARA2020	0.964	1.038
+Veldleeuwerik	NARA2020	0.964	1.038
+Vink	NARA2020	0.964	1.038
+Wielewaal	NARA2020	0.964	1.038
+Winterkoning	NARA2020	0.964	1.038
+Witte kwikstaart	NARA2020	0.964	1.038
+Wulp	NARA2020	0.964	1.038
+Zanglijster	NARA2020	0.964	1.038
+Zwarte kraai	NARA2020	0.964	1.038
+Zwarte mees	NARA2020	0.964	1.038
+Zwarte roodstaart	NARA2020	0.964	1.038
+Zwarte specht	NARA2020	0.964	1.038
+Zwartkop	NARA2020	0.964	1.038
+Boomklever	Standvogel	0.95	1.053
+Boomkruiper	Standvogel	0.95	1.053
+Buizerd	Standvogel	0.95	1.053
+Ekster	Standvogel	0.95	1.053
+Fazant	Standvogel	0.95	1.053
+Gaai	Standvogel	0.95	1.053
+Goudhaan	Standvogel	0.95	1.053
+Groene specht	Standvogel	0.95	1.053
+Grote bonte specht	Standvogel	0.95	1.053
+Heggenmus	Standvogel	0.95	1.053
+Holenduif	Standvogel	0.95	1.053
+Houtduif	Standvogel	0.95	1.053
+Huismus	Standvogel	0.95	1.053
+Kauw	Standvogel	0.95	1.053
+Koolmees	Standvogel	0.95	1.053
+Kuifmees	Standvogel	0.95	1.053
+Matkop	Standvogel	0.95	1.053
+Merel	Standvogel	0.95	1.053
+Patrijs	Standvogel	0.95	1.053
+Pimpelmees	Standvogel	0.95	1.053
+Ringmus	Standvogel	0.95	1.053
+Roodborst	Standvogel	0.95	1.053
+Sperwer	Standvogel	0.95	1.053
+Staartmees	Standvogel	0.95	1.053
+Torenvalk	Standvogel	0.95	1.053
+Turkse tortel	Standvogel	0.95	1.053
+Vink	Standvogel	0.95	1.053
+Winterkoning	Standvogel	0.95	1.053
+Zwarte kraai	Standvogel	0.95	1.053
+Zwarte mees	Standvogel	0.95	1.053
+Zwarte specht	Standvogel	0.95	1.053
+Blauwborst	SubSaharaMigrant	0.941	1.063
+Boerenzwaluw	SubSaharaMigrant	0.941	1.063
+Bonte vliegenvanger	SubSaharaMigrant	0.941	1.063
+Boompieper	SubSaharaMigrant	0.941	1.063
+Bosrietzanger	SubSaharaMigrant	0.941	1.063
+Cetti's zanger	SubSaharaMigrant	0.941	1.063
+Fitis	SubSaharaMigrant	0.941	1.063
+Gekraagde roodstaart	SubSaharaMigrant	0.941	1.063
+Gele kwikstaart	SubSaharaMigrant	0.941	1.063
+Gierzwaluw	SubSaharaMigrant	0.941	1.063
+Grasmus	SubSaharaMigrant	0.941	1.063
+Grutto	SubSaharaMigrant	0.941	1.063
+Huiszwaluw	SubSaharaMigrant	0.941	1.063
+Kleine karekiet	SubSaharaMigrant	0.941	1.063
+Koekoek	SubSaharaMigrant	0.941	1.063
+Nachtegaal	SubSaharaMigrant	0.941	1.063
+Rietzanger	SubSaharaMigrant	0.941	1.063
+Spotvogel	SubSaharaMigrant	0.941	1.063
+Sprinkhaanzanger	SubSaharaMigrant	0.941	1.063
+Tjiftjaf	SubSaharaMigrant	0.941	1.063
+Tuinfluiter	SubSaharaMigrant	0.941	1.063
+Wielewaal	SubSaharaMigrant	0.941	1.063
+Bergeend	Watervogel	0.909	1.101
+Canadese gans	Watervogel	0.909	1.101
+Dodaars	Watervogel	0.909	1.101
+Fuut	Watervogel	0.909	1.101
+Grauwe gans	Watervogel	0.909	1.101
+Meerkoet	Watervogel	0.909	1.101
+Nijlgans	Watervogel	0.909	1.101
+Waterhoen	Watervogel	0.909	1.101
+Wilde eend	Watervogel	0.909	1.101
