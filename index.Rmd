@@ -3,7 +3,7 @@ title: "ABV rapporten"
 output: 
   html_document:
     css: 
-      - !expr gsub("/gitbook.html$", "/inbo_rapport.css", INBOmd::inbo_rapport_css("html"))
+      - !expr system.file(file.path("css_styles", "inbo_report.css"), package = "INBOmd")
       - extra.css
 ---
 
@@ -29,3 +29,4 @@ Voor een ecologische interpretatie van de resultaten verwijzen we naar andere pu
 | 2007 - 2018 | [10.5281/zenodo.1494832](https://doi.org/10.5281/zenodo.1494832) | | [pdf](2018/abv.pdf) | |
 | 2007 - 2019 | [10.21436/inbor.17888433](https://doi.org/10.21436/inbor.17888433) | [html](2019/index.html) | [pdf](2019/abv_standaard_rapport.pdf) | [epub](2019/abv_standaard_rapport.epub) |
 | 2007 - 2020 | [10.21436/inbor.34162521](https://doi.org/10.21436/inbor.34162521) | [html](2020/index.html) | [pdf](2020/abv_standaard_rapport.pdf) | |
+| 2007 - 2021 | [10.21436/inbor.73009782](https://doi.org/10.21436/inbor.73009782) | [html](2021/index.html) | [pdf](2021/abv_standaard_rapport.pdf) | [epub](2021/abv_standaard_rapport.epub) |

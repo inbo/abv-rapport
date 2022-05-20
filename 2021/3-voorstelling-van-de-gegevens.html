@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>3 Voorstelling van de gegevens | Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)</title>
+  <meta name="description" content="3 Voorstelling van de gegevens | Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="3 Voorstelling van de gegevens | Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:image" content="/home/thierry/Insync/thierry.onkelinx@inbo.be/google_drive/github_linux/natura2000/abvanalysis/inst/website/cover.png" />
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Voorstelling van de gegevens | Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)" />
+  
+  
+  <meta name="twitter:image" content="/home/thierry/Insync/thierry.onkelinx@inbo.be/google_drive/github_linux/natura2000/abvanalysis/inst/website/cover.png" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="2-verwerking-van-de-gegevens.html"/>
+<link rel="next" href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/INBOmd-0.5.4/inbo_report.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+<a href=".">
+<img src="cover.png" alt = "Onkelinx, T. <em>et al.</em> (2022) Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)" class = "thumbnail"></a><br>
+<a class="chapter" href="#">10.21436/inbor.73009782</a>
+<br><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="libs/INBOmd-0.5.4/img/cc-by.svg" class = "cc"/>
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Samenvatting</a></li>
+<li class="chapter" data-level="" data-path="english-abstract.html"><a href="english-abstract.html"><i class="fa fa-check"></i>English abstract</a></li>
+<li class="part"><span><b>I Methodologie</b></span></li>
+<li class="chapter" data-level="1" data-path="1-inzameling-van-de-tellingen-in-het-veld.html"><a href="1-inzameling-van-de-tellingen-in-het-veld.html"><i class="fa fa-check"></i><b>1</b> Inzameling van de tellingen in het veld</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="1-inzameling-van-de-tellingen-in-het-veld.html"><a href="1-inzameling-van-de-tellingen-in-het-veld.html#s:steekproef"><i class="fa fa-check"></i><b>1.1</b> Steekproef</a></li>
+<li class="chapter" data-level="1.2" data-path="1-inzameling-van-de-tellingen-in-het-veld.html"><a href="1-inzameling-van-de-tellingen-in-het-veld.html#steekproefeenheid"><i class="fa fa-check"></i><b>1.2</b> Steekproefeenheid</a></li>
+<li class="chapter" data-level="1.3" data-path="1-inzameling-van-de-tellingen-in-het-veld.html"><a href="1-inzameling-van-de-tellingen-in-het-veld.html#tellingen"><i class="fa fa-check"></i><b>1.3</b> Tellingen</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html"><i class="fa fa-check"></i><b>2</b> Verwerking van de gegevens</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#s:relevant"><i class="fa fa-check"></i><b>2.1</b> Selectie van relevante gegevens per soort</a></li>
+<li class="chapter" data-level="2.2" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#s:trendberekening"><i class="fa fa-check"></i><b>2.2</b> Trendberekening</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#niet-lineaire-trends"><i class="fa fa-check"></i><b>2.2.1</b> Niet-lineaire trends</a></li>
+<li class="chapter" data-level="2.2.2" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#statistische-verdelingen"><i class="fa fa-check"></i><b>2.2.2</b> Statistische verdelingen</a></li>
+<li class="chapter" data-level="2.2.3" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#s:lineairetrend"><i class="fa fa-check"></i><b>2.2.3</b> Lineaire trends</a></li>
+<li class="chapter" data-level="2.2.4" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#resultaten-per-driejarige-cyclus"><i class="fa fa-check"></i><b>2.2.4</b> Resultaten per driejarige cyclus</a></li>
+<li class="chapter" data-level="2.2.5" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#modellen-fitten"><i class="fa fa-check"></i><b>2.2.5</b> Modellen fitten</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#gemiddeld-aantal-dieren-per-meetpunt"><i class="fa fa-check"></i><b>2.3</b> Gemiddeld aantal dieren per meetpunt</a></li>
+<li class="chapter" data-level="2.4" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#vergelijken-van-jaren"><i class="fa fa-check"></i><b>2.4</b> Vergelijken van jaren</a></li>
+<li class="chapter" data-level="2.5" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#s:stratumgewicht"><i class="fa fa-check"></i><b>2.5</b> Gewicht van de strata</a></li>
+<li class="chapter" data-level="2.6" data-path="2-verwerking-van-de-gegevens.html"><a href="2-verwerking-van-de-gegevens.html#s:samengesteld"><i class="fa fa-check"></i><b>2.6</b> Samengestelde indices</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-voorstelling-van-de-gegevens.html"><a href="3-voorstelling-van-de-gegevens.html"><i class="fa fa-check"></i><b>3</b> Voorstelling van de gegevens</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="3-voorstelling-van-de-gegevens.html"><a href="3-voorstelling-van-de-gegevens.html#s:onzekerheid"><i class="fa fa-check"></i><b>3.1</b> Onzekerheid</a></li>
+<li class="chapter" data-level="3.2" data-path="3-voorstelling-van-de-gegevens.html"><a href="3-voorstelling-van-de-gegevens.html#s:trendklasse"><i class="fa fa-check"></i><b>3.2</b> Opdeling van de effecten in een aantal klassen</a></li>
+<li class="chapter" data-level="3.3" data-path="3-voorstelling-van-de-gegevens.html"><a href="3-voorstelling-van-de-gegevens.html#overzicht-van-de-lineaire-trends"><i class="fa fa-check"></i><b>3.3</b> Overzicht van de lineaire trends</a></li>
+<li class="chapter" data-level="3.4" data-path="3-voorstelling-van-de-gegevens.html"><a href="3-voorstelling-van-de-gegevens.html#evolutie-van-gemiddelde-aantallen-per-soort"><i class="fa fa-check"></i><b>3.4</b> Evolutie van gemiddelde aantallen per soort</a></li>
+<li class="chapter" data-level="3.5" data-path="3-voorstelling-van-de-gegevens.html"><a href="3-voorstelling-van-de-gegevens.html#paarsgewijze-vergelijking-van-jaren"><i class="fa fa-check"></i><b>3.5</b> Paarsgewijze vergelijking van jaren</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><i class="fa fa-check"></i><b>4</b> Reproduceerbaarheid en traceerbaarheid van de gegevensverwerking</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#versiebeheer"><i class="fa fa-check"></i><b>4.1</b> Versiebeheer</a></li>
+<li class="chapter" data-level="4.2" data-path="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#reproduceerbaarheid"><i class="fa fa-check"></i><b>4.2</b> Reproduceerbaarheid</a></li>
+<li class="chapter" data-level="4.3" data-path="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#s:traceerbaarheid"><i class="fa fa-check"></i><b>4.3</b> Traceerbaarheid</a></li>
+<li class="chapter" data-level="4.4" data-path="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#downloadbaar-cijfermateriaal"><i class="fa fa-check"></i><b>4.4</b> Downloadbaar cijfermateriaal</a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#indicatoren"><i class="fa fa-check"></i><b>4.4.1</b> Indicatoren</a></li>
+<li class="chapter" data-level="4.4.2" data-path="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html"><a href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html#individuele-soorten"><i class="fa fa-check"></i><b>4.4.2</b> Individuele soorten</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>II Indicatoren</b></span></li>
+<li class="chapter" data-level="5" data-path="5-index-bos.html"><a href="5-index-bos.html"><i class="fa fa-check"></i><b>5</b> Bos</a></li>
+<li class="chapter" data-level="6" data-path="6-index-generalist.html"><a href="6-index-generalist.html"><i class="fa fa-check"></i><b>6</b> Generalist</a></li>
+<li class="chapter" data-level="7" data-path="7-index-landbouw.html"><a href="7-index-landbouw.html"><i class="fa fa-check"></i><b>7</b> Landbouw</a></li>
+<li class="chapter" data-level="8" data-path="8-index-nara2020.html"><a href="8-index-nara2020.html"><i class="fa fa-check"></i><b>8</b> NARA2020</a></li>
+<li class="chapter" data-level="9" data-path="9-index-standvogel.html"><a href="9-index-standvogel.html"><i class="fa fa-check"></i><b>9</b> Standvogel</a></li>
+<li class="chapter" data-level="10" data-path="10-index-subsaharamigrant.html"><a href="10-index-subsaharamigrant.html"><i class="fa fa-check"></i><b>10</b> SubSaharaMigrant</a></li>
+<li class="chapter" data-level="11" data-path="11-index-watervogel.html"><a href="11-index-watervogel.html"><i class="fa fa-check"></i><b>11</b> Watervogel</a></li>
+<li class="part"><span><b>III Resultaten per soort</b></span></li>
+<li class="chapter" data-level="12" data-path="12-overzicht-van-de-trends.html"><a href="12-overzicht-van-de-trends.html"><i class="fa fa-check"></i><b>12</b> Overzicht van de trends</a></li>
+<li class="chapter" data-level="13" data-path="13-soort-aalscholver.html"><a href="13-soort-aalscholver.html"><i class="fa fa-check"></i><b>13</b> Aalscholver</a></li>
+<li class="chapter" data-level="14" data-path="14-soort-bergeend.html"><a href="14-soort-bergeend.html"><i class="fa fa-check"></i><b>14</b> Bergeend</a></li>
+<li class="chapter" data-level="15" data-path="15-soort-blauwborst.html"><a href="15-soort-blauwborst.html"><i class="fa fa-check"></i><b>15</b> Blauwborst</a></li>
+<li class="chapter" data-level="16" data-path="16-soort-blauwe-reiger.html"><a href="16-soort-blauwe-reiger.html"><i class="fa fa-check"></i><b>16</b> Blauwe reiger</a></li>
+<li class="chapter" data-level="17" data-path="17-soort-boerenzwaluw.html"><a href="17-soort-boerenzwaluw.html"><i class="fa fa-check"></i><b>17</b> Boerenzwaluw</a></li>
+<li class="chapter" data-level="18" data-path="18-soort-bonte-vliegenvanger.html"><a href="18-soort-bonte-vliegenvanger.html"><i class="fa fa-check"></i><b>18</b> Bonte vliegenvanger</a></li>
+<li class="chapter" data-level="19" data-path="19-soort-boomklever.html"><a href="19-soort-boomklever.html"><i class="fa fa-check"></i><b>19</b> Boomklever</a></li>
+<li class="chapter" data-level="20" data-path="20-soort-boomkruiper.html"><a href="20-soort-boomkruiper.html"><i class="fa fa-check"></i><b>20</b> Boomkruiper</a></li>
+<li class="chapter" data-level="21" data-path="21-soort-boomleeuwerik.html"><a href="21-soort-boomleeuwerik.html"><i class="fa fa-check"></i><b>21</b> Boomleeuwerik</a></li>
+<li class="chapter" data-level="22" data-path="22-soort-boompieper.html"><a href="22-soort-boompieper.html"><i class="fa fa-check"></i><b>22</b> Boompieper</a></li>
+<li class="chapter" data-level="23" data-path="23-soort-bosrietzanger.html"><a href="23-soort-bosrietzanger.html"><i class="fa fa-check"></i><b>23</b> Bosrietzanger</a></li>
+<li class="chapter" data-level="24" data-path="24-soort-bruine-kiekendief.html"><a href="24-soort-bruine-kiekendief.html"><i class="fa fa-check"></i><b>24</b> Bruine kiekendief</a></li>
+<li class="chapter" data-level="25" data-path="25-soort-buizerd.html"><a href="25-soort-buizerd.html"><i class="fa fa-check"></i><b>25</b> Buizerd</a></li>
+<li class="chapter" data-level="26" data-path="26-soort-canadese-gans.html"><a href="26-soort-canadese-gans.html"><i class="fa fa-check"></i><b>26</b> Canadese gans</a></li>
+<li class="chapter" data-level="27" data-path="27-soort-cettis-zanger.html"><a href="27-soort-cettis-zanger.html"><i class="fa fa-check"></i><b>27</b> Cetti’s zanger</a></li>
+<li class="chapter" data-level="28" data-path="28-soort-dodaars.html"><a href="28-soort-dodaars.html"><i class="fa fa-check"></i><b>28</b> Dodaars</a></li>
+<li class="chapter" data-level="29" data-path="29-soort-ekster.html"><a href="29-soort-ekster.html"><i class="fa fa-check"></i><b>29</b> Ekster</a></li>
+<li class="chapter" data-level="30" data-path="30-soort-fazant.html"><a href="30-soort-fazant.html"><i class="fa fa-check"></i><b>30</b> Fazant</a></li>
+<li class="chapter" data-level="31" data-path="31-soort-fitis.html"><a href="31-soort-fitis.html"><i class="fa fa-check"></i><b>31</b> Fitis</a></li>
+<li class="chapter" data-level="32" data-path="32-soort-fuut.html"><a href="32-soort-fuut.html"><i class="fa fa-check"></i><b>32</b> Fuut</a></li>
+<li class="chapter" data-level="33" data-path="33-soort-gaai.html"><a href="33-soort-gaai.html"><i class="fa fa-check"></i><b>33</b> Gaai</a></li>
+<li class="chapter" data-level="34" data-path="34-soort-geelgors.html"><a href="34-soort-geelgors.html"><i class="fa fa-check"></i><b>34</b> Geelgors</a></li>
+<li class="chapter" data-level="35" data-path="35-soort-gekraagde-roodstaart.html"><a href="35-soort-gekraagde-roodstaart.html"><i class="fa fa-check"></i><b>35</b> Gekraagde roodstaart</a></li>
+<li class="chapter" data-level="36" data-path="36-soort-gele-kwikstaart.html"><a href="36-soort-gele-kwikstaart.html"><i class="fa fa-check"></i><b>36</b> Gele kwikstaart</a></li>
+<li class="chapter" data-level="37" data-path="37-soort-gierzwaluw.html"><a href="37-soort-gierzwaluw.html"><i class="fa fa-check"></i><b>37</b> Gierzwaluw</a></li>
+<li class="chapter" data-level="38" data-path="38-soort-glanskop.html"><a href="38-soort-glanskop.html"><i class="fa fa-check"></i><b>38</b> Glanskop</a></li>
+<li class="chapter" data-level="39" data-path="39-soort-goudhaan.html"><a href="39-soort-goudhaan.html"><i class="fa fa-check"></i><b>39</b> Goudhaan</a></li>
+<li class="chapter" data-level="40" data-path="40-soort-grasmus.html"><a href="40-soort-grasmus.html"><i class="fa fa-check"></i><b>40</b> Grasmus</a></li>
+<li class="chapter" data-level="41" data-path="41-soort-graspieper.html"><a href="41-soort-graspieper.html"><i class="fa fa-check"></i><b>41</b> Graspieper</a></li>
+<li class="chapter" data-level="42" data-path="42-soort-grauwe-gans.html"><a href="42-soort-grauwe-gans.html"><i class="fa fa-check"></i><b>42</b> Grauwe gans</a></li>
+<li class="chapter" data-level="43" data-path="43-soort-groene-specht.html"><a href="43-soort-groene-specht.html"><i class="fa fa-check"></i><b>43</b> Groene specht</a></li>
+<li class="chapter" data-level="44" data-path="44-soort-groenling.html"><a href="44-soort-groenling.html"><i class="fa fa-check"></i><b>44</b> Groenling</a></li>
+<li class="chapter" data-level="45" data-path="45-soort-grote-bonte-specht.html"><a href="45-soort-grote-bonte-specht.html"><i class="fa fa-check"></i><b>45</b> Grote bonte specht</a></li>
+<li class="chapter" data-level="46" data-path="46-soort-grote-lijster.html"><a href="46-soort-grote-lijster.html"><i class="fa fa-check"></i><b>46</b> Grote lijster</a></li>
+<li class="chapter" data-level="47" data-path="47-soort-grutto.html"><a href="47-soort-grutto.html"><i class="fa fa-check"></i><b>47</b> Grutto</a></li>
+<li class="chapter" data-level="48" data-path="48-soort-halsbandparkiet.html"><a href="48-soort-halsbandparkiet.html"><i class="fa fa-check"></i><b>48</b> Halsbandparkiet</a></li>
+<li class="chapter" data-level="49" data-path="49-soort-havik.html"><a href="49-soort-havik.html"><i class="fa fa-check"></i><b>49</b> Havik</a></li>
+<li class="chapter" data-level="50" data-path="50-soort-heggenmus.html"><a href="50-soort-heggenmus.html"><i class="fa fa-check"></i><b>50</b> Heggenmus</a></li>
+<li class="chapter" data-level="51" data-path="51-soort-holenduif.html"><a href="51-soort-holenduif.html"><i class="fa fa-check"></i><b>51</b> Holenduif</a></li>
+<li class="chapter" data-level="52" data-path="52-soort-houtduif.html"><a href="52-soort-houtduif.html"><i class="fa fa-check"></i><b>52</b> Houtduif</a></li>
+<li class="chapter" data-level="53" data-path="53-soort-huismus.html"><a href="53-soort-huismus.html"><i class="fa fa-check"></i><b>53</b> Huismus</a></li>
+<li class="chapter" data-level="54" data-path="54-soort-huiszwaluw.html"><a href="54-soort-huiszwaluw.html"><i class="fa fa-check"></i><b>54</b> Huiszwaluw</a></li>
+<li class="chapter" data-level="55" data-path="55-soort-kauw.html"><a href="55-soort-kauw.html"><i class="fa fa-check"></i><b>55</b> Kauw</a></li>
+<li class="chapter" data-level="56" data-path="56-soort-kievit.html"><a href="56-soort-kievit.html"><i class="fa fa-check"></i><b>56</b> Kievit</a></li>
+<li class="chapter" data-level="57" data-path="57-soort-kleine-karekiet.html"><a href="57-soort-kleine-karekiet.html"><i class="fa fa-check"></i><b>57</b> Kleine karekiet</a></li>
+<li class="chapter" data-level="58" data-path="58-soort-kleine-mantelmeeuw.html"><a href="58-soort-kleine-mantelmeeuw.html"><i class="fa fa-check"></i><b>58</b> Kleine mantelmeeuw</a></li>
+<li class="chapter" data-level="59" data-path="59-soort-kneu.html"><a href="59-soort-kneu.html"><i class="fa fa-check"></i><b>59</b> Kneu</a></li>
+<li class="chapter" data-level="60" data-path="60-soort-knobbelzwaan.html"><a href="60-soort-knobbelzwaan.html"><i class="fa fa-check"></i><b>60</b> Knobbelzwaan</a></li>
+<li class="chapter" data-level="61" data-path="61-soort-koekoek.html"><a href="61-soort-koekoek.html"><i class="fa fa-check"></i><b>61</b> Koekoek</a></li>
+<li class="chapter" data-level="62" data-path="62-soort-kokmeeuw.html"><a href="62-soort-kokmeeuw.html"><i class="fa fa-check"></i><b>62</b> Kokmeeuw</a></li>
+<li class="chapter" data-level="63" data-path="63-soort-koolmees.html"><a href="63-soort-koolmees.html"><i class="fa fa-check"></i><b>63</b> Koolmees</a></li>
+<li class="chapter" data-level="64" data-path="64-soort-krakeend.html"><a href="64-soort-krakeend.html"><i class="fa fa-check"></i><b>64</b> Krakeend</a></li>
+<li class="chapter" data-level="65" data-path="65-soort-kuifeend.html"><a href="65-soort-kuifeend.html"><i class="fa fa-check"></i><b>65</b> Kuifeend</a></li>
+<li class="chapter" data-level="66" data-path="66-soort-kuifmees.html"><a href="66-soort-kuifmees.html"><i class="fa fa-check"></i><b>66</b> Kuifmees</a></li>
+<li class="chapter" data-level="67" data-path="67-soort-matkop.html"><a href="67-soort-matkop.html"><i class="fa fa-check"></i><b>67</b> Matkop</a></li>
+<li class="chapter" data-level="68" data-path="68-soort-meerkoet.html"><a href="68-soort-meerkoet.html"><i class="fa fa-check"></i><b>68</b> Meerkoet</a></li>
+<li class="chapter" data-level="69" data-path="69-soort-merel.html"><a href="69-soort-merel.html"><i class="fa fa-check"></i><b>69</b> Merel</a></li>
+<li class="chapter" data-level="70" data-path="70-soort-middelste-bonte-specht.html"><a href="70-soort-middelste-bonte-specht.html"><i class="fa fa-check"></i><b>70</b> Middelste Bonte Specht</a></li>
+<li class="chapter" data-level="71" data-path="71-soort-nachtegaal.html"><a href="71-soort-nachtegaal.html"><i class="fa fa-check"></i><b>71</b> Nachtegaal</a></li>
+<li class="chapter" data-level="72" data-path="72-soort-nijlgans.html"><a href="72-soort-nijlgans.html"><i class="fa fa-check"></i><b>72</b> Nijlgans</a></li>
+<li class="chapter" data-level="73" data-path="73-soort-patrijs.html"><a href="73-soort-patrijs.html"><i class="fa fa-check"></i><b>73</b> Patrijs</a></li>
+<li class="chapter" data-level="74" data-path="74-soort-pimpelmees.html"><a href="74-soort-pimpelmees.html"><i class="fa fa-check"></i><b>74</b> Pimpelmees</a></li>
+<li class="chapter" data-level="75" data-path="75-soort-putter.html"><a href="75-soort-putter.html"><i class="fa fa-check"></i><b>75</b> Putter</a></li>
+<li class="chapter" data-level="76" data-path="76-soort-rietgors.html"><a href="76-soort-rietgors.html"><i class="fa fa-check"></i><b>76</b> Rietgors</a></li>
+<li class="chapter" data-level="77" data-path="77-soort-rietzanger.html"><a href="77-soort-rietzanger.html"><i class="fa fa-check"></i><b>77</b> Rietzanger</a></li>
+<li class="chapter" data-level="78" data-path="78-soort-ringmus.html"><a href="78-soort-ringmus.html"><i class="fa fa-check"></i><b>78</b> Ringmus</a></li>
+<li class="chapter" data-level="79" data-path="79-soort-roek.html"><a href="79-soort-roek.html"><i class="fa fa-check"></i><b>79</b> Roek</a></li>
+<li class="chapter" data-level="80" data-path="80-soort-roodborst.html"><a href="80-soort-roodborst.html"><i class="fa fa-check"></i><b>80</b> Roodborst</a></li>
+<li class="chapter" data-level="81" data-path="81-soort-roodborsttapuit.html"><a href="81-soort-roodborsttapuit.html"><i class="fa fa-check"></i><b>81</b> Roodborsttapuit</a></li>
+<li class="chapter" data-level="82" data-path="82-soort-scholekster.html"><a href="82-soort-scholekster.html"><i class="fa fa-check"></i><b>82</b> Scholekster</a></li>
+<li class="chapter" data-level="83" data-path="83-soort-sperwer.html"><a href="83-soort-sperwer.html"><i class="fa fa-check"></i><b>83</b> Sperwer</a></li>
+<li class="chapter" data-level="84" data-path="84-soort-spotvogel.html"><a href="84-soort-spotvogel.html"><i class="fa fa-check"></i><b>84</b> Spotvogel</a></li>
+<li class="chapter" data-level="85" data-path="85-soort-spreeuw.html"><a href="85-soort-spreeuw.html"><i class="fa fa-check"></i><b>85</b> Spreeuw</a></li>
+<li class="chapter" data-level="86" data-path="86-soort-sprinkhaanzanger.html"><a href="86-soort-sprinkhaanzanger.html"><i class="fa fa-check"></i><b>86</b> Sprinkhaanzanger</a></li>
+<li class="chapter" data-level="87" data-path="87-soort-staartmees.html"><a href="87-soort-staartmees.html"><i class="fa fa-check"></i><b>87</b> Staartmees</a></li>
+<li class="chapter" data-level="88" data-path="88-soort-stadsduif.html"><a href="88-soort-stadsduif.html"><i class="fa fa-check"></i><b>88</b> Stadsduif</a></li>
+<li class="chapter" data-level="89" data-path="89-soort-tafeleend.html"><a href="89-soort-tafeleend.html"><i class="fa fa-check"></i><b>89</b> Tafeleend</a></li>
+<li class="chapter" data-level="90" data-path="90-soort-tjiftjaf.html"><a href="90-soort-tjiftjaf.html"><i class="fa fa-check"></i><b>90</b> Tjiftjaf</a></li>
+<li class="chapter" data-level="91" data-path="91-soort-torenvalk.html"><a href="91-soort-torenvalk.html"><i class="fa fa-check"></i><b>91</b> Torenvalk</a></li>
+<li class="chapter" data-level="92" data-path="92-soort-tuinfluiter.html"><a href="92-soort-tuinfluiter.html"><i class="fa fa-check"></i><b>92</b> Tuinfluiter</a></li>
+<li class="chapter" data-level="93" data-path="93-soort-turkse-tortel.html"><a href="93-soort-turkse-tortel.html"><i class="fa fa-check"></i><b>93</b> Turkse tortel</a></li>
+<li class="chapter" data-level="94" data-path="94-soort-veldleeuwerik.html"><a href="94-soort-veldleeuwerik.html"><i class="fa fa-check"></i><b>94</b> Veldleeuwerik</a></li>
+<li class="chapter" data-level="95" data-path="95-soort-vink.html"><a href="95-soort-vink.html"><i class="fa fa-check"></i><b>95</b> Vink</a></li>
+<li class="chapter" data-level="96" data-path="96-soort-waterhoen.html"><a href="96-soort-waterhoen.html"><i class="fa fa-check"></i><b>96</b> Waterhoen</a></li>
+<li class="chapter" data-level="97" data-path="97-soort-wielewaal.html"><a href="97-soort-wielewaal.html"><i class="fa fa-check"></i><b>97</b> Wielewaal</a></li>
+<li class="chapter" data-level="98" data-path="98-soort-wilde-eend.html"><a href="98-soort-wilde-eend.html"><i class="fa fa-check"></i><b>98</b> Wilde eend</a></li>
+<li class="chapter" data-level="99" data-path="99-soort-winterkoning.html"><a href="99-soort-winterkoning.html"><i class="fa fa-check"></i><b>99</b> Winterkoning</a></li>
+<li class="chapter" data-level="100" data-path="100-soort-witte-kwikstaart.html"><a href="100-soort-witte-kwikstaart.html"><i class="fa fa-check"></i><b>100</b> Witte kwikstaart</a></li>
+<li class="chapter" data-level="101" data-path="101-soort-wulp.html"><a href="101-soort-wulp.html"><i class="fa fa-check"></i><b>101</b> Wulp</a></li>
+<li class="chapter" data-level="102" data-path="102-soort-zanglijster.html"><a href="102-soort-zanglijster.html"><i class="fa fa-check"></i><b>102</b> Zanglijster</a></li>
+<li class="chapter" data-level="103" data-path="103-soort-zilvermeeuw.html"><a href="103-soort-zilvermeeuw.html"><i class="fa fa-check"></i><b>103</b> Zilvermeeuw</a></li>
+<li class="chapter" data-level="104" data-path="104-soort-zwarte-kraai.html"><a href="104-soort-zwarte-kraai.html"><i class="fa fa-check"></i><b>104</b> Zwarte kraai</a></li>
+<li class="chapter" data-level="105" data-path="105-soort-zwarte-mees.html"><a href="105-soort-zwarte-mees.html"><i class="fa fa-check"></i><b>105</b> Zwarte mees</a></li>
+<li class="chapter" data-level="106" data-path="106-soort-zwarte-roodstaart.html"><a href="106-soort-zwarte-roodstaart.html"><i class="fa fa-check"></i><b>106</b> Zwarte roodstaart</a></li>
+<li class="chapter" data-level="107" data-path="107-soort-zwarte-specht.html"><a href="107-soort-zwarte-specht.html"><i class="fa fa-check"></i><b>107</b> Zwarte specht</a></li>
+<li class="chapter" data-level="108" data-path="108-soort-zwartkop.html"><a href="108-soort-zwartkop.html"><i class="fa fa-check"></i><b>108</b> Zwartkop</a></li>
+<li class="chapter" data-level="" data-path="referenties.html"><a href="referenties.html"><i class="fa fa-check"></i>Referenties</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV)</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="voorstelling-van-de-gegevens" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Voorstelling van de gegevens<a href="3-voorstelling-van-de-gegevens.html#voorstelling-van-de-gegevens" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="s:onzekerheid" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Onzekerheid<a href="3-voorstelling-van-de-gegevens.html#s:onzekerheid" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Alle resultaten zijn gebaseerd op een steekproef en op de waarnemingen zit onvermijdelijk een zekere meetfout.
+Vandaar dat we bij de puntschattingen tevens een betrouwbaarheidsinterval weergeven.
+In de tekst gebruiken we het 90% (5%; 95%) interval waarbij er 5% kans is dat de werkelijke waarde kleiner is dan de ondergrens en 5% dat ze groter is dan de bovengrens.
+Het 90% interval is iets smaller dan het traditionele 95% (2.5%; 97.5%) interval.
+Door een smaller interval te kiezen zullen we sneller uitspraken kunnen doen, waardoor de kans kleiner wordt dat we ten onrechte stellen dat er geen effect is.
+De prijs die we hiervoor betalen is dat de kans dat we ten onrechte stellen dat er een significant effect is, stijgt van 5% naar 10%.
+De doelstelling van de algemene broedvogelmonitoring is zo spoedig mogelijk detecteren wanneer er iets aan de hand is de broedvogels.
+Vanuit dat oogpunt is het vermijden van vals negatieve signalen (ten onrechte stellen dat er niets aan de hand is) belangrijker dan het vermijden van vals positieve signalen (ten onrechte stellen dat er iets aan de hand is).</p>
+<p>Wanneer we het interval op een figuur (bijvoorbeeld fig. <a href="3-voorstelling-van-de-gegevens.html#fig:trendklasse">3.1</a>) weergeven, vullen we het 90% interval aan met een 60% (20%; 80%) interval en een 30% (35%; 65%) interval.
+<span class="citation">Britton <em>et al.</em> (<a href="#ref-britton.fisher.ea1998InflationReportProjections" role="doc-biblioref">1998</a>)</span> waren de inspiratie voor deze manier van weergeven.
+Het 30% interval vormt het donkerste deel van het interval en geeft de meeste waarschijnlijke locatie van de werkelijke waarde weer.
+Naarmate het interval lichter wordt, neemt de onzekerheid toe.</p>
+</div>
+<div id="s:trendklasse" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Opdeling van de effecten in een aantal klassen<a href="3-voorstelling-van-de-gegevens.html#s:trendklasse" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Bij het niet-lineaire model berekenen we alle paarsgewijze relatieve verschillen tussen de verschillende jaren.
+Bij het lineaire model hebben we de gemiddelde jaarlijkse relatieve verandering.
+Deze laatste rekenen we tevens om naar de totale wijziging over de looptijd van het meetnet omdat dit eenvoudiger te interpreteren is.
+Vergelijk een daling met -5% per jaar of een daling met -50% over 15 jaar.
+Deze laatste klinkt dramatischer door het grotere cijfer, terwijl -5% per jaar overeenkomt met -54% over 15 jaar.
+De totale wijziging over de looptijd van het lineaire model is tevens vergelijkbaar met de wijziging tussen het eerste en laatste jaar van het niet-lineaire model.</p>
+<p>Om de interpretatie makkelijker te maken, delen we de wijzigingen op in tien klassen door hun 90% interval te vergelijken met een referentie, ondergrens en bovengrens.
+Een effect is significant wanneer de referentie buiten het 90% interval ligt.
+We spreken over een <strong>toename</strong> (<strong>afname</strong>) als het interval volledig boven (onder) de referentie ligt.
+Niet significante effect is ook informatief wanneer het bijhorende interval voldoende smal is.
+Bijvoorbeeld als het interval volledig tussen de ondergrens en bovengrens ligt.
+In dat geval kunnen we stellen dat het effect niet significant en klein is, het immers zeker minder sterk dan de ondergrens en minder sterk dan de bovengrens.
+Dergelijk effect krijgt de naam <strong>stabiel</strong>.
+Heeft het effect een breed interval dat zowel de boven- als ondergrens bevat, spreken we over een <strong>onduidelijk</strong> effect.
+Daarnaast is er nog de mogelijkheid dat het interval zowel de bovengrens (ondergrens) als de referentie bevat maar niet de ondergrens (bovengrens).
+Dan spreken we over een <strong>mogelijke toename</strong> (<strong>mogelijke afname</strong>).
+We kunnen de boven- en ondergrens eveneens gebruiken om een verder onderscheid te maken binnen de significante effecten.
+Een interval volledig boven (onder) de bovengrens (ondergrens) wordt dan een <strong>sterke toename</strong> (<strong>sterke afname</strong>).
+Een interval volledig tussen de referentie en de de bovengrens (ondergrens) wordt dan een <strong>matige toename</strong> (<strong>matige afname</strong>).
+Een interval dat de referentie niet bevat maar wel de bovengrens (ondergrens) blijft een <strong>toename</strong> (<strong>afname</strong>).
+Merk op dat de indeling volledig gebaseerd is op de onzekerheid rond het effect en niet op de puntschatting van het effect zelf.
+We vatten de opdeling met bijhorende afkortingen en regels samen in tabel <a href="3-voorstelling-van-de-gegevens.html#tab:regels">3.1</a>.
+Figuur <a href="3-voorstelling-van-de-gegevens.html#fig:trendklasse">3.1</a> geeft een grafische voorstelling waarbij we de afkortingen in combinatie met aangepaste symbolen gebruiken.
+De afkortingen zelf zijn te fijn om als symbool te gebruiken.</p>
+
+<table>
+<caption><span id="tab:regels">Tabel 3.1: </span>Overzicht van de benamingen van de tien effectklassen met hun afkorting en de regels. <span class="math inline">\(R\)</span>: referentie, <span class="math inline">\(L\)</span>: ondergrens, <span class="math inline">\(B\)</span>: bovengrens, <span class="math inline">\(l\)</span>: ondergrens van het 90% interval, <span class="math inline">\(b\)</span>: bovengrens van het 90% interval. <span class="math inline">\(L &lt; R &lt; B\)</span> en <span class="math inline">\(l &lt; b\)</span>.</caption>
+<thead>
+<tr class="header">
+<th align="left">benaming</th>
+<th align="center">afkorting</th>
+<th align="center">regels</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">sterke toename</td>
+<td align="center"><code>++</code></td>
+<td align="center"><span class="math inline">\(B &lt; l\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">toename</td>
+<td align="center"><code>+</code></td>
+<td align="center"><span class="math inline">\(R &lt; l &lt; B\)</span> en <span class="math inline">\(B &lt; b\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">matige toename</td>
+<td align="center"><code>+~</code></td>
+<td align="center"><span class="math inline">\(R &lt; l &lt; B\)</span> en <span class="math inline">\(b &lt; B\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">stabiel</td>
+<td align="center"><code>~</code></td>
+<td align="center"><span class="math inline">\(L &lt; l &lt; R\)</span> en <span class="math inline">\(R &lt; b &lt; B\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">matige afname</td>
+<td align="center"><code>-~</code></td>
+<td align="center"><span class="math inline">\(L &lt; l &lt; R\)</span> en <span class="math inline">\(b &lt; R\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">afname</td>
+<td align="center"><code>-</code></td>
+<td align="center"><span class="math inline">\(l &lt; L\)</span> en <span class="math inline">\(L &lt; b &lt; R\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">sterke afname</td>
+<td align="center"><code>--</code></td>
+<td align="center"><span class="math inline">\(l &lt; L\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">mogelijke toename</td>
+<td align="center"><code>?+</code></td>
+<td align="center"><span class="math inline">\(L &lt; l &lt; R\)</span> en <span class="math inline">\(B &lt; b\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">mogelijke afname</td>
+<td align="center"><code>?-</code></td>
+<td align="center"><span class="math inline">\(l &lt; L\)</span> en <span class="math inline">\(R &lt; b &lt; B\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">onduidelijk</td>
+<td align="center"><code>?</code></td>
+<td align="center"><span class="math inline">\(l &lt; L\)</span> en <span class="math inline">\(B &lt; b\)</span></td>
+</tr>
+</tbody>
+</table>
+
+<div class="figure"><span style="display:block;" id="fig:trendklasse"></span>
+<img src="abv_standaard_rapport_files/figure-html/trendklasse-1.png" alt="Voorbeeld van de tien mogelijke interpretaties van een effect door het 90% interval te vergelijken met een referentie, ondergrens en bovengrens." width="756" />
+<p class="caption">
+Figuur 3.1: Voorbeeld van de tien mogelijke interpretaties van een effect door het 90% interval te vergelijken met een referentie, ondergrens en bovengrens.
+</p>
+</div>
+<p>Uiteraard hangt de opdeling sterk af van de keuze van de boven- en ondergrens.
+De soortenmeetnetten voor de Natura 2000 monitoring streven er naar om een daling in populatiegrootte met -25% over 25 jaar tijd vast te kunnen stellen.
+Hierbij wordt een wijziging in de populatiegrootte van -25% als belangrijk aanzien.
+Daarom hanteren we voor de algemene broedvogelmonitoring ook -25% als ondergrens, zowel bij de paarsgewijze verschillen tussen de jaren als de lineaire wijziging over de looptijd van het meetnet.
+Een van daling van -25% komt overeen met aantallen die nog drie kwart van de uitgangssituatie bedragen.
+Een even sterke wijziging in de omgekeerde richting zorgt er voor dat de aantallen toenemen tot vier derde van de uitgangssituatie, of een toename met +33% wat we als bovengrens gebruiken.</p>
+<p>Bij de samengestelde indices hebben we aangepaste grenswaarden nodig.
+Veronderstel een samengestelde index op basis van <span class="math inline">\(n\)</span> soorten.
+We berekenen het rekenkundig gemiddelde in de log-schaal, dan is de variantie van dit gemiddelde een factor <span class="math inline">\(n\)</span> kleiner dan de som van de varianties.
+De breedte van een betrouwbaarheidsinterval hangt samen met de standaard afwijking, wat de vierkantswortel van de variantie is.
+Hierdoor zullen de breedtes van de betrouwbaarheidsintervallen van de samengestelde index een factor <span class="math inline">\(\sqrt{n}\)</span> kleiner zijn.
+Vandaar dat we de grenswaarden van de indices tevens aanpassen door ze met een factor <span class="math inline">\(\sqrt{n}\)</span> te verkleinen.
+Elke samengestelde index heeft zijn eigen soortenlijst met een variabele aantal soorten.
+Daarom zullen we bij elke samengestelde index zijn aangepaste grenswaarden vermelden.</p>
+</div>
+<div id="overzicht-van-de-lineaire-trends" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Overzicht van de lineaire trends<a href="3-voorstelling-van-de-gegevens.html#overzicht-van-de-lineaire-trends" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Tabellen <a href="12-overzicht-van-de-trends.html#tab:driejaarlijkse-trends">12.1</a> en <a href="12-overzicht-van-de-trends.html#tab:jaarlijkse-trends">12.2</a> geven een overzicht van de lineaire trends voor elke soort.
+We hebben de trends gesorteerd volgens opdeling van de klassen en binnen de klasse volgens puntschatting van de trend.
+Hierdoor start de tabel met de soorten met de sterkste positieve trends.
+Bij de volgende soorten zal de trend minder sterk worden tot we aan de soorten met een stabiele trend komen.
+Daarna volgen de soorten met een negatieve trend waarbij de trend steeds sterker negatief wordt.
+We sluiten de tabel af met de soorten met een mogelijke of onduidelijke trend.
+De tabel bevat de trend uitgedrukt als een jaarlijkse wijziging en als een wijziging over de volledige looptijd van het meetnet.
+Verder bevat de tabel de opdeling van de trend in klassen en een indicatie of de trend al dan niet lineair is (zie §<a href="2-verwerking-van-de-gegevens.html#s:lineairetrend">2.2.3</a>).
+De naam van de soort is een snelkoppeling naar de detail van de soort zelf.
+We raden aan om hiervan gebruikt te maken bij de interpretatie van niet-lineaire trends.</p>
+</div>
+<div id="evolutie-van-gemiddelde-aantallen-per-soort" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Evolutie van gemiddelde aantallen per soort<a href="3-voorstelling-van-de-gegevens.html#evolutie-van-gemiddelde-aantallen-per-soort" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Deze figuur geeft de evolutie van de gemiddelde aantallen per meetpunt weer volgens het niet-lineair model.
+Indien het model lineair is, zal het patroon van de niet-lineaire trend dicht bij een lineaire trend liggen.
+De lijn bevat de puntschatting van het gemiddelde aantal in elk jaar.
+Rond de lijn tonen we het 30%, 60% en 90% interval (zie §<a href="3-voorstelling-van-de-gegevens.html#s:onzekerheid">3.1</a>).
+In de online versie van het rapport is de figuur interactief.
+Wanneer de gebruiker met de muis over de figuur gaat verschijnt er in de buurt van de lijn een pop-up met de exacte schatting van dat jaar inclusief het 90% betrouwbaarheidsinterval en het jaartal.</p>
+</div>
+<div id="paarsgewijze-vergelijking-van-jaren" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Paarsgewijze vergelijking van jaren<a href="3-voorstelling-van-de-gegevens.html#paarsgewijze-vergelijking-van-jaren" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Deze informatie hebben we telkens in twee figuren samengevat.
+De eerste figuur geeft het verschil van elk jaar t.o.v. 2007, het jaar waarin de metingen gestart zijn.
+Voor 2007 geven we geen cijfer omdat het per definitie 1 is en geen informatie bevat.
+Het symbool geeft de puntschatting van het relatieve verschil t.o.v. 2007 weer.
+De vorm van het symbool geeft de opdeling van de sterkte van het effect weer (zie fig. <a href="3-voorstelling-van-de-gegevens.html#fig:trendklasse">3.1</a>).
+Rond elke puntschatting tonen we het 30%, 60% en 90% interval (zie §<a href="3-voorstelling-van-de-gegevens.html#s:onzekerheid">3.1</a>).
+De horizontale streepjeslijn geeft de referentie van 0% verschil weer.
+De horizontale puntlijnen geven de bovengrens (+33%) en ondergrens (-25%) weer.
+Deze laten toe om de vlot zelf de betrouwbaarheidsintervallen te vergelijken met de referentie, boven- en ondergrens.
+De figuur heeft twee y-assen.
+Beide assen geven dezelfde informatie weer, enkel de formattering van de labels is anders.
+De linkeras toont procentuele verschillen terwijl de rechteras de relatieve verschillen toont.
+Een procentueel verschil van +50% is equivalent met een relatieve verschil (verhouding) met een factor 1,5.</p>
+<p>We stellen vast dat veel gebruikers ook andere jaren met elkaar willen vergelijken.
+Een correcte vergelijking is enkel mogelijk indien we een van deze jaren als referentie gebruiken.
+Voor elk jaar een afzonderlijke figuur maken, zou het rapport onoverzichtelijk groot maken.
+Om de vergelijkingen toch mogelijk te maken hebben we alle paarsgewijze verschillen tussen de jaren in een raster weergeven.
+Elke rij in het raster staat voor een ander referentiejaar.
+De kolommen geven de verschillen van een bepaald jaar weer t.o.v. de verschillende referentiejaren.
+Op de diagonaal staan geen waarden omdat we daar een jaar met zichzelf vergelijken.
+De kleur van de symbolen geeft de sterkte van het verschil (gebaseerd op de puntschatting).
+Zwakke verschillen zijn grijs, sterke positieve verschillen rood, sterke negatieve verschillen blauw.
+De vorm van de symbolen geeft zicht op de sterkte en onzekerheid van het effect (zie tab. <a href="3-voorstelling-van-de-gegevens.html#tab:regels">3.1</a>).
+Wanneer een rij volledig rood (blauw) is, zijn alle verschillen met dit referentiejaar positief (negatief) m.a.w. dit is het referentiejaar met de laagste (hoogste) aantallen.
+Wanneer een kolom volledig rood (blauw) is, zijn alle verschillen van dit jaar t.o.v. alle referentiejaren negatief (positief) m.a.w. dit is het jaar met de hoogste (laagste) aantallen.
+Clusters van punten met een gelijkaardige kleur geven periodes aan waarin de aantallen geleidelijk wijzigen.
+In de online versie van dit rapport is deze figuur interactief.
+Wanneer de gebruiker met de muis over de figuur gaat verschijnt er in de buurt van de lijn een pop-up met de exacte schatting van dat punt inclusief het 90% betrouwbaarheidsinterval en het jaartal en referentiejaar.</p>
+</div>
+</div>
+<h3>Referenties<a href="referenties.html#referenties" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-britton.fisher.ea1998InflationReportProjections" class="csl-entry">
+Britton E., Fisher P. &amp; Whitley J. (1998). The <span>Inflation Report</span> projections: Understanding the fan chart. Bank of England Quarterly Bulletin 30–37.
+</div>
+</div>
+<p>&nbsp;</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="libs/INBOmd-0.5.4/img/cc-by.svg" class = "cc"/></a>
+Onkelinx, T. <em>et al.</em> (2022). 10.21436/inbor.73009782
+            </section>
+        </div>
+      </div>
+    </div>
+<a href="2-verwerking-van-de-gegevens.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="4-reproduceerbaarheid-en-traceerbaarheid-van-de-gegevensverwerking.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/inbo/abvanalysis/edit/main/inst/website/0_methodologie.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["abv_standaard_rapport.pdf", "abv_standaard_rapport.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, "");
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+
+</html>

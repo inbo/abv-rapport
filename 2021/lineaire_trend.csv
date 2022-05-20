@@ -1,0 +1,193 @@
+soort,frequentie,schatting,lcl,ucl,jaarlijks,looptijd,klasse,verloop,analysis,status
+Aalscholver,driejaarlijks,1.125,1.074,1.179,+12.5% (+7.4%; +17.9%),+420% (+170%; +900%),++,lineair,a6cb66db5efbdfa9e83e34f3834d990f409e3ff9,deec5023db613d1d8b0dca85ca15a83a266615d0
+Aalscholver,jaarlijks,1.123,1.073,1.176,+12.3% (+7.3%; +17.6%),+410% (+170%; +860%),++,niet-lineair,0acfd2a5ed18cf1fc83f3caeb43b9dc028c9aff6,5aafb03f4e673bbc615540cf5d176f594198fcf3
+Bergeend,driejaarlijks,1.025,1.01,1.041,+2.5% (+1.0%; +4.1%),+42% (+15%; +75%),+,niet-lineair,df839eb78571066fcf8a6e883baa76f2626c03e8,221325e317299725d541a63c365f810fd88e01b1
+Bergeend,jaarlijks,1.021,1.007,1.036,+2.1% (+0.7%; +3.6%),+35% (+10%; +65%),+,niet-lineair,d8172b7949a2a990a828c8858c2bfc4ca35cb9c7,47149db1f6683e91e056314ecdd0285e922a1d13
+Blauwborst,driejaarlijks,1.013,0.996,1.031,+1.3% (-0.4%; +3.1%),+20% (-6%; +54%),?+,niet-lineair,14e0eacb2efd1613e8142c193f46cb3419396eed,afd3776bcbd955e4c2779dbb570c49c7c79d8056
+Blauwborst,jaarlijks,1.012,0.995,1.03,+1.2% (-0.5%; +3.0%),+19% (-6%; +51%),?+,niet-lineair,a6e0620c4eee9081d30d0cf12b7775f46a7c81fe,3fdab52d38623ebd6ac5d32f6cc197bf761dd31e
+Blauwe reiger,driejaarlijks,1.021,1,1.043,+2.1% (+0.0%; +4.3%),+34% (+0%; +79%),+,niet-lineair,0485a31d97f13c6ca8bebd2cf90dd49ef088b5ba,6cf084b3a913c9e22c8c02c5d2b4d61354487af7
+Blauwe reiger,jaarlijks,1.021,1,1.042,+2.1% (-0.0%; +4.2%),+34% (-0%; +79%),?+,niet-lineair,42013e2aafb7b0e06dd2c0c662b3b94a9ccad700,9b57f7a0581aef09effcc01c4aeb54f675dc137c
+Boerenzwaluw,driejaarlijks,1.009,1.002,1.017,+0.94% (+0.16%; +1.73%),+14% (+2%; +27%),+~,niet-lineair,93775c7d5e3da697ee33cebb8f22e4cf6b69a3d7,8106b836f927cd8b511b108f1f1bd98fa6a5c72e
+Boerenzwaluw,jaarlijks,1.008,1,1.016,+0.77% (+0.00%; +1.55%),+11% (+0%; +24%),~,niet-lineair,322f8a0dc80c3e7689c2145cf9dd93e676393e23,8bcb4f14334486d232a221fb2669931976d02bf8
+Bonte vliegenvanger,driejaarlijks,1.031,1.001,1.062,+3.1% (+0.1%; +6.2%),+54% (+2%; +132%),+,mogelijk niet-lineair,e5547680c1865fb537531849857d00607f90a41e,7d3c008a4ba659e60932d9e76fb7248948f079e0
+Bonte vliegenvanger,jaarlijks,1.038,1.009,1.068,+3.8% (+0.9%; +6.8%),+69% (+14%; +151%),+,lineair,2e339b89e185772714849e1caa30d0a674e79ab6,ce6177e3b030032b88b8e16af1088c08f34cf4bf
+Boomklever,driejaarlijks,1.043,1.03,1.057,+4.3% (+3.0%; +5.7%),+80.5% (+50.5%; +116.5%),++,niet-lineair,1481ad68628a68fc999ebae28d3aff74e4e3a477,519fbc4704307e39f5ed42bd11d591330f1d081c
+Boomklever,jaarlijks,1.044,1.031,1.058,+4.4% (+3.1%; +5.8%),+82.8% (+52.8%; +119.0%),++,niet-lineair,e567cbf77633ff186bd3dbf90494622c1f8a82e5,e9ac7a82c7e4cacce4aae8ef2adb09485184de54
+Boomkruiper,driejaarlijks,1.021,1.01,1.032,+2.1% (+1.0%; +3.2%),+34% (+16%; +55%),+,mogelijk niet-lineair,cc28778252445cda7f4027a41225a68480400eac,7eb166743dd1447247fed6a880252766063063ad
+Boomkruiper,jaarlijks,1.02,1.01,1.031,+2.0% (+1.0%; +3.1%),+32% (+15%; +53%),+,niet-lineair,334410b58678226107fa7ad8ad832991fad40610,320b7944e2b1d3fc9d278859a4c39c84377ec28d
+Boomleeuwerik,driejaarlijks,1.06,1.02,1.101,+5.96% (+2.00%; +10.08%),+120% (+30%; +280%),+,lineair,68648c68776bd6929af5d0a6cb60dc2e235531f3,d488ec95bb5e109da44eb7a67848fba082ce5487
+Boomleeuwerik,jaarlijks,1.061,1.02,1.103,+6.10% (+2.03%; +10.32%),+130% (+30%; +300%),+,niet-lineair,851359058370b58b2ccf1c96da5837ca5df706f5,76d4c79cae45d3b62d800735d8d4d1bde2bcd65a
+Boompieper,driejaarlijks,1.003,0.986,1.02,+0.27% (-1.40%; +1.96%),+4% (-18%; +31%),~,lineair,ae4d77922d8e0700af25a2db5072574e27d103c2,151dc9aa3a8e47c2f9bd6bc8e972b5e6ed2598ec
+Boompieper,jaarlijks,1.002,0.986,1.019,+0.23% (-1.43%; +1.91%),+3% (-18%; +30%),~,niet-lineair,a64c062cdf14a4c527f4d56c7aa3bbc08b946f40,1bef6e1ac546f3f1336a97fa0c7cb095b52dcef4
+Bosrietzanger,driejaarlijks,0.995,0.966,1.025,-0.5% (-3.4%; +2.5%),-7% (-38%; +41%),?,mogelijk niet-lineair,c54e04795f26ed955e5b64d47d82e68c4f2b3a8b,9940bb6afc299a850f27c9900e879690f95111e1
+Bosrietzanger,jaarlijks,0.998,0.97,1.027,-0.2% (-3.0%; +2.7%),-3% (-35%; +44%),?,mogelijk niet-lineair,adc829171665dbf265a08f0dfe8725ad66c4d338,b3edb99b775225ba77e66681dc509e4d8ef68180
+Bruine kiekendief,driejaarlijks,1.007,0.976,1.038,+0.7% (-2.4%; +3.8%),+10% (-29%; +69%),?,lineair,bcf7f2313d1af8b53e79bdfe19e3e94162ac3101,f86514c4364f3e90e504a98644b6b215bc42b3b5
+Bruine kiekendief,jaarlijks,1.005,0.975,1.036,+0.5% (-2.5%; +3.6%),+8% (-30%; +65%),?,lineair,6755d0e38b318e8030dd998d04cabbadfa2c803a,400b026febf555f88c8373ca58ef01acd01fcdee
+Buizerd,driejaarlijks,1.041,1.031,1.051,+4.1% (+3.1%; +5.1%),+76.0% (+53.3%; +101.9%),++,niet-lineair,a1139aa35f2c0e3407bccacc0c9e7d169835e954,108473467c92f1b2bdc80aeab2f638601741307d
+Buizerd,jaarlijks,1.041,1.031,1.051,+4.1% (+3.1%; +5.1%),+74.8% (+52.6%; +100.3%),++,niet-lineair,b74c21cf3fbbc2987c345de707b7d659cc6ad64f,b763cf6b4623ee51fb829f1723536f50097da57d
+Canadese gans,driejaarlijks,1.02,1.008,1.033,+2.0% (+0.8%; +3.3%),+32% (+11%; +57%),+,lineair,613557925e81c2e09d9832e0910dd6a68d1a76af,b17f75c8e4692c355e94771b3ffc0f61c9105826
+Canadese gans,jaarlijks,1.022,1.01,1.035,+2.2% (+1.0%; +3.5%),+36% (+14%; +62%),+,niet-lineair,ab5d0ccf8d2757056c3b6be863169bbc04a39957,50084e664b12587d0c40218ecc2fbb900899a25a
+Cetti's zanger,driejaarlijks,1.139,1.087,1.194,+13.9% (+8.7%; +19.4%),+517% (+219%; +1091%),++,niet-lineair,e9bb25c1f4227ebbb68c8d3e338598527c1f533b,76ca391ef40e640b9144fea1927d67ee769bc7a2
+Cetti's zanger,jaarlijks,1.131,1.08,1.185,+13.1% (+8.0%; +18.5%),+460% (+200%; +970%),++,niet-lineair,13abe1d5f133e7f30d37dcd52325b191788de5a4,66341a6573395d25b286d9b8ac0c2f5416bf2222
+Dodaars,driejaarlijks,0.937,0.889,0.987,-6.33% (-11.10%; -1.30%),-60% (-81%; -17%),-,niet-lineair,b34f52b903a758e85d93886ed6884249a231eb2d,f4446c460073485bec6f5e78a6fffc8dc0a0d3f3
+Dodaars,jaarlijks,0.935,0.887,0.985,-6.50% (-11.27%; -1.48%),-61% (-81%; -19%),-,niet-lineair,b5106574572523bf4deca363f0d5f70ae267a364,68f1c0c40f1e47e4d355a977fe0bce891f967912
+Ekster,driejaarlijks,0.999,0.994,1.003,-0.15% (-0.56%; +0.25%),-2% (-7%; +4%),~,niet-lineair,4b2bce400628bd8a255187deee5705e857a7feb1,512c2e10978c93299065c6b4cb6008b5a6d0c0a7
+Ekster,jaarlijks,0.999,0.995,1.003,-0.12% (-0.52%; +0.28%),-2% (-7%; +4%),~,niet-lineair,81e8fe79995c3c2387738f6926dc69452c44b22c,f9fc422d74cc36907c496a8f303eb6faf03807f3
+Fazant,driejaarlijks,0.993,0.988,0.997,-0.724% (-1.180%; -0.266%),-9.7% (-15.3%; -3.7%),-~,niet-lineair,20732b259d9d1efc40aee83d66243f9ab70ba662,80e8fe702637a41f3bcd68a6cb1d1c9b6cceac8a
+Fazant,jaarlijks,0.993,0.989,0.998,-0.698% (-1.143%; -0.240%),-9.3% (-14.9%; -3.3%),-~,niet-lineair,55452ea05a0236915922931e7ce237e003e9270c,c33ea40d4afa4e314b4cc33c77d42c2f7a1fae45
+Fitis,driejaarlijks,0.949,0.934,0.965,-5.1% (-6.6%; -3.5%),-52% (-62%; -39%),--,lineair,57a3c734ef21607d9e0a90d46a04b0edf3233b08,ffcae70c0bc3401e5cc849821f7107dfdb4cacb6
+Fitis,jaarlijks,0.948,0.932,0.964,-5.2% (-6.8%; -3.6%),-53% (-63%; -40%),--,niet-lineair,0f8e0a8b4ad5db3c22bffcd0ee1f541c2567623a,453bbde8be853a85f605fcc06764cd484412ccbe
+Fuut,driejaarlijks,0.992,0.97,1.015,-0.8% (-3.0%; +1.5%),-11% (-35%; +22%),?-,niet-lineair,3708c04bce781792e68c2022fedd834d08ff2a50,ef6ef1373a9c11a469293da22c3236ba5eba846b
+Fuut,jaarlijks,0.991,0.97,1.011,-0.9% (-3.0%; +1.1%),-12% (-34%; +17%),?-,niet-lineair,adf4a2322dda65413cf81cfff3baae2805c81b0a,9049ff5d8f5a7fb2b78472250e6c3b7b12199469
+Gaai,driejaarlijks,0.993,0.984,1.002,-0.70% (-1.59%; +0.21%),-9% (-20%; +3%),~,niet-lineair,dd84f0348f5755d9dc1dc38c93d140bedc5f5042,bf235e3b374f189e15c158b3959f5d35fcd87083
+Gaai,jaarlijks,0.994,0.986,1.003,-0.56% (-1.44%; +0.33%),-7.5% (-18.4%; +4.7%),~,niet-lineair,f89b1ff86d86e8e0d118e9da2d96e4716d137ef4,1ae267edc3132c997eb9d8313eba87adce1fdde8
+Geelgors,driejaarlijks,0.979,0.967,0.99,-2.1% (-3.3%; -1.0%),-26% (-38%; -13%),-,niet-lineair,850dffeca2ce88422c6919f3d8bb9e90eb137fd9,dfc69f881746ad51f8033afcd0107f45a6f6b8a5
+Geelgors,jaarlijks,0.979,0.967,0.991,-2.1% (-3.3%; -0.9%),-26% (-37%; -12%),-,niet-lineair,804df4b250984cf2a57f479ad4bcf79d73ac68bb,fb716df76123435af4b27c76959ccdc5f92f13bd
+Gekraagde roodstaart,driejaarlijks,1.024,0.998,1.05,+2.4% (-0.2%; +5.0%),+39% (-3%; +97%),?+,niet-lineair,e950c9fa827f22fd3b6df0cc25eb7d5d8ceadbd9,4ba42de1486deb1dc3d57b9f825e2132fb996e66
+Gekraagde roodstaart,jaarlijks,1.022,0.997,1.048,+2.2% (-0.3%; +4.8%),+35% (-5%; +92%),?+,niet-lineair,f81d04f348e6266cff4fa0ced80d31192d4fd6b8,9e44944a7d8f7979f8ced97cb5711c6b23dc7746
+Gele kwikstaart,driejaarlijks,0.981,0.973,0.988,-1.9% (-2.7%; -1.2%),-24% (-32%; -15%),-,niet-lineair,564ca052433e32a72d509e613a6e0a875d944092,9f95088554577f8ebaae7e05588d9fa0b2726ec0
+Gele kwikstaart,jaarlijks,0.981,0.973,0.988,-1.9% (-2.7%; -1.2%),-24% (-31%; -15%),-,niet-lineair,d27831c7a4d3343639c2e594bde749076f1a5ae2,db3c7c3c22b1b3c3c69532149f4ea0d08531a901
+Gierzwaluw,driejaarlijks,1.03,1.007,1.054,+3.0% (+0.7%; +5.4%),+51.1% (+9.8%; +108.0%),+,niet-lineair,66279b3723d3a68478b731aab7872c75baccfcbf,7b3874141a98859fe9294c1048e8e5d709f4a9bb
+Gierzwaluw,jaarlijks,1.026,1.003,1.05,+2.6% (+0.3%; +5.0%),+44% (+5%; +97%),+,niet-lineair,94a531f9de008dba14ec492cffb3f2767ff4c63a,6d60bca4ca6b5e014a4d4c65383491b2a25d55ac
+Glanskop,driejaarlijks,1.002,0.959,1.047,+0.2% (-4.1%; +4.7%),+0% (-40%; +90%),?,mogelijk niet-lineair,7fd9260e36f92e058a69af18d2f8f1c7941b34e9,0c3c33a175bde98c8475ac36a9f297d14f48976b
+Glanskop,jaarlijks,1.004,0.96,1.05,+0.4% (-4.0%; +5.0%),+10% (-40%; +100%),?,mogelijk niet-lineair,00d0e7963fbe57c5981cbe59f584539a8203f940,025ecaab5695150956a7853762db46d7f72e69b1
+Goudhaan,driejaarlijks,0.978,0.961,0.995,-2.2% (-3.9%; -0.5%),-27% (-43%; -6%),-,niet-lineair,d677450c99148e632b07a1bf01d3f7c677649aea,c431d38750d2609d2ad585792aeae24b199da654
+Goudhaan,jaarlijks,0.978,0.961,0.996,-2.2% (-3.9%; -0.4%),-27% (-43%; -6%),-,niet-lineair,2ec3cd83c69dc4244f1c78e09065aea5f1144265,df2810b716c8dbbf2a4284a5a7e7151a5bea9637
+Grasmus,driejaarlijks,1.016,1.008,1.024,+1.6% (+0.8%; +2.4%),+25% (+12%; +39%),+,niet-lineair,13e409fc15432390bee768d0847cd1ace7795b91,d2095b750cb375ea20b3759ae766fbe2713a0c92
+Grasmus,jaarlijks,1.016,1.009,1.024,+1.6% (+0.9%; +2.4%),+25% (+13%; +39%),+,niet-lineair,73ae612d0f4a96747029145d7a9cb0065f5617e1,7960ef83468ee72cf1b45c97455e4767668d03af
+Graspieper,driejaarlijks,0.988,0.977,1,-1.2% (-2.3%; -0.0%),-15% (-27%; -1%),-,niet-lineair,d28824dd2314623143a432ef5e8823819b9b7b62,54ce73bb4e3b2a1cb72a3c565dc6053ee9881d99
+Graspieper,jaarlijks,0.99,0.979,1.001,-1.0% (-2.1%; +0.1%),-13% (-26%; +1%),?-,niet-lineair,c13a8ba14df3906000fe21e70be86e2cccb92c41,eeba30a485ba87ed444c3062dc4db56e9b073769
+Grauwe gans,driejaarlijks,1.018,0.988,1.049,+1.8% (-1.2%; +4.9%),+30% (-20%; +100%),?+,niet-lineair,7bdbaaf205a386359546f22a6ff289b9b31f52ab,dbc42f90870c05d99f79113f7384980bc76a51a9
+Grauwe gans,jaarlijks,1.019,0.989,1.05,+1.9% (-1.1%; +5.0%),+30% (-10%; +100%),?+,niet-lineair,4225abc20c2765296df5ce371f898d57689ab370,e5d5d97e48344839c7d9642bd5d430f2b76c6554
+Groene specht,driejaarlijks,0.992,0.986,0.999,-0.76% (-1.38%; -0.13%),-10.1% (-17.7%; -1.8%),-~,niet-lineair,c885580170ea38fb963211ee6f151aa06280c62c,1e3941c649523e0815c098c88a3f4f23c3e0541f
+Groene specht,jaarlijks,0.993,0.987,0.999,-0.72% (-1.33%; -0.10%),-9.6% (-17.1%; -1.4%),-~,niet-lineair,e573af01c2ed7c4b4b2f421e1cb05834a6ec5e40,5f172186b84297ed1f013c54778b5b1e07edd5e4
+Groenling,driejaarlijks,0.992,0.984,1,-0.83% (-1.62%; -0.04%),-11% (-20%; -1%),-~,niet-lineair,1d4830a014605be4a7c62e8719a949951fcdd227,05a0db3aa9b3d48cc55fe43cee79b54cf9637473
+Groenling,jaarlijks,0.992,0.984,1,-0.79% (-1.56%; +0.00%),-10.5% (-19.7%; +0.0%),~,niet-lineair,a104bbdfbf19b4cf5ff3017c41d76e02a3746850,4d5fef247082bf4fe49c176915cacd4389a90080
+Grote bonte specht,driejaarlijks,1.026,1.018,1.034,+2.6% (+1.8%; +3.4%),+42% (+28%; +59%),+,lineair,da891c417eb42d2c8047ddb0c8a93610975275bf,f31d4b3e8497339305dcd42047616b8a07ef12e6
+Grote bonte specht,jaarlijks,1.026,1.018,1.034,+2.6% (+1.8%; +3.4%),+42% (+28%; +59%),+,niet-lineair,f0a2fcade99f52dd12783e8990fc95013b5d6039,3247eabbfafa9979bc33f00441422ff85e4f6842
+Grote lijster,driejaarlijks,0.92,0.901,0.938,-8.0% (-9.9%; -6.2%),-69% (-77%; -59%),--,lineair,06e40412167af75ba80f51a164da30f0a7586ff9,1e69c15fbce4a54fcd441df33ce62763ecd64777
+Grote lijster,jaarlijks,0.919,0.901,0.937,-8.1% (-9.9%; -6.3%),-69% (-77%; -60%),--,niet-lineair,a1c9546eefd59c8a17bf017f846b35063b13da12,3d899430f72702b74aee0306c84341bbb9e9dbee
+Grutto,driejaarlijks,0.968,0.952,0.983,-3.2% (-4.8%; -1.7%),-37% (-50%; -21%),-,lineair,c91d5330cfeba50734ff7f067012de7a4b656e2c,3238fa4fcd3a4c140b470bd09985eb737010a4cf
+Grutto,jaarlijks,0.968,0.953,0.984,-3.2% (-4.7%; -1.6%),-37% (-49%; -21%),-,lineair,038affb05e6bc65f33645b5de88a57e17586e045,d711d254f7e171b2e1e6646f465dd88184f5f512
+Halsbandparkiet,driejaarlijks,1.076,1.033,1.121,+7.62% (+3.34%; +12.07%),+180% (+60%; +390%),++,niet-lineair,4aba884d941fe44836a437c94515733a1c28c0dc,bdd90821f9698354e3cb97db2459407f2760cc9d
+Halsbandparkiet,jaarlijks,1.071,1.031,1.113,+7.13% (+3.12%; +11.30%),+160% (+50%; +350%),++,niet-lineair,a8e2075cb617d2a9836ea5996ef48659132c7033,d7a88e8154e017560cc18456820b604c468f2c27
+Havik,driejaarlijks,0.925,0.896,0.956,-7.46% (-10.40%; -4.44%),-66% (-78%; -47%),--,lineair,8c73be9a2dddf6cc4a3660dc68291fff0531d1b4,038e025fb726fe10cf7fddbdda4b7ad3033bc81a
+Havik,jaarlijks,0.924,0.895,0.954,-7.64% (-10.54%; -4.65%),-67% (-79%; -49%),--,lineair,bc181415bea9371a4c642ca7bc0a6fcad8538bac,f9475ff93f9f4d28172763cb38bdf8f8a034a46c
+Heggenmus,driejaarlijks,0.981,0.976,0.985,-1.95% (-2.41%; -1.49%),-24% (-29%; -19%),-,lineair,1922a92842ef1698bd53d5f6686ee04f06ae4394,c006c32d13ee347eee6594832a0eea39f4d5ef53
+Heggenmus,jaarlijks,0.981,0.977,0.986,-1.88% (-2.33%; -1.42%),-23.4% (-28.1%; -18.1%),-,niet-lineair,ae056eafc42582b8be95c32b79732001cb856920,4b35f4c783109abe260dad68c716c1628f7f1bfb
+Holenduif,driejaarlijks,0.991,0.984,0.997,-0.95% (-1.56%; -0.33%),-12.5% (-19.7%; -4.6%),-~,niet-lineair,3867b586c0f68c9385543272465af3d99b934c97,8ebfd5caf3f3a238a64ef61cffc2920a4701dab2
+Holenduif,jaarlijks,0.99,0.984,0.996,-1.01% (-1.63%; -0.41%),-13% (-21%; -6%),-~,niet-lineair,6f3133f50350f884ced2af3fb5aef026bd9ae74b,68a098db36394c06f19fb9bc51eb844a84016308
+Houtduif,driejaarlijks,1.001,0.999,1.004,+0.13% (-0.13%; +0.38%),+1.8% (-1.8%; +5.5%),~,niet-lineair,81e1649d944e2abaafeda31edfa2355035efde5b,5b925ee5d0264c59dc341868ea8f422f7c5c9f85
+Houtduif,jaarlijks,1.001,0.999,1.004,+0.12% (-0.13%; +0.37%),+1.7% (-1.8%; +5.3%),~,niet-lineair,fda7cc140433b43342bdae85e79721c57e124cf8,83fa0e00f9096d8fe9f660f1aca766e4712db65a
+Huismus,driejaarlijks,0.975,0.971,0.979,-2.52% (-2.91%; -2.12%),-30.0% (-33.9%; -26.0%),--,niet-lineair,2b513b4f5ad33d32bfa70f0370254a6ee1082b6f,08a8c8f9e952516b7017971bac95c5cc1aaa950f
+Huismus,jaarlijks,0.975,0.971,0.979,-2.48% (-2.87%; -2.09%),-29.6% (-33.5%; -25.6%),--,niet-lineair,baf121e0b8656d1eb972610b535cbb44209d7a4d,c068e21d5f793810e2dfc28023ead57db60751a8
+Huiszwaluw,driejaarlijks,1.016,0.983,1.05,+1.6% (-1.7%; +5.0%),+20% (-20%; +100%),?+,niet-lineair,224130efeb7e4b1f096894719ecf8bb707a2e286,174a17740b565697e7e87a25b6762a7e45505fad
+Huiszwaluw,jaarlijks,1.007,0.976,1.04,+0.7% (-2.4%; +4.0%),+10% (-30%; +70%),?,niet-lineair,e82a135fd22ec238ceb62a9b627ccd6ea404fcf4,3f37ee3e5c3d5b618527214dd55b3448455ae927
+Kauw,driejaarlijks,1.054,1.049,1.059,+5.4% (+4.9%; +5.9%),+107.8% (+94.4%; +122.1%),++,niet-lineair,517160df16265b89f9bb07e32a80c7b7ca668724,9639f3b45c6682e191d8609459b3faac5e86d8cc
+Kauw,jaarlijks,1.053,1.048,1.058,+5.32% (+4.82%; +5.81%),+106.5% (+93.4%; +120.6%),++,niet-lineair,d4c77e1d14ae5b4957967ca8c1c3e9728c916a7b,13e54b5f09e2eba6c60782fea237d76c77ec8383
+Kievit,driejaarlijks,0.916,0.91,0.922,-8.4% (-9.0%; -7.8%),-70.8% (-73.4%; -67.9%),--,lineair,1590e8c7c6e311fefa6d65246e7c70c9fb2effad,2461fdc8b5fd7423633c0446cec2029abf6b23d0
+Kievit,jaarlijks,0.917,0.911,0.923,-8.3% (-8.9%; -7.7%),-70.4% (-73.0%; -67.5%),--,niet-lineair,6fffde3d3ca95fcb874815c64ff94b6c16955551,0d772dc4fc2a8d61711fe46f1cd402e45a3ae36a
+Kleine karekiet,driejaarlijks,1.003,0.99,1.016,+0.26% (-1.02%; +1.56%),+4% (-13%; +24%),~,mogelijk niet-lineair,25cc42148e1635020a82e812b7381a2a8e0106c4,a35a3e01902b8a47fec86a0037782b165a5e456c
+Kleine karekiet,jaarlijks,1.001,0.989,1.014,+0.12% (-1.14%; +1.40%),+2% (-15%; +21%),~,niet-lineair,a711d9178b90437be667eae3de1369e8c0f799c9,95f7b1c7c442c68bc2bd4a5d1ff9c6b7e66d59ef
+Kleine mantelmeeuw,driejaarlijks,1.162,1.103,1.225,+16% (+10%; +22%),+720% (+290%; +1610%),++,niet-lineair,69c767a9620dd7438869923aa47e2ee715646095,eba0fc069e5790dcd0f8dd5de56d251a359821f4
+Kleine mantelmeeuw,jaarlijks,1.164,1.105,1.226,+16% (+11%; +23%),+740% (+310%; +1620%),++,niet-lineair,246228d9f8f822b899e5616db9befcb23e54ae7b,83502da6dede5332b841712b82f39dbd2b4ab303
+Kneu,driejaarlijks,1.016,1.003,1.03,+1.6% (+0.3%; +3.0%),+25% (+4%; +51%),+,lineair,0aabd6fd9db9029c7496fbeb1bc0fb0ae5b133f8,6d4dac807674c37fd0d0f5659a8c9a71395c91ef
+Kneu,jaarlijks,1.013,1,1.026,+1.3% (-0.0%; +2.6%),+19% (-1%; +44%),?+,niet-lineair,d830ca1e139f1e7eec0ee00f9f09e9891d99accd,d8e333040c4214b2399da31bd5f9b3ad24f6fdb4
+Knobbelzwaan,driejaarlijks,1.069,1.039,1.1,+6.94% (+3.94%; +10.02%),+160% (+70%; +280%),++,niet-lineair,9c7d1e41f72fad87e03f6a5ff888be29d81aa095,95bb62766a29171a3bfe7d616d7d25edce6a142b
+Knobbelzwaan,jaarlijks,1.07,1.04,1.101,+6.99% (+3.96%; +10.12%),+160% (+70%; +290%),++,niet-lineair,578e1b20c89ac830dfd11c4b139e68d6fbacde4d,515efeaaa637e1e822b616d0bad3a0aeb879d7ba
+Koekoek,driejaarlijks,0.979,0.965,0.993,-2.1% (-3.5%; -0.7%),-26% (-39%; -10%),-,lineair,866cc4402b0b232c9b4be93e39801126dc4cc9f1,d18f5ef587bcb5f0053d575b621469b64bb23dbe
+Koekoek,jaarlijks,0.979,0.966,0.993,-2.1% (-3.4%; -0.7%),-26% (-39%; -10%),-,niet-lineair,d5af72a30ef411ccfb9c9fca97c790119b3318be,44fc29dd2f83465562e7a503afab9a73cfbac569
+Kokmeeuw,driejaarlijks,1.071,1.018,1.127,+7.1% (+1.8%; +12.7%),+160% (+30%; +440%),+,mogelijk niet-lineair,f66f2854fa0b1d79d01161ed316efad29e09b172,b7c8967529c332995392f17ac3eb8bb442cfa230
+Kokmeeuw,jaarlijks,1.069,1.015,1.126,+6.9% (+1.5%; +12.6%),+150% (+20%; +420%),+,niet-lineair,28f4e70524e0ca46aa9576656c12b4d840668324,e6991734c71c10fb30e4c1655025de2b796911f2
+Koolmees,driejaarlijks,0.992,0.989,0.996,-0.751% (-1.091%; -0.409%),-10.01% (-14.23%; -5.58%),-~,niet-lineair,091dc08ff5990fe54f2d9557974f02020bf13937,911a06090e17c8a6c1ba71f2b38c0dc6b0234427
+Koolmees,jaarlijks,0.993,0.99,0.996,-0.707% (-1.045%; -0.369%),-9.46% (-13.67%; -5.05%),-~,niet-lineair,42109cd68c26d2ac4105d14d03e4c2f1bfa7795a,ac503ecaee8adc671daff32c7bcd7391988e0e09
+Krakeend,driejaarlijks,1.092,1.038,1.148,+9.2% (+3.8%; +14.8%),+240% (+70%; +590%),++,niet-lineair,42c011f4f31c03b9ec233934121f65c4111fa76b,2211de8250deb17d1637835b7205e5a290ff92f1
+Krakeend,jaarlijks,1.089,1.037,1.142,+8.9% (+3.7%; +14.2%),+230% (+70%; +550%),++,niet-lineair,0e92fae8fe7c76231eaf558c8cf5f8fa56fb8fed,e52d7b109d91e05ad65bfd7040f31c3933c8fd36
+Kuifeend,driejaarlijks,1.03,0.984,1.077,+3.0% (-1.6%; +7.7%),+51% (-20%; +183%),?+,niet-lineair,bf88a54371db73c261371fb2e637d13ce8206785,d9da4317de07ce87f1b88e57b9e9c73d96073017
+Kuifeend,jaarlijks,1.032,0.988,1.078,+3.2% (-1.2%; +7.8%),+56% (-15%; +186%),?+,niet-lineair,58f2c3ea16d9d638b29d829780757941203391cc,19da4005c945714384bc759415328c6bd1aea099
+Kuifmees,driejaarlijks,0.984,0.969,1,-1.6% (-3.1%; +0.0%),-20% (-36%; +0%),?-,lineair,f69b37ad8540a0dbfd3fc40c8d60aa5a6508f9f6,f86f67b11ad9ac27cd25a47f2bfd9f27dd62b52e
+Kuifmees,jaarlijks,0.988,0.972,1.004,-1.2% (-2.8%; +0.4%),-16% (-33%; +5%),?-,niet-lineair,ade11034f3ed08c12958da767b9b5dae6fd6fdfc,7f843af03eb1854e59ac65c8b6fc62fc84d9567e
+Matkop,driejaarlijks,0.952,0.898,1.008,-4.8% (-10.2%; +0.8%),-50% (-78%; +12%),?-,lineair,d5c3046a4f0f50583496feb9ca310d52614e3c40,7520ef629b6566a684f40dbd8f50161391c82d28
+Matkop,jaarlijks,0.953,0.9,1.009,-5% (-10%; +1%),-49% (-77%; +13%),?-,lineair,e91e8a340b20baa0999546d810d5c4837eb591de,de9e22aee9ddb6b0aceec35f9dcee007a2a938fb
+Meerkoet,driejaarlijks,1.031,1.016,1.047,+3.1% (+1.6%; +4.7%),+54% (+25%; +91%),+,lineair,dff9b2bb6367795ff0b9b35bb874c3e7cc7108b5,d1c20ee0e5c7f24a660520f5b92e7c7968c14478
+Meerkoet,jaarlijks,1.03,1.015,1.046,+3.0% (+1.5%; +4.6%),+51% (+22%; +87%),+,lineair,6c3c99d1c8385b73c99a47a3015e0d41446c3748,847e1d2a1b7341a21bc9893afac79fa63407d4bb
+Merel,driejaarlijks,0.961,0.959,0.964,-3.85% (-4.08%; -3.62%),-42.3% (-44.2%; -40.3%),--,niet-lineair,b733258a64fc8382e6d92a4b8ebd4eb22cc9b553,11218dc721e71c6d4d008cbe90990e4d2ee9ea72
+Merel,jaarlijks,0.962,0.96,0.965,-3.78% (-4.01%; -3.55%),-41.7% (-43.6%; -39.7%),--,niet-lineair,0ed5f6226ded6a490e2e588dc9585e158c3c849f,02edc8c22b9d7f3abe76935bb76dc3f84e42cf7f
+Middelste Bonte Specht,driejaarlijks,1.024,0.991,1.058,+2.4% (-0.9%; +5.8%),+40% (-11%; +121%),?+,mogelijk niet-lineair,60910bf41a458601dcc6f1e9451a2274744aa3f6,e87b537d2539774d876d366a5f201eb4b4068607
+Middelste Bonte Specht,jaarlijks,1.024,0.992,1.058,+2.4% (-0.8%; +5.8%),+40% (-11%; +119%),?+,niet-lineair,68c86a34f81324f8bee2ec55258aa75fbdb0a150,671ba2d8fffc0bd90d0d1e76293f262b0e45845b
+Nachtegaal,driejaarlijks,0.98,0.953,1.007,-2.0% (-4.7%; +0.7%),-25% (-49%; +11%),?-,mogelijk niet-lineair,6bad01a7fc3b87afbc4f551bfcbd8c2468cfcf91,c8bdaa98ca1fdf7c3af3dbda9e374b0d3ab5cfc6
+Nachtegaal,jaarlijks,0.98,0.954,1.008,-2.0% (-4.6%; +0.8%),-24% (-49%; +11%),?-,niet-lineair,e250206369c3105612b34aacfad73f9d3038d956,030189afdb801b96d90ca162bd5bb9462f48757d
+Nijlgans,driejaarlijks,1.023,1.008,1.038,+2.3% (+0.8%; +3.8%),+37% (+12%; +68%),+,lineair,b61434838e7343ea8f740e33b0791137e3ff78c2,83a506a71c8d241098c2c232300f9345addb55f5
+Nijlgans,jaarlijks,1.019,1.004,1.033,+1.9% (+0.4%; +3.3%),+29% (+6%; +58%),+,lineair,b7ecae9284822c71c60bf71a393501572d539f00,bb9d53e06e8566f6d3edd8935f99154c0f1ba15c
+Patrijs,driejaarlijks,0.961,0.948,0.974,-3.9% (-5.2%; -2.6%),-43% (-53%; -31%),--,niet-lineair,2958a27e43afa783b4d5596ef613dc24d93e2e80,69551dc9b42c27ca85c03c933ea8adeedbcd9fd6
+Patrijs,jaarlijks,0.962,0.95,0.974,-3.8% (-5.0%; -2.6%),-42% (-52%; -30%),--,niet-lineair,df2757a210e992e41df42ffe60a060f3715713b4,0e74b59c6af4399f175fe4ee6435865ccad88b90
+Pimpelmees,driejaarlijks,1.012,1.006,1.017,+1.19% (+0.65%; +1.73%),+18% (+9%; +27%),+~,niet-lineair,385c7cc282bc74df15f087131effdb38e8e63d94,c3d3e2ded16b367c02aa734553095c414635a638
+Pimpelmees,jaarlijks,1.013,1.007,1.018,+1.26% (+0.72%; +1.81%),+19% (+11%; +28%),+~,niet-lineair,acec4470c8624de9634239e2f4d5161d6a08020e,98350dc5343f8b8636fa1343e19806522d31628c
+Putter,driejaarlijks,1.092,1.055,1.131,+9.21% (+5.46%; +13.10%),+240% (+110%; +460%),++,niet-lineair,8c97d3984762e48b2f648acdf30f66249ed65786,f801448c39d8a7fec235792fb73f65ac4206cd97
+Putter,jaarlijks,1.087,1.051,1.125,+8.73% (+5.06%; +12.51%),+220% (+100%; +420%),++,niet-lineair,5b624dd83edd6caaae892930df4af5e3b7565fab,93b796cfb32501b9c294a58a7219abd415f5eb3c
+Rietgors,driejaarlijks,0.996,0.977,1.015,-0.4% (-2.3%; +1.5%),-5% (-28%; +24%),?-,niet-lineair,11c74d68f6c71e72a0584cf591f1db40e4cf1227,722e190af12a6fe72f0377137942f874f8a0acc6
+Rietgors,jaarlijks,0.995,0.976,1.014,-0.5% (-2.4%; +1.4%),-7% (-28%; +21%),?-,niet-lineair,9328120f510d71ac76ec117d4d1ca47a173d3722,68b466ac99151e6018d921c9c73edc15e608a64f
+Rietzanger,driejaarlijks,1.004,0.989,1.019,+0.39% (-1.05%; +1.85%),+6% (-14%; +29%),~,niet-lineair,8b0c7fdc507a4880bee9ca6de18fab5e72042f2c,617895039a1256653f2f6aafdc51fa4df0479ac4
+Rietzanger,jaarlijks,1.003,0.989,1.018,+0.34% (-1.06%; +1.77%),+5% (-14%; +28%),~,niet-lineair,e710ac2fa878f86a33b160858b951f6903623f6b,cb2b46524a2e42b3eaaf4288d2be6ca3f78e486c
+Ringmus,driejaarlijks,0.947,0.933,0.962,-5.3% (-6.7%; -3.8%),-53% (-62%; -42%),--,niet-lineair,ea51f8f4dbc915e16fd3cb5b5328b232372f6e86,4c898fe053bebc8a9184e828931fa5ab9e643d7c
+Ringmus,jaarlijks,0.947,0.933,0.962,-5.3% (-6.7%; -3.8%),-53% (-62%; -42%),--,niet-lineair,13f3f5b257e423528e0c42847cafedc29143a8f8,49feab21bed049363f40e685617bcecf03060010
+Roek,driejaarlijks,1.129,1.092,1.168,+12.92% (+9.18%; +16.79%),+450% (+240%; +780%),++,lineair,e848a97470cb1c83eb793c38fe6dbfd72fd83019,faf704b964b083797a8e938abe1bc65e47e62439
+Roek,jaarlijks,1.134,1.096,1.174,+13.42% (+9.61%; +17.36%),+480% (+260%; +840%),++,niet-lineair,83bcae3489c949b9fa0359b10e9d004daf6a3405,1205c5a9235ad42b34500bba9845f34e3f45f0aa
+Roodborst,driejaarlijks,1.022,1.016,1.027,+2.2% (+1.6%; +2.7%),+35% (+25%; +46%),+,niet-lineair,fcd1f597a4bab9e09703067e207d6c68b1ad5766,1269d6775f254e829488fcf9d24fc7390e33d1a5
+Roodborst,jaarlijks,1.022,1.017,1.028,+2.2% (+1.7%; +2.8%),+36% (+26%; +47%),+,niet-lineair,bc13270d2b56f9b4c7a0818a60eb447ee34069c6,9bb626cc1a65f462983b7d604c09454249701ce0
+Roodborsttapuit,driejaarlijks,1.035,1.017,1.052,+3.5% (+1.7%; +5.2%),+60.9% (+26.9%; +103.9%),+,niet-lineair,ad2ae4eef52c388da8574633986d351bfe6e8b23,e4243123d05cf50634230087b02b054434f3a7a4
+Roodborsttapuit,jaarlijks,1.035,1.018,1.052,+3.5% (+1.8%; +5.2%),+61.6% (+27.8%; +104.5%),+,niet-lineair,004be727c0aabfe30041ab645cf2cd8f87290fe3,334048e183cb8479286c9b17cd05f80d5cc564e0
+Scholekster,driejaarlijks,0.991,0.982,1.001,-0.86% (-1.85%; +0.13%),-11% (-23%; +2%),~,mogelijk niet-lineair,d03a5a74a1012f948eab6387b29371de42d9982b,21907b1f8c13f818794a8a1165f738e91ae25725
+Scholekster,jaarlijks,0.99,0.98,0.999,-1.0% (-2.0%; -0.1%),-14% (-25%; -1%),-~,niet-lineair,e68ddf5001a144d65377427a3ba87c8bddbad02f,1d3cccaf949b5952fd6be61d34d682d186b4e18b
+Sperwer,driejaarlijks,1.047,1.016,1.08,+4.7% (+1.6%; +8.0%),+91% (+24%; +193%),+,mogelijk niet-lineair,beee09b360159143f9b69f3f9f99836af478ad52,f8ecefd100df3e62a6905e5b7ce02b09a30dcfbf
+Sperwer,jaarlijks,1.042,1.011,1.073,+4.2% (+1.1%; +7.3%),+77% (+16%; +170%),+,niet-lineair,e3c7cc858384f1b71a6293bc3e49dbf259b0481b,5082095a715f4c9865fb94ac0b58d643feec36c4
+Spotvogel,driejaarlijks,0.991,0.958,1.026,-0.9% (-4.2%; +2.6%),-11% (-45%; +44%),?,niet-lineair,ed9348b389d1e990597d4d3b5b3a1b7b84bc6f05,47d0375015afbcdb05a59d6dbf446199780151dc
+Spotvogel,jaarlijks,0.994,0.961,1.028,-0.6% (-3.9%; +2.8%),-8% (-43%; +47%),?,niet-lineair,43ea147cf665ef588e3b0a58ed3acfde6cece6a0,901bc7d369f221a9909fc8deacdd64ec82415b6f
+Spreeuw,driejaarlijks,0.978,0.971,0.984,-2.2% (-2.9%; -1.6%),-27% (-34%; -20%),-,lineair,8fe95b6500fb1570e06aec6fcf717c18215f119f,d8aead198846cb0f5c3320bf9ed8dd553df61f57
+Spreeuw,jaarlijks,0.977,0.971,0.984,-2.3% (-2.9%; -1.6%),-28% (-34%; -21%),-,lineair,3c37528c0a36459d83aede97d91d941224ea1bdf,efa0a6fa00b1466aeef4e0eea2519534422e2572
+Sprinkhaanzanger,driejaarlijks,0.894,0.861,0.929,-10.60% (-13.94%; -7.15%),-79% (-88%; -65%),--,lineair,877eea94166c6b1a1fbbd9386d5279c9e64ccb5f,d840d67abcc9ede4c4ff69830826d879f406c734
+Sprinkhaanzanger,jaarlijks,0.9,0.868,0.934,-9.97% (-13.20%; -6.60%),-77% (-86%; -62%),--,lineair,bb9ba3be8027cbdd89db14fb854cd94dd43d327b,588333397d8e7cf332dc6070109ee913f708735f
+Staartmees,driejaarlijks,0.98,0.956,1.005,-2.0% (-4.4%; +0.5%),-24% (-47%; +7%),?-,niet-lineair,cff1110f2b7613b8891a84c7ef435db22115044c,002f82a2031ed3f5761f7a2330344cfe275b60f6
+Staartmees,jaarlijks,0.982,0.958,1.006,-1.8% (-4.2%; +0.6%),-23% (-45%; +9%),?-,niet-lineair,09009755477d627bab5282266d83b63e95720c5f,91eb828722ed9eabede01e3086ce38b58f1a129b
+Stadsduif,driejaarlijks,0.962,0.936,0.988,-3.8% (-6.4%; -1.2%),-42% (-61%; -15%),-,niet-lineair,125ed450484e524075b5ebca6809c871e0839e2a,6fb7a68b3b1aecfd89656ee23bed339c4c079879
+Stadsduif,jaarlijks,0.963,0.938,0.989,-3.7% (-6.2%; -1.1%),-41% (-59%; -14%),-,niet-lineair,51d4b165a81d4c1c0f60b68e9061cdd9acd9bf87,71dd42b8e8513e345cee64b16fc570675da4fc8b
+Tafeleend,driejaarlijks,1.005,0.968,1.043,+0.5% (-3.2%; +4.3%),+10% (-40%; +80%),?,niet-lineair,49b47d0f9b4fbdb2794484aa491fae26d16e09ba,04a5e125f270682b6b8a6f2d86fb98cc7bc35ee5
+Tafeleend,jaarlijks,1.01,0.971,1.051,+1.0% (-2.9%; +5.1%),+16% (-33%; +101%),?,niet-lineair,e05755739e67103cc522a7a3ccbe1db2a3b74d82,e643cca159e9a2db76e1398151b5af3ee510536a
+Tjiftjaf,driejaarlijks,1.009,1.005,1.013,+0.887% (+0.525%; +1.251%),+13.2% (+7.6%; +19.0%),+~,niet-lineair,a5ad8f617700f328476d9af28ab0918faf197a9c,20bc79e166f4a66dd0fcd994beb4fda7a6bc5b23
+Tjiftjaf,jaarlijks,1.009,1.006,1.013,+0.934% (+0.582%; +1.298%),+13.9% (+8.5%; +19.8%),+~,niet-lineair,8a98310c949db8d774cc1ac8ac8eb005124c692e,5f45a408bf9f2eaefa0e345b25e21ea23f5bc160
+Torenvalk,driejaarlijks,1.028,1.013,1.043,+2.8% (+1.3%; +4.3%),+47% (+20%; +79%),+,niet-lineair,35630068051a8ca2ab92c52575491021e035ffae,f07fa394e2a9336158d3d08ab59fb871371ccb04
+Torenvalk,jaarlijks,1.027,1.013,1.042,+2.7% (+1.3%; +4.2%),+46% (+20%; +78%),+,niet-lineair,53defbd471f3bfc84b890497c580c26ac0bbe8ec,b4d1c1c1a7f60a68fcf2ff378ecccc37989717cc
+Tuinfluiter,driejaarlijks,0.944,0.928,0.96,-5.6% (-7.2%; -4.0%),-56% (-65%; -44%),--,lineair,842671bb0b64ac939071e818362a589aee3b07b9,d3c5d2751ffe5d8c67015be9961c01771b5a5b3f
+Tuinfluiter,jaarlijks,0.943,0.927,0.96,-5.7% (-7.3%; -4.0%),-56% (-65%; -44%),--,niet-lineair,1bd8defa83d09228d5b5d3e5bbea74bf7b1d501c,9e23a6e9a466b44853d68ceab8081737a44b36d0
+Turkse tortel,driejaarlijks,0.983,0.979,0.986,-1.72% (-2.06%; -1.37%),-21.5% (-25.3%; -17.6%),-,lineair,6ec513dc4caa1b3eef4547949195891a7986fa3f,c55bedf59d0853915272f4be702a2ee2f9c1a664
+Turkse tortel,jaarlijks,0.983,0.98,0.987,-1.68% (-2.02%; -1.33%),-21.1% (-24.8%; -17.1%),-~,lineair,c1388ae559870af2b715331f03178dfeb1978124,3d93a95e1c8550e5406e1e82eb299a6ccb247edd
+Veldleeuwerik,driejaarlijks,0.974,0.968,0.98,-2.6% (-3.2%; -2.0%),-31% (-37%; -25%),--,lineair,796283cf25f10a2779e76c8ff446245b173ce927,8bc565d357bf66e864193ceee109bc269472eaf0
+Veldleeuwerik,jaarlijks,0.974,0.968,0.979,-2.6% (-3.2%; -2.1%),-31% (-37%; -25%),--,niet-lineair,5090f7aa1e1874ce51f4f076e8fbf6545ab15aae,34402bc7c3f72c7923451f6ae7e2683dc2b66d56
+Vink,driejaarlijks,1.01,1.007,1.013,+1.029% (+0.739%; +1.319%),+15.4% (+10.9%; +20.1%),+~,niet-lineair,91a9a7dbc2439f0ce8379a876c04e95bdfa4bd48,90cd95a8f01f8f08b34930067805a71ca9b117ef
+Vink,jaarlijks,1.01,1.008,1.013,+1.045% (+0.753%; +1.329%),+15.7% (+11.1%; +20.3%),+~,niet-lineair,ec0837575295e885faf14d2c0e28e57e6d199bd5,f0ec7a442e1333552fce49722494a22d77141df5
+Waterhoen,driejaarlijks,0.969,0.96,0.979,-3.1% (-4.0%; -2.1%),-35% (-43%; -26%),--,niet-lineair,474179528588376bdbcf080edd3c5a8b998480d6,d4b2b6e80ef2cfb37beb20ef9a8fe972086a5887
+Waterhoen,jaarlijks,0.97,0.961,0.979,-3.0% (-3.9%; -2.1%),-35% (-43%; -25%),--,niet-lineair,7fe7b02d3cb3e2db3c585c316030c27d297f73c6,455725c858d2a192abbcfc9a880e19f0fcafe5e6
+Wielewaal,driejaarlijks,0.941,0.907,0.975,-5.9% (-9.3%; -2.5%),-58% (-74%; -30%),--,niet-lineair,68276b930bf3ef0194cadaf0b6d33d6dc11971ff,2a1964152e9f79759535633a2a2fb16d06b9fa74
+Wielewaal,jaarlijks,0.941,0.908,0.974,-5.9% (-9.2%; -2.6%),-58% (-74%; -31%),--,niet-lineair,9bf025bba52f7244c8c74608cc944cdc36204715,11c3677474251cc3b73adf715f391639e321a35c
+Wilde eend,driejaarlijks,0.972,0.965,0.979,-2.8% (-3.5%; -2.1%),-33% (-39%; -26%),--,lineair,21fc297f48e2712aa3d468c48246eedb8cb16db2,8d7d1b24387891a93bcade165670dffd4ae0f02f
+Wilde eend,jaarlijks,0.973,0.966,0.979,-2.7% (-3.4%; -2.1%),-32% (-38%; -25%),--,niet-lineair,7de1b883adf8bb0b98c9d7be42198f518f5dd23f,50049682e276b70e8230e85a324aa2aa43744047
+Winterkoning,driejaarlijks,0.99,0.987,0.993,-0.982% (-1.259%; -0.704%),-12.90% (-16.25%; -9.42%),-~,niet-lineair,59873f7d8035b2804f2391c507125e0bda3b71fa,b77bda49375323657975bae5905ca2ecac12815e
+Winterkoning,jaarlijks,0.991,0.989,0.994,-0.866% (-1.143%; -0.598%),-11.47% (-14.87%; -8.06%),-~,niet-lineair,bc1854ceb3fee9954fee3603e743099f30870415,06846692fa819b1a951b84d9d30e64ad6c572fd4
+Witte kwikstaart,driejaarlijks,1.016,1.009,1.023,+1.6% (+0.9%; +2.3%),+25% (+13%; +38%),+,niet-lineair,64303cbc269963f554229ab468d08982f1f8b6a3,b679bcd344b4242f5514f3017368c9cd08a0359c
+Witte kwikstaart,jaarlijks,1.015,1.008,1.023,+1.5% (+0.8%; +2.3%),+24% (+12%; +37%),+,niet-lineair,bd54511f06bd115294c25d8fe192b6f0076b250c,2bf7636bea2a910547c27b305d711403a6f8efa4
+Wulp,driejaarlijks,0.992,0.973,1.012,-0.8% (-2.7%; +1.2%),-11% (-32%; +17%),?-,niet-lineair,54f663012d773feea00cb33fff90ef962fe4db23,55e36e7d444e3d2334e55b2b6cc199a938dec108
+Wulp,jaarlijks,0.994,0.975,1.013,-0.6% (-2.5%; +1.3%),-8% (-30%; +20%),?-,niet-lineair,a69645baa7b3f409f3691afacf873d2fdcfb1ebc,710054739ec5747fcd0e598e04c111938f1a0e28
+Zanglijster,driejaarlijks,0.967,0.961,0.972,-3.3% (-3.9%; -2.8%),-37.9% (-42.4%; -33.0%),--,niet-lineair,c8e58f02e29db04956a603b990db7274503f8668,96eb774ab36646453a6606dddb12f14b7ab931f5
+Zanglijster,jaarlijks,0.968,0.963,0.973,-3.2% (-3.7%; -2.7%),-36.7% (-41.3%; -31.9%),--,niet-lineair,466553c085b5de0b59d0b8133598afce0fa0c046,dd9b46a07de1169a0ff9b8a63e7f1f0aa55aaa66
+Zilvermeeuw,driejaarlijks,0.961,0.925,0.999,-3.9% (-7.5%; -0.1%),-43% (-66%; -2%),-,niet-lineair,2f07377878fa0944c512fd2e96f58bc3ca5feacb,3cdf7e1fcf44ea5d47518652de6494c1aa29ea86
+Zilvermeeuw,jaarlijks,0.967,0.93,1.004,-3.3% (-7.0%; +0.4%),-38% (-64%; +6%),?-,niet-lineair,21e98d0d64d4b185991649c5d50171b3eba4523e,502cb89a736798bd2be933775f89058d6cb9cc44
+Zwarte kraai,driejaarlijks,1.015,1.012,1.019,+1.515% (+1.173%; +1.857%),+23% (+18%; +29%),+~,niet-lineair,930f83e50d74df0ec4d2162d3471488d749568db,9c1906475842e3f2e0af111842fb6dfe136456f1
+Zwarte kraai,jaarlijks,1.015,1.011,1.018,+1.491% (+1.147%; +1.826%),+23% (+17%; +29%),+~,niet-lineair,eaf0deee54a1e613ecf08d172053a35c0ecbe424,c25d906a4ef7c8fb78b87a0869abd3ca4e271e54
+Zwarte mees,driejaarlijks,0.925,0.9,0.952,-7.5% (-10.0%; -4.8%),-66% (-77%; -50%),--,lineair,4e2c92c4622f21f03e15d22238678f5deeb3a3fa,0c155b9c4a9de86827a0de54cfc0c1a650118d0f
+Zwarte mees,jaarlijks,0.93,0.904,0.955,-7.0% (-9.6%; -4.5%),-64% (-76%; -47%),--,mogelijk niet-lineair,0ae1ccbc42880e02354ab33327e404d1b9642f94,4b2ab0b2034a4eb13d3a19902ddb11958cfce022
+Zwarte roodstaart,driejaarlijks,1.02,1.01,1.03,+2.0% (+1.0%; +3.0%),+33% (+16%; +52%),+,niet-lineair,184d6963ddc872ae827884283ce94ac235b97274,426cb319be49944615b5d55df0500c3ad30b36f5
+Zwarte roodstaart,jaarlijks,1.019,1.01,1.029,+1.9% (+1.0%; +2.9%),+31% (+15%; +50%),+,niet-lineair,d4a7db36166397e9a51ffc970c01efab2ece4d19,6b1cb538acbd70068b4ece7ef8cf2183a914ddc6
+Zwarte specht,driejaarlijks,0.992,0.965,1.019,-0.8% (-3.5%; +1.9%),-11% (-39%; +30%),?-,niet-lineair,948e2d0bb86106f09a0a025e4bf4334acb12760a,e6fb4dabfeb3c60a73ddd90268971a94009ed0c2
+Zwarte specht,jaarlijks,0.992,0.965,1.02,-0.8% (-3.5%; +2.0%),-11% (-39%; +31%),?-,niet-lineair,190204fbe49c75c3063439abf1d6749080e68437,92afeebf23ddf95af54f8ffb040adc6fb4edacac
+Zwartkop,driejaarlijks,1.024,1.02,1.028,+2.42% (+1.99%; +2.85%),+40% (+32%; +48%),+,niet-lineair,ab64f01ffc9d10fbfca3666b3aa6f173deb46ea1,b7657ce6179ac5ae05f17c207c170d919148427f
+Zwartkop,jaarlijks,1.025,1.02,1.029,+2.46% (+2.03%; +2.88%),+41% (+32%; +49%),+,niet-lineair,8cdda72d121b48d1136f35c5f89efe78a87e73ff,15d4431c16e76173d36d4c2d5385bb2fa6c14bc8
