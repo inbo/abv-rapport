@@ -1,0 +1,105 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  sorting:
+  - indicator
+  - frequentie
+  - referentie
+  - naar
+  hash: 81a32c857e40cbbdfef8e35a05d1755cca1608f5
+  data_hash: cc710dc935fdfe0137691280e2c788b03f9872ed
+indicator:
+  class: factor
+  labels:
+  - Bos
+  - Generalist
+  - Landbouw
+  - NARA2020
+  - Standvogel
+  - SubSaharaMigrant
+  - Watervogel
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  ordered: no
+frequentie:
+  class: factor
+  labels:
+  - driejaarlijks
+  - jaarlijks
+  index:
+  - 1
+  - 2
+  ordered: no
+referentie:
+  class: integer
+naar:
+  class: integer
+schatting:
+  class: numeric
+lcl:
+  class: numeric
+ucl:
+  class: numeric
+klasse:
+  class: factor
+  labels:
+  - ++
+  - +
+  - +~
+  - '~'
+  - -~
+  - '-'
+  - --
+  - ?+
+  - ?-
+  - '?'
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  ordered: no
+interpretatie:
+  class: factor
+  labels:
+  - onduidelijk
+  - mogelijke afname
+  - mogelijke toename
+  - sterke afname
+  - afname
+  - matige afname
+  - stabiel
+  - matige toename
+  - toename
+  - sterke toename
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  ordered: no
+wijziging:
+  class: character
+analyse:
+  class: character
+status:
+  class: character

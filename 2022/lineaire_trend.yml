@@ -1,0 +1,265 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  sorting:
+  - soort
+  - frequentie
+  hash: 725fc4cadcc7ebcf5975669879283189997658cc
+  data_hash: 90e21729c52795a37abda79a931b21421e41f226
+soort:
+  class: factor
+  labels:
+  - Aalscholver
+  - Bergeend
+  - Blauwborst
+  - Blauwe reiger
+  - Boerenzwaluw
+  - Bonte vliegenvanger
+  - Boomklever
+  - Boomkruiper
+  - Boomleeuwerik
+  - Boompieper
+  - Bosrietzanger
+  - Bruine kiekendief
+  - Buizerd
+  - Canadese gans
+  - Cetti's zanger
+  - Dodaars
+  - Ekster
+  - Fazant
+  - Fitis
+  - Fuut
+  - Gaai
+  - Geelgors
+  - Gekraagde roodstaart
+  - Gele kwikstaart
+  - Gierzwaluw
+  - Glanskop
+  - Goudhaan
+  - Grasmus
+  - Graspieper
+  - Grauwe gans
+  - Groene specht
+  - Groenling
+  - Grote bonte specht
+  - Grote lijster
+  - Grutto
+  - Halsbandparkiet
+  - Havik
+  - Heggenmus
+  - Holenduif
+  - Houtduif
+  - Huismus
+  - Huiszwaluw
+  - Kauw
+  - Kievit
+  - Kleine karekiet
+  - Kleine mantelmeeuw
+  - Kneu
+  - Knobbelzwaan
+  - Koekoek
+  - Kokmeeuw
+  - Koolmees
+  - Krakeend
+  - Kuifeend
+  - Kuifmees
+  - Matkop
+  - Meerkoet
+  - Merel
+  - Middelste Bonte Specht
+  - Nachtegaal
+  - Nijlgans
+  - Patrijs
+  - Pimpelmees
+  - Putter
+  - Rietgors
+  - Rietzanger
+  - Ringmus
+  - Roek
+  - Roodborst
+  - Roodborsttapuit
+  - Scholekster
+  - Sperwer
+  - Spotvogel
+  - Spreeuw
+  - Sprinkhaanzanger
+  - Staartmees
+  - Stadsduif
+  - Tafeleend
+  - Tjiftjaf
+  - Torenvalk
+  - Tuinfluiter
+  - Turkse tortel
+  - Veldleeuwerik
+  - Vink
+  - Waterhoen
+  - Wielewaal
+  - Wilde eend
+  - Winterkoning
+  - Witte kwikstaart
+  - Wulp
+  - Zanglijster
+  - Zilvermeeuw
+  - Zwarte kraai
+  - Zwarte mees
+  - Zwarte roodstaart
+  - Zwarte specht
+  - Zwartkop
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 62
+  - 63
+  - 64
+  - 65
+  - 66
+  - 67
+  - 68
+  - 69
+  - 70
+  - 71
+  - 72
+  - 73
+  - 74
+  - 75
+  - 76
+  - 77
+  - 78
+  - 79
+  - 80
+  - 81
+  - 82
+  - 83
+  - 84
+  - 85
+  - 86
+  - 87
+  - 88
+  - 89
+  - 90
+  - 91
+  - 92
+  - 93
+  - 94
+  - 95
+  - 96
+  ordered: no
+frequentie:
+  class: factor
+  labels:
+  - driejaarlijks
+  - jaarlijks
+  index:
+  - 1
+  - 2
+  ordered: no
+schatting:
+  class: numeric
+lcl:
+  class: numeric
+ucl:
+  class: numeric
+jaarlijks:
+  class: character
+looptijd:
+  class: character
+klasse:
+  class: factor
+  labels:
+  - ++
+  - +
+  - +~
+  - '~'
+  - -~
+  - '-'
+  - --
+  - ?+
+  - ?-
+  - '?'
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  ordered: no
+verloop:
+  class: factor
+  labels:
+  - niet-lineair
+  - mogelijk niet-lineair
+  - lineair
+  index:
+  - 1
+  - 2
+  - 3
+  ordered: no
+analysis:
+  class: character
+status:
+  class: character
