@@ -1,0 +1,1869 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.550">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV) 2007-2023 - Voorstelling van de gegevens</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../libs/quarto-nav/quarto-nav.js"></script>
+<script src="../libs/quarto-nav/headroom.min.js"></script>
+<script src="../libs/clipboard/clipboard.min.js"></script>
+<script src="../libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../libs/quarto-search/fuse.min.js"></script>
+<script src="../libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../libs/quarto-html/quarto.js"></script>
+<script src="../libs/quarto-html/popper.min.js"></script>
+<script src="../libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../libs/quarto-html/anchor.min.js"></script>
+<link href="../libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../libs/bootstrap/bootstrap.min.js"></script>
+<link href="../libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Geen resultaten",
+    "search-matching-documents-text": "Gevonden documenten",
+    "search-copy-link-title": "Kopieer link om te zoeken",
+    "search-hide-matches-text": "Extra overeenkomsten verbergen",
+    "search-more-match-text": "meer overeenkomst in dit document",
+    "search-more-matches-text": "meer overeenkomsten in dit document",
+    "search-clear-button-title": "Wissen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuleren",
+    "search-submit-button-title": "Verzenden",
+    "search-label": "Zoeken"
+  }
+}</script>
+<script src="../libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="../libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="../libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="../libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../css_styles/inbo_report.css">
+<link rel="stylesheet" href="../css_styles/custom.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV) 2007-2023</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Zoeken"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Schakel navigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../methodologie/index.html" aria-current="page"> 
+<span class="menu-text">Methodologie</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../index/bos.html"> 
+<span class="menu-text">Indicatoren</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../soort/index.html"> 
+<span class="menu-text">Resultaten per soort</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../methodologie/index.html">Methodologie</a></li><li class="breadcrumb-item"><a href="../methodologie/voorstelling.html">Voorstelling van de gegevens</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Schakel zijbalknavigatie" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../cover.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cover</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../samenvatting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Samenvatting</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../abstract.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">English abstract</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../methodologie/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Methodologie</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Schakel sectie">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../methodologie/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inzameling van de tellingen in het veld</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../methodologie/verwerking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Verwerking van de gegevens</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../methodologie/voorstelling.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Voorstelling van de gegevens</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../methodologie/reproduceerbaarheid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reproduceerbaarheid en traceerbaarheid van de gegevensverwerking</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Indicatoren</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Schakel sectie">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index/bos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index/generalist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Generalist</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index/landbouw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Landbouw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index/nara2020.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">NARA2020</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index/standvogel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Standvogel</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index/subsaharamigrant.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SubSaharaMigrant</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index/watervogel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Watervogel</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../soort/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Soorten</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Schakel sectie">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overzicht</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/aalscholver.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aalscholver</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/bergeend.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bergeend</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/blauwborst.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blauwborst</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/blauwe-reiger.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blauwe reiger</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/boerenzwaluw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boerenzwaluw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/bonte-vliegenvanger.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bonte vliegenvanger</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/boomklever.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boomklever</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/boomkruiper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boomkruiper</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/boomleeuwerik.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boomleeuwerik</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/boompieper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Boompieper</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/bosrietzanger.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bosrietzanger</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/bruine-kiekendief.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bruine kiekendief</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/buizerd.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Buizerd</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/canadese-gans.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Canadese gans</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/cettis-zanger.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cetti’s zanger</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/dodaars.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dodaars</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/ekster.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ekster</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/fazant.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fazant</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/fitis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fitis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/fuut.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fuut</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/gaai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gaai</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/geelgors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Geelgors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/gekraagde-roodstaart.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gekraagde roodstaart</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/gele-kwikstaart.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gele kwikstaart</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/gierzwaluw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gierzwaluw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/glanskop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glanskop</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/goudhaan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Goudhaan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/grasmus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grasmus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/graspieper.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Graspieper</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/grauwe-gans.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grauwe gans</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/groene-specht.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Groene specht</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/groenling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Groenling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/grote-bonte-specht.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grote bonte specht</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/grote-lijster.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grote lijster</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/grutto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grutto</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/halsbandparkiet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Halsbandparkiet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/havik.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Havik</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/heggenmus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Heggenmus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/holenduif.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Holenduif</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/houtduif.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Houtduif</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/huismus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Huismus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/huiszwaluw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Huiszwaluw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/kauw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kauw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/kievit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kievit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/kleine-karekiet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kleine karekiet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/kleine-mantelmeeuw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kleine mantelmeeuw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/kneu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kneu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/knobbelzwaan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Knobbelzwaan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/koekoek.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Koekoek</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/kokmeeuw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kokmeeuw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/koolmees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Koolmees</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/krakeend.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Krakeend</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/kuifeend.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kuifeend</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/kuifmees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kuifmees</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/matkop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Matkop</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/meerkoet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Meerkoet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/merel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Merel</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/middelste-bonte-specht.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Middelste Bonte Specht</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/nachtegaal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nachtegaal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/nijlgans.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nijlgans</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/patrijs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Patrijs</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/pimpelmees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pimpelmees</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/putter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Putter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/rietgors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rietgors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/rietzanger.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rietzanger</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/ringmus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ringmus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/roek.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Roek</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/roodborst.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Roodborst</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/roodborsttapuit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Roodborsttapuit</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/scholekster.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Scholekster</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/sperwer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sperwer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/spotvogel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spotvogel</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/spreeuw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spreeuw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/sprinkhaanzanger.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sprinkhaanzanger</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/staartmees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Staartmees</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/stadsduif.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stadsduif</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/tafeleend.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tafeleend</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/tjiftjaf.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tjiftjaf</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/torenvalk.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Torenvalk</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/tuinfluiter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tuinfluiter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/turkse-tortel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Turkse tortel</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/veldleeuwerik.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Veldleeuwerik</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/vink.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vink</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/waterhoen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Waterhoen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/wielewaal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wielewaal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/wilde-eend.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wilde eend</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/winterkoning.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Winterkoning</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/witte-kwikstaart.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Witte kwikstaart</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/wulp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wulp</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/zanglijster.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zanglijster</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/zilvermeeuw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zilvermeeuw</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/zwarte-kraai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zwarte kraai</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/zwarte-mees.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zwarte mees</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/zwarte-roodstaart.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zwarte roodstaart</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/zwarte-specht.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zwarte specht</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../soort/zwartkop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Zwartkop</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Op deze pagina</h2>
+   
+  <ul>
+  <li><a href="#sec-onzekerheid" id="toc-sec-onzekerheid" class="nav-link active" data-scroll-target="#sec-onzekerheid">Onzekerheid</a></li>
+  <li><a href="#sec-trendklasse" id="toc-sec-trendklasse" class="nav-link" data-scroll-target="#sec-trendklasse">Opdeling van de effecten in een aantal klassen</a></li>
+  <li><a href="#overzicht-van-de-lineaire-trends" id="toc-overzicht-van-de-lineaire-trends" class="nav-link" data-scroll-target="#overzicht-van-de-lineaire-trends">Overzicht van de lineaire trends</a></li>
+  <li><a href="#evolutie-van-gemiddelde-aantallen-per-soort" id="toc-evolutie-van-gemiddelde-aantallen-per-soort" class="nav-link" data-scroll-target="#evolutie-van-gemiddelde-aantallen-per-soort">Evolutie van gemiddelde aantallen per soort</a></li>
+  <li><a href="#paarsgewijze-vergelijking-van-jaren" id="toc-paarsgewijze-vergelijking-van-jaren" class="nav-link" data-scroll-target="#paarsgewijze-vergelijking-van-jaren">Paarsgewijze vergelijking van jaren</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../methodologie/index.html">Methodologie</a></li><li class="breadcrumb-item"><a href="../methodologie/voorstelling.html">Voorstelling van de gegevens</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Voorstelling van de gegevens</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="sec-onzekerheid" class="level2">
+<h2 class="anchored" data-anchor-id="sec-onzekerheid">Onzekerheid</h2>
+<p>Alle resultaten zijn gebaseerd op een steekproef en op de waarnemingen zit onvermijdelijk een zekere meetfout. Vandaar dat we bij de puntschattingen tevens een betrouwbaarheidsinterval weergeven. In de tekst gebruiken we het 90% (5%; 95%) interval waarbij er 5% kans is dat de werkelijke waarde kleiner is dan de ondergrens en 5% dat ze groter is dan de bovengrens. Het 90% interval is iets smaller dan het traditionele 95% (2.5%; 97.5%) interval. Door een smaller interval te kiezen zullen we sneller uitspraken kunnen doen, waardoor de kans kleiner wordt dat we ten onrechte stellen dat er geen effect is. De prijs die we hiervoor betalen is dat de kans dat we ten onrechte stellen dat er een significant effect is, stijgt van 5% naar 10%. De doelstelling van de algemene broedvogelmonitoring is zo spoedig mogelijk detecteren wanneer er iets aan de hand is de broedvogels. Vanuit dat oogpunt is het vermijden van vals negatieve signalen (ten onrechte stellen dat er niets aan de hand is) belangrijker dan het vermijden van vals positieve signalen (ten onrechte stellen dat er iets aan de hand is).</p>
+<p>Wanneer we het interval op een figuur (bijvoorbeeld <a href="#fig-trendklasse" class="quarto-xref">Figuur&nbsp;1</a>) weergeven, vullen we het 90% interval aan met een 60% (20%; 80%) interval en een 30% (35%; 65%) interval. <span class="citation" data-cites="britton.fisher.ea1998InflationReportProjections">@britton.fisher.ea1998InflationReportProjections</span> waren de inspiratie voor deze manier van weergeven. Het 30% interval vormt het donkerste deel van het interval en geeft de meeste waarschijnlijke locatie van de werkelijke waarde weer. Naarmate het interval lichter wordt, neemt de onzekerheid toe.</p>
+</section>
+<section id="sec-trendklasse" class="level2">
+<h2 class="anchored" data-anchor-id="sec-trendklasse">Opdeling van de effecten in een aantal klassen</h2>
+<p>Bij het niet-lineaire model berekenen we alle paarsgewijze relatieve verschillen tussen de verschillende jaren. Bij het lineaire model hebben we de gemiddelde jaarlijkse relatieve verandering. Deze laatste rekenen we tevens om naar de totale wijziging over de looptijd van het meetnet omdat dit eenvoudiger te interpreteren is. Vergelijk een daling met -5% per jaar of een daling met -50% over 15 jaar. Deze laatste klinkt dramatischer door het grotere cijfer, terwijl -5% per jaar overeenkomt met -54% over 15 jaar. De totale wijziging over de looptijd van het lineaire model is tevens vergelijkbaar met de wijziging tussen het eerste en laatste jaar van het niet-lineaire model.</p>
+<p>Om de interpretatie makkelijker te maken, delen we de wijzigingen op in tien klassen door hun 90% interval te vergelijken met een referentie, ondergrens en bovengrens. Een effect is significant wanneer de referentie buiten het 90% interval ligt. We spreken over een <strong>toename</strong> (<strong>afname</strong>) als het interval volledig boven (onder) de referentie ligt. Niet significante effect is ook informatief wanneer het bijhorende interval voldoende smal is. Bijvoorbeeld als het interval volledig tussen de ondergrens en bovengrens ligt. In dat geval kunnen we stellen dat het effect niet significant en klein is, het immers zeker minder sterk dan de ondergrens en minder sterk dan de bovengrens. Dergelijk effect krijgt de naam <strong>stabiel</strong>. Heeft het effect een breed interval dat zowel de boven- als ondergrens bevat, spreken we over een <strong>onduidelijk</strong> effect. Daarnaast is er nog de mogelijkheid dat het interval zowel de bovengrens (ondergrens) als de referentie bevat maar niet de ondergrens (bovengrens). Dan spreken we over een <strong>mogelijke toename</strong> (<strong>mogelijke afname</strong>). We kunnen de boven- en ondergrens eveneens gebruiken om een verder onderscheid te maken binnen de significante effecten. Een interval volledig boven (onder) de bovengrens (ondergrens) wordt dan een <strong>sterke toename</strong> (<strong>sterke afname</strong>). Een interval volledig tussen de referentie en de de bovengrens (ondergrens) wordt dan een <strong>matige toename</strong> (<strong>matige afname</strong>). Een interval dat de referentie niet bevat maar wel de bovengrens (ondergrens) blijft een <strong>toename</strong> (<strong>afname</strong>). Merk op dat de indeling volledig gebaseerd is op de onzekerheid rond het effect en niet op de puntschatting van het effect zelf. We vatten de opdeling met bijhorende afkortingen en regels samen in tabel <a href="#tbl-regels" class="quarto-xref">Tabel&nbsp;1</a>. <a href="#fig-trendklasse" class="quarto-xref">Figuur&nbsp;1</a> geeft een grafische voorstelling waarbij we de afkortingen in combinatie met aangepaste symbolen gebruiken. De afkortingen zelf zijn te fijn om als symbool te gebruiken.</p>
+<div class="cell">
+<div id="tbl-regels" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-regels-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabel&nbsp;1: Overzicht van de benamingen van de tien effectklassen met hun afkorting en de regels. <span class="math inline">\(R\)</span>: referentie, <span class="math inline">\(L\)</span>: ondergrens, <span class="math inline">\(B\)</span>: bovengrens, <span class="math inline">\(l\)</span>: ondergrens van het 90% interval, <span class="math inline">\(b\)</span>: bovengrens van het 90% interval. <span class="math inline">\(L &lt; R &lt; B\)</span> en <span class="math inline">\(l &lt; b\)</span>.
+</figcaption>
+<div aria-describedby="tbl-regels-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="gmxeuoslgn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#gmxeuoslgn table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#gmxeuoslgn thead, #gmxeuoslgn tbody, #gmxeuoslgn tfoot, #gmxeuoslgn tr, #gmxeuoslgn td, #gmxeuoslgn th {
+  border-style: none;
+}
+
+#gmxeuoslgn p {
+  margin: 0;
+  padding: 0;
+}
+
+#gmxeuoslgn .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#gmxeuoslgn .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#gmxeuoslgn .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#gmxeuoslgn .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#gmxeuoslgn .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#gmxeuoslgn .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#gmxeuoslgn .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#gmxeuoslgn .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#gmxeuoslgn .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#gmxeuoslgn .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#gmxeuoslgn .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#gmxeuoslgn .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#gmxeuoslgn .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#gmxeuoslgn .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#gmxeuoslgn .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gmxeuoslgn .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#gmxeuoslgn .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#gmxeuoslgn .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#gmxeuoslgn .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gmxeuoslgn .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#gmxeuoslgn .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gmxeuoslgn .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#gmxeuoslgn .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gmxeuoslgn .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#gmxeuoslgn .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#gmxeuoslgn .gt_left {
+  text-align: left;
+}
+
+#gmxeuoslgn .gt_center {
+  text-align: center;
+}
+
+#gmxeuoslgn .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#gmxeuoslgn .gt_font_normal {
+  font-weight: normal;
+}
+
+#gmxeuoslgn .gt_font_bold {
+  font-weight: bold;
+}
+
+#gmxeuoslgn .gt_font_italic {
+  font-style: italic;
+}
+
+#gmxeuoslgn .gt_super {
+  font-size: 65%;
+}
+
+#gmxeuoslgn .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#gmxeuoslgn .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#gmxeuoslgn .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#gmxeuoslgn .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#gmxeuoslgn .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#gmxeuoslgn .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#gmxeuoslgn .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="benaming">benaming</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="afkorting">afkorting</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="regels">regels</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="sterke toename"><div class="gt_from_md"><p>sterke toename</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`++`"><div class="gt_from_md"><p><code>++</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$B < l$"><div class="gt_from_md"><p>\(B &lt; l\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="toename"><div class="gt_from_md"><p>toename</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`+`"><div class="gt_from_md"><p><code>+</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$R < l < B$ en $B < b$"><div class="gt_from_md"><p>\(R &lt; l &lt; B\) en \(B &lt; b\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="matige toename"><div class="gt_from_md"><p>matige toename</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`+~`"><div class="gt_from_md"><p><code>+~</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$R < l < B$ en $b < B$"><div class="gt_from_md"><p>\(R &lt; l &lt; B\) en \(b &lt; B\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="stabiel"><div class="gt_from_md"><p>stabiel</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`~`"><div class="gt_from_md"><p><code>~</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$L < l < R$ en $R < b < B$"><div class="gt_from_md"><p>\(L &lt; l &lt; R\) en \(R &lt; b &lt; B\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="matige afname"><div class="gt_from_md"><p>matige afname</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`-~`"><div class="gt_from_md"><p><code>-~</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$L < l < R$ en $b < R$"><div class="gt_from_md"><p>\(L &lt; l &lt; R\) en \(b &lt; R\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="afname"><div class="gt_from_md"><p>afname</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`-`"><div class="gt_from_md"><p><code>-</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$l < L$ en $L < b < R$"><div class="gt_from_md"><p>\(l &lt; L\) en \(L &lt; b &lt; R\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="sterke afname"><div class="gt_from_md"><p>sterke afname</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`--`"><div class="gt_from_md"><p><code>--</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$l < L$"><div class="gt_from_md"><p>\(l &lt; L\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="mogelijke toename"><div class="gt_from_md"><p>mogelijke toename</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`?+`"><div class="gt_from_md"><p><code>?+</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$L < l < R$ en $B < b$"><div class="gt_from_md"><p>\(L &lt; l &lt; R\) en \(B &lt; b\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="mogelijke afname"><div class="gt_from_md"><p>mogelijke afname</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`?-`"><div class="gt_from_md"><p><code>?-</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$l < L$ en $R < b < B$"><div class="gt_from_md"><p>\(l &lt; L\) en \(R &lt; b &lt; B\)</p>
+</div></div></td></tr>
+    <tr><td headers="benaming" class="gt_row gt_left"><div data-qmd="onduidelijk"><div class="gt_from_md"><p>onduidelijk</p>
+</div></div></td>
+<td headers="afkorting" class="gt_row gt_left"><div data-qmd="`?`"><div class="gt_from_md"><p><code>?</code></p>
+</div></div></td>
+<td headers="regels" class="gt_row gt_left"><div data-qmd="$l < L$ en $B < b$"><div class="gt_from_md"><p>\(l &lt; L\) en \(B &lt; b\)</p>
+</div></div></td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<div class="cell">
+<div id="fig-trendklasse" class="cell-output-display quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-trendklasse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-40c1aec31646e9ae9a88" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-40c1aec31646e9ae9a88">{"x":{"visdat":{"3ef17f0f38e":["function () ","plotlyVisDat"],"3ef177a77ba":["function () ","data"],"3ef150ffd7d8":["function () ","data"],"3ef1382acee3":["function () ","data"],"3ef17ca67a48":["function () ","data"],"3ef1383060ef":["function () ","data"],"3ef13760ce5a":["function () ","data"],"3ef11fd337cb":["function () ","data"],"3ef137d4cdd6":["function () ","data"],"3ef12c735319":["function () ","data"],"3ef1700eae8e":["function () ","data"],"3ef1441c92d1":["function () ","data"],"3ef179b7ec0a":["function () ","data"],"3ef13978621f":["function () ","data"],"3ef17e3086ee":["function () ","data"],"3ef1540e3058":["function () ","data"],"3ef18fbac3":["function () ","data"],"3ef16fab26c2":["function () ","data"],"3ef15a17a297":["function () ","data"]},"cur_data":"3ef15a17a297","attrs":{"3ef177a77ba":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.052631578947368474,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef150ffd7d8":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.05555555555555558,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef1382acee3":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.058823529411764719,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef17ca67a48":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.0625,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef1383060ef":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.066666666666666763,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef13760ce5a":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.071428571428571508,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef11fd337cb":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.076923076923076983,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef137d4cdd6":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.08333333333333337,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef12c735319":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.090909090909090939,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef1700eae8e":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.099999999999999978,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef1441c92d1":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.11111111111111105,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef179b7ec0a":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.125,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef13978621f":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.1428571428571429,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef17e3086ee":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.16666666666666663,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef1540e3058":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.19999999999999996,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef18fbac3":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.24999999999999989,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef16fab26c2":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.33333333333333337,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true},"3ef15a17a297":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"ymin":{},"ymax":{},"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":"text","text":{},"showlegend":false,"opacity":0.50000000000000033,"line":{"width":0},"fillcolor":"#356196","color":["#356196"],"inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"xaxis":{"domain":[0,1],"automargin":true,"title":{"font":{"size":0}},"tickvals":[10,9,8,7,6,5,4,3,2,1],"ticktext":["sterke toename","toename","matige toename","stabiel","matige afname","afname","sterke afname","mogelijke toename","mogelijke afname","onduidelijk"]},"yaxis":{"domain":[0,1],"automargin":true,"title":{"font":{"size":0}},"zerolinewidth":1,"tickvals":[-1,0,1],"ticktext":["ondergrens","referentie","bovengrens"]},"shapes":[{"type":"rect","x0":0,"x1":1,"xref":"paper","y0":-1,"y1":1,"line":{"width":0},"opacity":0.10000000000000001,"fillcolor":"black","layer":"below"}],"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false,"displaylogo":false,"modeBarButtonsToRemove":["autoScale","hoverCompareCartesian","lasso2d","select2d"]},"data":[{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-1.8093389896466201,-1.8093389896466201,-1.8093389896466201,-1.3224268134757362,-1.3224268134757362,-1.3224268134757362,-0.32242681347573632,-0.32242681347573632,-0.32242681347573632,-1.9112134067378681,-1.9112134067378681,-1.9112134067378681,-1.4112134067378681,-1.4112134067378681,-1.4112134067378681,-0.9112134067378681,-0.9112134067378681,-0.9112134067378681,-0.41121340673786816,-0.41121340673786816,-0.41121340673786816,0.088786593262131841,0.088786593262131841,0.088786593262131841,0.5887865932621319,0.5887865932621319,0.5887865932621319,1.0887865932621319,1.0887865932621319,1.0887865932621319,1.0887865932621319,1.9112134067378679,1.9112134067378679,1.9112134067378679,1.4112134067378679,1.4112134067378679,1.4112134067378679,0.91121340673786788,0.91121340673786788,0.91121340673786788,0.41121340673786788,0.41121340673786788,0.41121340673786788,-0.088786593262132119,-0.088786593262132119,-0.088786593262132119,-0.58878659326213212,-0.58878659326213212,-0.58878659326213212,-1.0887865932621321,-1.0887865932621321,-1.0887865932621321,1.3224268134757358,1.3224268134757358,1.3224268134757358,0.32242681347573576,0.32242681347573576,0.32242681347573576,1.8093389896466188,1.8093389896466188,1.8093389896466188],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.052631578947368474,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-1.5834846180323014,-1.5834846180323014,-1.5834846180323014,-1.219765735469228,-1.219765735469228,-1.219765735469228,-0.21976573546922784,-0.21976573546922784,-0.21976573546922784,-1.859882867734614,-1.859882867734614,-1.859882867734614,-1.359882867734614,-1.359882867734614,-1.359882867734614,-0.85988286773461398,-0.85988286773461398,-0.85988286773461398,-0.35988286773461392,-0.35988286773461392,-0.35988286773461392,0.14011713226538608,0.14011713226538608,0.14011713226538608,0.64011713226538602,0.64011713226538602,0.64011713226538602,1.140117132265386,1.140117132265386,1.140117132265386,1.140117132265386,1.859882867734614,1.859882867734614,1.859882867734614,1.359882867734614,1.359882867734614,1.359882867734614,0.85988286773461398,0.85988286773461398,0.85988286773461398,0.35988286773461398,0.35988286773461398,0.35988286773461398,-0.14011713226538602,-0.14011713226538602,-0.14011713226538602,-0.64011713226538602,-0.64011713226538602,-0.64011713226538602,-1.140117132265386,-1.140117132265386,-1.140117132265386,1.219765735469228,1.219765735469228,1.219765735469228,0.21976573546922795,0.21976573546922795,0.21976573546922795,1.5834846180323017,1.5834846180323017,1.5834846180323017],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.05555555555555558,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-1.4097067220990611,-1.4097067220990611,-1.4097067220990611,-1.1407757827723004,-1.1407757827723004,-1.1407757827723004,-0.14077578277230041,-0.14077578277230041,-0.14077578277230041,-1.8203878913861502,-1.8203878913861502,-1.8203878913861502,-1.3203878913861502,-1.3203878913861502,-1.3203878913861502,-0.8203878913861502,-0.8203878913861502,-0.8203878913861502,-0.3203878913861502,-0.3203878913861502,-0.3203878913861502,0.1796121086138498,0.1796121086138498,0.1796121086138498,0.6796121086138498,0.6796121086138498,0.6796121086138498,1.1796121086138498,1.1796121086138498,1.1796121086138498,1.1796121086138498,1.8203878913861502,1.8203878913861502,1.8203878913861502,1.3203878913861502,1.3203878913861502,1.3203878913861502,0.8203878913861502,0.8203878913861502,0.8203878913861502,0.3203878913861502,0.3203878913861502,0.3203878913861502,-0.1796121086138498,-0.1796121086138498,-0.1796121086138498,-0.6796121086138498,-0.6796121086138498,-0.6796121086138498,-1.1796121086138498,-1.1796121086138498,-1.1796121086138498,1.1407757827723004,1.1407757827723004,1.1407757827723004,0.14077578277230041,0.14077578277230041,0.14077578277230041,1.4097067220990611,1.4097067220990611,1.4097067220990611],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.058823529411764719,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-1.2653843184136087,-1.2653843184136087,-1.2653843184136087,-1.0751746901880039,-1.0751746901880039,-1.0751746901880039,-0.075174690188003934,-0.075174690188003934,-0.075174690188003934,-1.7875873450940021,-1.7875873450940021,-1.7875873450940021,-1.2875873450940021,-1.2875873450940021,-1.2875873450940021,-0.78758734509400197,-0.78758734509400197,-0.78758734509400197,-0.28758734509400197,-0.28758734509400197,-0.28758734509400197,0.21241265490599803,0.21241265490599803,0.21241265490599803,0.71241265490599803,0.71241265490599803,0.71241265490599803,1.2124126549059979,1.2124126549059979,1.2124126549059979,1.2124126549059979,1.7875873450940021,1.7875873450940021,1.7875873450940021,1.2875873450940021,1.2875873450940021,1.2875873450940021,0.78758734509400197,0.78758734509400197,0.78758734509400197,0.28758734509400197,0.28758734509400197,0.28758734509400197,-0.21241265490599803,-0.21241265490599803,-0.21241265490599803,-0.71241265490599803,-0.71241265490599803,-0.71241265490599803,-1.2124126549059979,-1.2124126549059979,-1.2124126549059979,1.0751746901880039,1.0751746901880039,1.0751746901880039,0.075174690188003934,0.075174690188003934,0.075174690188003934,1.2653843184136087,1.2653843184136087,1.2653843184136087],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.0625,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-1.1400767284431683,-1.1400767284431683,-1.1400767284431683,-1.0182166947468947,-1.0182166947468947,-1.0182166947468947,-0.01821669474689469,-0.01821669474689469,-0.01821669474689469,-1.7591083473734472,-1.7591083473734472,-1.7591083473734472,-1.2591083473734472,-1.2591083473734472,-1.2591083473734472,-0.75910834737344735,-0.75910834737344735,-0.75910834737344735,-0.25910834737344735,-0.25910834737344735,-0.25910834737344735,0.24089165262655265,0.24089165262655265,0.24089165262655265,0.74089165262655265,0.74089165262655265,0.74089165262655265,1.2408916526265528,1.2408916526265528,1.2408916526265528,1.2408916526265528,1.7591083473734472,1.7591083473734472,1.7591083473734472,1.2591083473734472,1.2591083473734472,1.2591083473734472,0.75910834737344735,0.75910834737344735,0.75910834737344735,0.25910834737344735,0.25910834737344735,0.25910834737344735,-0.24089165262655265,-0.24089165262655265,-0.24089165262655265,-0.74089165262655265,-0.74089165262655265,-0.74089165262655265,-1.2408916526265528,-1.2408916526265528,-1.2408916526265528,1.0182166947468947,1.0182166947468947,1.0182166947468947,0.01821669474689469,0.01821669474689469,0.01821669474689469,1.1400767284431683,1.1400767284431683,1.1400767284431683],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.066666666666666763,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-1.0280482201808283,-1.0280482201808283,-1.0280482201808283,-0.96729464553674016,-0.96729464553674016,-0.96729464553674016,0.032705354463259895,0.032705354463259895,0.032705354463259895,-1.73364732276837,-1.73364732276837,-1.73364732276837,-1.23364732276837,-1.23364732276837,-1.23364732276837,-0.73364732276837008,-0.73364732276837008,-0.73364732276837008,-0.23364732276837005,-0.23364732276837005,-0.23364732276837005,0.26635267723162992,0.26635267723162992,0.26635267723162992,0.76635267723162992,0.76635267723162992,0.76635267723162992,1.26635267723163,1.26635267723163,1.26635267723163,1.26635267723163,1.73364732276837,1.73364732276837,1.73364732276837,1.23364732276837,1.23364732276837,1.23364732276837,0.73364732276836997,0.73364732276836997,0.73364732276836997,0.23364732276836994,0.23364732276836994,0.23364732276836994,-0.26635267723163003,-0.26635267723163003,-0.26635267723163003,-0.76635267723163003,-0.76635267723163003,-0.76635267723163003,-1.26635267723163,-1.26635267723163,-1.26635267723163,0.96729464553673994,0.96729464553673994,0.96729464553673994,-0.032705354463260117,-0.032705354463260117,-0.032705354463260117,1.0280482201808279,1.0280482201808279,1.0280482201808279],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.071428571428571508,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.92578335693020564,-0.92578335693020564,-0.92578335693020564,-0.92081061678645715,-0.92081061678645715,-0.92081061678645715,0.079189383213542908,0.079189383213542908,0.079189383213542908,-1.7104053083932285,-1.7104053083932285,-1.7104053083932285,-1.2104053083932285,-1.2104053083932285,-1.2104053083932285,-0.71040530839322857,-0.71040530839322857,-0.71040530839322857,-0.21040530839322855,-0.21040530839322855,-0.21040530839322855,0.28959469160677143,0.28959469160677143,0.28959469160677143,0.78959469160677143,0.78959469160677143,0.78959469160677143,1.2895946916067715,1.2895946916067715,1.2895946916067715,1.2895946916067715,1.7104053083932287,1.7104053083932287,1.7104053083932287,1.2104053083932287,1.2104053083932287,1.2104053083932287,0.71040530839322857,0.71040530839322857,0.71040530839322857,0.2104053083932286,0.2104053083932286,0.2104053083932286,-0.28959469160677143,-0.28959469160677143,-0.28959469160677143,-0.78959469160677143,-0.78959469160677143,-0.78959469160677143,-1.2895946916067713,-1.2895946916067713,-1.2895946916067713,0.92081061678645715,0.92081061678645715,0.92081061678645715,-0.079189383213542797,-0.079189383213542797,-0.079189383213542797,0.92578335693020597,0.92578335693020597,0.92578335693020597],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.076923076923076983,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.83095652899651629,-0.83095652899651629,-0.83095652899651629,-0.87770751318023466,-0.87770751318023466,-0.87770751318023466,0.12229248681976534,0.12229248681976534,0.12229248681976534,-1.6888537565901174,-1.6888537565901174,-1.6888537565901174,-1.1888537565901174,-1.1888537565901174,-1.1888537565901174,-0.68885375659011738,-0.68885375659011738,-0.68885375659011738,-0.18885375659011733,-0.18885375659011733,-0.18885375659011733,0.31114624340988267,0.31114624340988267,0.31114624340988267,0.81114624340988262,0.81114624340988262,0.81114624340988262,1.3111462434098826,1.3111462434098826,1.3111462434098826,1.3111462434098826,1.6888537565901174,1.6888537565901174,1.6888537565901174,1.1888537565901174,1.1888537565901174,1.1888537565901174,0.68885375659011738,0.68885375659011738,0.68885375659011738,0.18885375659011733,0.18885375659011733,0.18885375659011733,-0.31114624340988267,-0.31114624340988267,-0.31114624340988267,-0.81114624340988262,-0.81114624340988262,-0.81114624340988262,-1.3111462434098826,-1.3111462434098826,-1.3111462434098826,0.87770751318023466,0.87770751318023466,0.87770751318023466,-0.12229248681976534,-0.12229248681976534,-0.12229248681976534,0.83095652899651629,0.83095652899651629,0.83095652899651629],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.08333333333333337,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.74193872521568993,-0.74193872521568993,-0.74193872521568993,-0.8372448750980408,-0.8372448750980408,-0.8372448750980408,0.16275512490195915,0.16275512490195915,0.16275512490195915,-1.6686224375490204,-1.6686224375490204,-1.6686224375490204,-1.1686224375490204,-1.1686224375490204,-1.1686224375490204,-0.6686224375490204,-0.6686224375490204,-0.6686224375490204,-0.16862243754902043,-0.16862243754902043,-0.16862243754902043,0.3313775624509796,0.3313775624509796,0.3313775624509796,0.8313775624509796,0.8313775624509796,0.8313775624509796,1.3313775624509796,1.3313775624509796,1.3313775624509796,1.3313775624509796,1.6686224375490204,1.6686224375490204,1.6686224375490204,1.1686224375490204,1.1686224375490204,1.1686224375490204,0.6686224375490204,0.6686224375490204,0.6686224375490204,0.16862243754902043,0.16862243754902043,0.16862243754902043,-0.3313775624509796,-0.3313775624509796,-0.3313775624509796,-0.8313775624509796,-0.8313775624509796,-0.8313775624509796,-1.3313775624509796,-1.3313775624509796,-1.3313775624509796,0.8372448750980408,0.8372448750980408,0.8372448750980408,-0.16275512490195915,-0.16275512490195915,-0.16275512490195915,0.74193872521568993,0.74193872521568993,0.74193872521568993],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.090909090909090939,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.65753613864672633,-0.65753613864672633,-0.65753613864672633,-0.79888006302123915,-0.79888006302123915,-0.79888006302123915,0.20111993697876079,0.20111993697876079,0.20111993697876079,-1.6494400315106197,-1.6494400315106197,-1.6494400315106197,-1.1494400315106197,-1.1494400315106197,-1.1494400315106197,-0.64944003151061958,-0.64944003151061958,-0.64944003151061958,-0.1494400315106196,-0.1494400315106196,-0.1494400315106196,0.35055996848938042,0.35055996848938042,0.35055996848938042,0.85055996848938042,0.85055996848938042,0.85055996848938042,1.3505599684893803,1.3505599684893803,1.3505599684893803,1.3505599684893803,1.6494400315106197,1.6494400315106197,1.6494400315106197,1.1494400315106197,1.1494400315106197,1.1494400315106197,0.64944003151061958,0.64944003151061958,0.64944003151061958,0.1494400315106196,0.1494400315106196,0.1494400315106196,-0.35055996848938042,-0.35055996848938042,-0.35055996848938042,-0.85055996848938042,-0.85055996848938042,-0.85055996848938042,-1.3505599684893803,-1.3505599684893803,-1.3505599684893803,0.79888006302123915,0.79888006302123915,0.79888006302123915,-0.20111993697876079,-0.20111993697876079,-0.20111993697876079,0.65753613864672633,0.65753613864672633,0.65753613864672633],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.099999999999999978,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.57684056397884476,-0.57684056397884476,-0.57684056397884476,-0.76220025635402033,-0.76220025635402033,-0.76220025635402033,0.23779974364597967,0.23779974364597967,0.23779974364597967,-1.6311001281770101,-1.6311001281770101,-1.6311001281770101,-1.1311001281770101,-1.1311001281770101,-1.1311001281770101,-0.63110012817701011,-0.63110012817701011,-0.63110012817701011,-0.13110012817701017,-0.13110012817701017,-0.13110012817701017,0.36889987182298983,0.36889987182298983,0.36889987182298983,0.86889987182298989,0.86889987182298989,0.86889987182298989,1.3688998718229899,1.3688998718229899,1.3688998718229899,1.3688998718229899,1.6311001281770101,1.6311001281770101,1.6311001281770101,1.1311001281770101,1.1311001281770101,1.1311001281770101,0.63110012817701011,0.63110012817701011,0.63110012817701011,0.13110012817701017,0.13110012817701017,0.13110012817701017,-0.36889987182298983,-0.36889987182298983,-0.36889987182298983,-0.86889987182298989,-0.86889987182298989,-0.86889987182298989,-1.3688998718229899,-1.3688998718229899,-1.3688998718229899,0.76220025635402033,0.76220025635402033,0.76220025635402033,-0.23779974364597967,-0.23779974364597967,-0.23779974364597967,0.57684056397884476,0.57684056397884476,0.57684056397884476],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.11111111111111105,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.49913840918686725,-0.49913840918686725,-0.49913840918686725,-0.72688109508493959,-0.72688109508493959,-0.72688109508493959,0.27311890491506036,0.27311890491506036,0.27311890491506036,-1.6134405475424698,-1.6134405475424698,-1.6134405475424698,-1.1134405475424698,-1.1134405475424698,-1.1134405475424698,-0.61344054754246979,-0.61344054754246979,-0.61344054754246979,-0.11344054754246982,-0.11344054754246982,-0.11344054754246982,0.38655945245753021,0.38655945245753021,0.38655945245753021,0.88655945245753021,0.88655945245753021,0.88655945245753021,1.3865594524575302,1.3865594524575302,1.3865594524575302,1.3865594524575302,1.6134405475424698,1.6134405475424698,1.6134405475424698,1.1134405475424698,1.1134405475424698,1.1134405475424698,0.61344054754246991,0.61344054754246991,0.61344054754246991,0.11344054754246991,0.11344054754246991,0.11344054754246991,-0.38655945245753009,-0.38655945245753009,-0.38655945245753009,-0.88655945245753009,-0.88655945245753009,-0.88655945245753009,-1.3865594524575302,-1.3865594524575302,-1.3865594524575302,0.72688109508493981,0.72688109508493981,0.72688109508493981,-0.27311890491506019,-0.27311890491506019,-0.27311890491506019,0.49913840918686764,0.49913840918686764,0.49913840918686764],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.125,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.42385251304832428,-0.42385251304832428,-0.42385251304832428,-0.69266023320378378,-0.69266023320378378,-0.69266023320378378,0.30733976679621622,0.30733976679621622,0.30733976679621622,-1.5963301166018919,-1.5963301166018919,-1.5963301166018919,-1.0963301166018919,-1.0963301166018919,-1.0963301166018919,-0.59633011660189184,-0.59633011660189184,-0.59633011660189184,-0.096330116601891877,-0.096330116601891877,-0.096330116601891877,0.40366988339810811,0.40366988339810811,0.40366988339810811,0.90366988339810816,0.90366988339810816,0.90366988339810816,1.4036698833981081,1.4036698833981081,1.4036698833981081,1.4036698833981081,1.5963301166018917,1.5963301166018917,1.5963301166018917,1.0963301166018917,1.0963301166018917,1.0963301166018917,0.59633011660189184,0.59633011660189184,0.59633011660189184,0.096330116601891835,0.096330116601891835,0.096330116601891835,-0.40366988339810816,-0.40366988339810816,-0.40366988339810816,-0.90366988339810816,-0.90366988339810816,-0.90366988339810816,-1.4036698833981083,-1.4036698833981083,-1.4036698833981083,0.69266023320378367,0.69266023320378367,0.69266023320378367,-0.30733976679621633,-0.30733976679621633,-0.30733976679621633,0.42385251304832411,0.42385251304832411,0.42385251304832411],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.1428571428571429,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.35050330036081268,-0.35050330036081268,-0.35050330036081268,-0.6593196819821876,-0.6593196819821876,-0.6593196819821876,0.3406803180178124,0.3406803180178124,0.3406803180178124,-1.5796598409910938,-1.5796598409910938,-1.5796598409910938,-1.0796598409910938,-1.0796598409910938,-1.0796598409910938,-0.5796598409910938,-0.5796598409910938,-0.5796598409910938,-0.079659840991093786,-0.079659840991093786,-0.079659840991093786,0.4203401590089062,0.4203401590089062,0.4203401590089062,0.9203401590089062,0.9203401590089062,0.9203401590089062,1.4203401590089062,1.4203401590089062,1.4203401590089062,1.4203401590089062,1.5796598409910938,1.5796598409910938,1.5796598409910938,1.0796598409910938,1.0796598409910938,1.0796598409910938,0.5796598409910938,0.5796598409910938,0.5796598409910938,0.079659840991093786,0.079659840991093786,0.079659840991093786,-0.4203401590089062,-0.4203401590089062,-0.4203401590089062,-0.9203401590089062,-0.9203401590089062,-0.9203401590089062,-1.4203401590089062,-1.4203401590089062,-1.4203401590089062,0.6593196819821876,0.6593196819821876,0.6593196819821876,-0.3406803180178124,-0.3406803180178124,-0.3406803180178124,0.35050330036081268,0.35050330036081268,0.35050330036081268],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.16666666666666663,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.27868181344937976,-0.27868181344937976,-0.27868181344937976,-0.62667355156789983,-0.62667355156789983,-0.62667355156789983,0.37332644843210011,0.37332644843210011,0.37332644843210011,-1.56333677578395,-1.56333677578395,-1.56333677578395,-1.06333677578395,-1.06333677578395,-1.06333677578395,-0.56333677578394992,-0.56333677578394992,-0.56333677578394992,-0.063336775783949945,-0.063336775783949945,-0.063336775783949945,0.43666322421605008,0.43666322421605008,0.43666322421605008,0.93666322421605008,0.93666322421605008,0.93666322421605008,1.43666322421605,1.43666322421605,1.43666322421605,1.43666322421605,1.56333677578395,1.56333677578395,1.56333677578395,1.06333677578395,1.06333677578395,1.06333677578395,0.56333677578394992,0.56333677578394992,0.56333677578394992,0.063336775783949945,0.063336775783949945,0.063336775783949945,-0.43666322421605008,-0.43666322421605008,-0.43666322421605008,-0.93666322421605008,-0.93666322421605008,-0.93666322421605008,-1.43666322421605,-1.43666322421605,-1.43666322421605,0.62667355156789983,0.62667355156789983,0.62667355156789983,-0.37332644843210011,-0.37332644843210011,-0.37332644843210011,0.27868181344937976,0.27868181344937976,0.27868181344937976],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.19999999999999996,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.20803026890007176,-0.20803026890007176,-0.20803026890007176,-0.59455921313639626,-0.59455921313639626,-0.59455921313639626,0.40544078686360374,0.40544078686360374,0.40544078686360374,-1.5472796065681982,-1.5472796065681982,-1.5472796065681982,-1.0472796065681982,-1.0472796065681982,-1.0472796065681982,-0.54727960656819807,-0.54727960656819807,-0.54727960656819807,-0.047279606568198122,-0.047279606568198122,-0.047279606568198122,0.45272039343180187,0.45272039343180187,0.45272039343180187,0.95272039343180193,0.95272039343180193,0.95272039343180193,1.4527203934318018,1.4527203934318018,1.4527203934318018,1.4527203934318018,1.5472796065681982,1.5472796065681982,1.5472796065681982,1.0472796065681982,1.0472796065681982,1.0472796065681982,0.54727960656819807,0.54727960656819807,0.54727960656819807,0.047279606568198095,0.047279606568198095,0.047279606568198095,-0.45272039343180193,-0.45272039343180193,-0.45272039343180193,-0.95272039343180193,-0.95272039343180193,-0.95272039343180193,-1.4527203934318018,-1.4527203934318018,-1.4527203934318018,0.59455921313639615,0.59455921313639615,0.59455921313639615,-0.4054407868636038,-0.4054407868636038,-0.4054407868636038,0.20803026890007165,0.20803026890007165,0.20803026890007165],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.24999999999999989,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.1382274815405814,-0.1382274815405814,-0.1382274815405814,-0.56283067342753701,-0.56283067342753701,-0.56283067342753701,0.43716932657246299,0.43716932657246299,0.43716932657246299,-1.5314153367137684,-1.5314153367137684,-1.5314153367137684,-1.0314153367137684,-1.0314153367137684,-1.0314153367137684,-0.5314153367137685,-0.5314153367137685,-0.5314153367137685,-0.031415336713768498,-0.031415336713768498,-0.031415336713768498,0.4685846632862315,0.4685846632862315,0.4685846632862315,0.9685846632862315,0.9685846632862315,0.9685846632862315,1.4685846632862316,1.4685846632862316,1.4685846632862316,1.4685846632862316,1.5314153367137686,1.5314153367137686,1.5314153367137686,1.0314153367137686,1.0314153367137686,1.0314153367137686,0.5314153367137685,0.5314153367137685,0.5314153367137685,0.031415336713768532,0.031415336713768532,0.031415336713768532,-0.4685846632862315,-0.4685846632862315,-0.4685846632862315,-0.9685846632862315,-0.9685846632862315,-0.9685846632862315,-1.4685846632862314,-1.4685846632862314,-1.4685846632862314,0.56283067342753701,0.56283067342753701,0.56283067342753701,-0.43716932657246294,-0.43716932657246294,-0.43716932657246294,0.13822748154058156,0.13822748154058156,0.13822748154058156],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.33333333333333337,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"#356196","x":[0.501,1,1.4990000000000001,1.5009999999999999,2,2.4990000000000001,2.5009999999999999,3,3.4990000000000001,3.5009999999999999,4,4.4989999999999997,4.5010000000000003,5,5.4989999999999997,5.5010000000000003,6,6.4989999999999997,6.5010000000000003,7,7.4989999999999997,7.5010000000000003,8,8.4990000000000006,8.5009999999999994,9,9.4990000000000006,9.5009999999999994,10,10.499000000000001,10.499000000000001,10.499000000000001,10,9.5009999999999994,9.4990000000000006,9,8.5009999999999994,8.4990000000000006,8,7.5010000000000003,7.4989999999999997,7,6.5010000000000003,6.4989999999999997,6,5.5010000000000003,5.4989999999999997,5,4.5010000000000003,4.4989999999999997,4,3.5009999999999999,3.4990000000000001,3,2.5009999999999999,2.4990000000000001,2,1.5009999999999999,1.4990000000000001,1,0.501],"y":[-0.068977455737535082,-0.068977455737535082,-0.068977455737535082,-0.53135338897160689,-0.53135338897160689,-0.53135338897160689,0.46864661102839317,0.46864661102839317,0.46864661102839317,-1.5156766944858033,-1.5156766944858033,-1.5156766944858033,-1.0156766944858033,-1.0156766944858033,-1.0156766944858033,-0.51567669448580344,-0.51567669448580344,-0.51567669448580344,-0.015676694485803427,-0.015676694485803427,-0.015676694485803427,0.48432330551419656,0.48432330551419656,0.48432330551419656,0.98432330551419656,0.98432330551419656,0.98432330551419656,1.4843233055141967,1.4843233055141967,1.4843233055141967,1.4843233055141967,1.5156766944858033,1.5156766944858033,1.5156766944858033,1.0156766944858033,1.0156766944858033,1.0156766944858033,0.51567669448580344,0.51567669448580344,0.51567669448580344,0.015676694485803392,0.015676694485803392,0.015676694485803392,-0.48432330551419661,-0.48432330551419661,-0.48432330551419661,-0.98432330551419656,-0.98432330551419656,-0.98432330551419656,-1.4843233055141967,-1.4843233055141967,-1.4843233055141967,0.53135338897160678,0.53135338897160678,0.53135338897160678,-0.46864661102839322,-0.46864661102839322,-0.46864661102839322,0.068977455737534929,0.068977455737534929,0.068977455737534929],"type":"scatter","mode":"lines","hoveron":"points","fill":"toself","hoverinfo":["text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text"],"text":["0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.500 (1.089; 1.911)<br />sterke toename (++)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","1.000 (0.589; 1.411)<br />toename (+)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.50 (0.09; 0.91)<br />matige toename (+~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","0.00 (-0.41; 0.41)<br />stabiel (~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-0.50 (-0.91; -0.09)<br />matige afname (-~)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.000 (-1.411; -0.589)<br />afname (-)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","-1.500 (-1.911; -1.089)<br />sterke afname (--)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","0.50 (-0.32; 1.32)<br />mogelijke toename (?+)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","-0.50 (-1.32; 0.32)<br />mogelijke afname (?-)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)","0.00 (-1.81; 1.81)<br />onduidelijk (?)"],"showlegend":false,"opacity":0.50000000000000033,"line":{"color":"rgba(53,97,150,1)","width":0},"name":"#356196","marker":{"color":"rgba(53,97,150,1)","line":{"color":"rgba(53,97,150,1)"}},"textfont":{"color":"rgba(53,97,150,1)"},"error_y":{"color":"rgba(53,97,150,1)"},"error_x":{"color":"rgba(53,97,150,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-trendklasse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figuur&nbsp;1: Voorbeeld van de tien mogelijke interpretaties van een effect door het 90% interval te vergelijken met een referentie, ondergrens en bovengrens.
+</figcaption>
+</figure>
+</div>
+</div>
+<p>Uiteraard hangt de opdeling sterk af van de keuze van de boven- en ondergrens. De soortenmeetnetten voor de Natura 2000 monitoring streven er naar om een daling in populatiegrootte met -25% over 25 jaar tijd vast te kunnen stellen. Hierbij wordt een wijziging in de populatiegrootte van -25% als belangrijk aanzien. Daarom hanteren we voor de algemene broedvogelmonitoring ook -25% als ondergrens, zowel bij de paarsgewijze verschillen tussen de jaren als de lineaire wijziging over de looptijd van het meetnet. Een van daling van -25% komt overeen met aantallen die nog drie kwart van de uitgangssituatie bedragen. Een even sterke wijziging in de omgekeerde richting zorgt er voor dat de aantallen toenemen tot vier derde van de uitgangssituatie, of een toename met +33% wat we als bovengrens gebruiken.</p>
+<p>Bij de samengestelde indices hebben we aangepaste grenswaarden nodig. Veronderstel een samengestelde index op basis van <span class="math inline">\(n\)</span> soorten. We berekenen het rekenkundig gemiddelde in de log-schaal, dan is de variantie van dit gemiddelde een factor <span class="math inline">\(n\)</span> kleiner dan de som van de varianties. De breedte van een betrouwbaarheidsinterval hangt samen met de standaard afwijking, wat de vierkantswortel van de variantie is. Hierdoor zullen de breedtes van de betrouwbaarheidsintervallen van de samengestelde index een factor <span class="math inline">\(\sqrt{n}\)</span> kleiner zijn. Vandaar dat we de grenswaarden van de indices tevens aanpassen door ze met een factor <span class="math inline">\(\sqrt{n}\)</span> te verkleinen. Elke samengestelde index heeft zijn eigen soortenlijst met een variabele aantal soorten. Daarom zullen we bij elke samengestelde index zijn aangepaste grenswaarden vermelden.</p>
+</section>
+<section id="overzicht-van-de-lineaire-trends" class="level2">
+<h2 class="anchored" data-anchor-id="overzicht-van-de-lineaire-trends">Overzicht van de lineaire trends</h2>
+<p>Tabellen <span class="citation" data-cites="tbl:driejaarlijkse-trends">@tbl:driejaarlijkse-trends</span> en <span class="citation" data-cites="tbl:jaarlijkse-trends">@tbl:jaarlijkse-trends</span> geven een overzicht van de lineaire trends voor elke soort. We hebben de trends gesorteerd volgens opdeling van de klassen en binnen de klasse volgens puntschatting van de trend. Hierdoor start de tabel met de soorten met de sterkste positieve trends. Bij de volgende soorten zal de trend minder sterk worden tot we aan de soorten met een stabiele trend komen. Daarna volgen de soorten met een negatieve trend waarbij de trend steeds sterker negatief wordt. We sluiten de tabel af met de soorten met een mogelijke of onduidelijke trend. De tabel bevat de trend uitgedrukt als een jaarlijkse wijziging en als een wijziging over de volledige looptijd van het meetnet. Verder bevat de tabel de opdeling van de trend in klassen en een indicatie of de trend al dan <a href="verwerking.html#sec-lineairetrend">niet lineair</a> is. De naam van de soort is een snelkoppeling naar de detail van de soort zelf. We raden aan om hiervan gebruikt te maken bij de interpretatie van niet-lineaire trends.</p>
+</section>
+<section id="evolutie-van-gemiddelde-aantallen-per-soort" class="level2">
+<h2 class="anchored" data-anchor-id="evolutie-van-gemiddelde-aantallen-per-soort">Evolutie van gemiddelde aantallen per soort</h2>
+<p>Deze figuur geeft de evolutie van de gemiddelde aantallen per meetpunt weer volgens het niet-lineair model. Indien het model lineair is, zal het patroon van de niet-lineaire trend dicht bij een lineaire trend liggen. De lijn bevat de puntschatting van het gemiddelde aantal in elk jaar. Rond de lijn tonen we het 30%, 60% en 90% interval (zie §<a href="#sec-onzekerheid" class="quarto-xref">Paragraaf&nbsp;1</a>). In de online versie van het rapport is de figuur interactief. Wanneer de gebruiker met de muis over de figuur gaat verschijnt er in de buurt van de lijn een pop-up met de exacte schatting van dat jaar inclusief het 90% betrouwbaarheidsinterval en het jaartal.</p>
+</section>
+<section id="paarsgewijze-vergelijking-van-jaren" class="level2">
+<h2 class="anchored" data-anchor-id="paarsgewijze-vergelijking-van-jaren">Paarsgewijze vergelijking van jaren</h2>
+<p>Deze informatie hebben we telkens in twee figuren samengevat. De eerste figuur geeft het verschil van elk jaar t.o.v. 2007, het jaar waarin de metingen gestart zijn. Voor 2007 geven we geen cijfer omdat het per definitie 1 is en geen informatie bevat. Het symbool geeft de puntschatting van het relatieve verschil t.o.v. 2007 weer. De vorm van het symbool geeft de opdeling van de sterkte van het effect weer (zie <a href="#fig-trendklasse" class="quarto-xref">Figuur&nbsp;1</a>). Rond elke puntschatting tonen we het 30%, 60% en 90% interval (zie §<a href="#sec-onzekerheid" class="quarto-xref">Paragraaf&nbsp;1</a>). De horizontale streepjeslijn geeft de referentie van 0% verschil weer. De horizontale puntlijnen geven de bovengrens (+33%) en ondergrens (-25%) weer. Deze laten toe om de vlot zelf de betrouwbaarheidsintervallen te vergelijken met de referentie, boven- en ondergrens. De figuur heeft twee y-assen. Beide assen geven dezelfde informatie weer, enkel de formattering van de labels is anders. De linkeras toont procentuele verschillen terwijl de rechteras de relatieve verschillen toont. Een procentueel verschil van +50% is equivalent met een relatieve verschil (verhouding) met een factor 1,5.</p>
+<p>We stellen vast dat veel gebruikers ook andere jaren met elkaar willen vergelijken. Een correcte vergelijking is enkel mogelijk indien we een van deze jaren als referentie gebruiken. Voor elk jaar een afzonderlijke figuur maken, zou het rapport onoverzichtelijk groot maken. Om de vergelijkingen toch mogelijk te maken hebben we alle paarsgewijze verschillen tussen de jaren in een raster weergeven. Elke rij in het raster staat voor een ander referentiejaar. De kolommen geven de verschillen van een bepaald jaar weer t.o.v. de verschillende referentiejaren. Op de diagonaal staan geen waarden omdat we daar een jaar met zichzelf vergelijken. De kleur van de symbolen geeft de sterkte van het verschil (gebaseerd op de puntschatting). Zwakke verschillen zijn grijs, sterke positieve verschillen rood, sterke negatieve verschillen blauw. De vorm van de symbolen geeft zicht op de sterkte en onzekerheid van het effect (zie <a href="#tbl-regels" class="quarto-xref">Tabel&nbsp;1</a>). Wanneer een rij volledig rood (blauw) is, zijn alle verschillen met dit referentiejaar positief (negatief) m.a.w. dit is het referentiejaar met de laagste (hoogste) aantallen. Wanneer een kolom volledig rood (blauw) is, zijn alle verschillen van dit jaar t.o.v. alle referentiejaren negatief (positief) m.a.w. dit is het jaar met de hoogste (laagste) aantallen. Clusters van punten met een gelijkaardige kleur geven periodes aan waarin de aantallen geleidelijk wijzigen. In de online versie van dit rapport is deze figuur interactief. Wanneer de gebruiker met de muis over de figuur gaat verschijnt er in de buurt van de lijn een pop-up met de exacte schatting van dat punt inclusief het 90% betrouwbaarheidsinterval en het jaartal en referentiejaar.</p>
+
+
+</section>
+
+<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="cc-by.svg" class="cc img-fluid" alt="CC BY 4.0 logo"></a> Onkelinx, et al.&nbsp;(2024) <a href="https://doi.org/inbor.102669823">inbor.102669823</a></p></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Gekopieerd!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Gekopieerd!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

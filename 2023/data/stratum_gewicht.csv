@@ -1,0 +1,458 @@
+soort,stratum,gewicht,aanwezig,relevant,onderzocht,totaal,bezoeken
+Aalscholver,Heide en duin,0.041,16.9,8,94,199,291
+Aalscholver,Landbouw,0.803,292.9,20,431,6311,706
+Aalscholver,Moeras en water,0.132,48,28,80,137,1399
+Aalscholver,Suburbaan,0.024,11.8,4,68,201,141
+Bergeend,Bos,0.005,6.7,4,191,319,149
+Bergeend,Heide en duin,0.019,21.2,10,94,199,513
+Bergeend,Landbouw,0.906,907.8,62,431,6311,2998
+Bergeend,Moeras en water,0.046,46.2,27,80,137,1018
+Bergeend,Suburbaan,0.024,26.6,9,68,201,306
+Blauwborst,Heide en duin,0.02,19.1,9,94,199,279
+Blauwborst,Landbouw,0.934,790.7,54,431,6311,2318
+Blauwborst,Moeras en water,0.032,27.4,16,80,137,757
+Blauwborst,Suburbaan,0.014,14.8,5,68,201,135
+Blauwe reiger,Bos,0.017,21.7,13,191,319,650
+Blauwe reiger,Heide en duin,0.028,36,17,94,199,517
+Blauwe reiger,Landbouw,0.91,1171.4,80,431,6311,3476
+Blauwe reiger,Moeras en water,0.036,46.2,27,80,137,1439
+Blauwe reiger,Suburbaan,0.009,14.8,5,68,201,167
+Boerenzwaluw,Bos,0.006,25.1,15,191,319,347
+Boerenzwaluw,Heide en duin,0.012,55,26,94,199,765
+Boerenzwaluw,Landbouw,0.95,4290.3,293,431,6311,10909
+Boerenzwaluw,Moeras en water,0.01,46.2,27,80,137,767
+Boerenzwaluw,Suburbaan,0.009,41.4,14,68,201,219
+Boerenzwaluw,Urbaan,0.014,62.2,13,87,416,372
+Bonte vliegenvanger,Bos,0.634,36.7,22,191,319,507
+Bonte vliegenvanger,Heide en duin,0.366,21.2,10,94,199,423
+Boomklever,Bos,0.198,215.5,129,191,319,7679
+Boomklever,Heide en duin,0.068,74.1,35,94,199,1874
+Boomklever,Landbouw,0.578,629.6,43,431,6311,1683
+Boomklever,Moeras en water,0.033,36,21,80,137,952
+Boomklever,Suburbaan,0.049,53.2,18,68,201,768
+Boomklever,Urbaan,0.075,81.3,17,87,416,499
+Boomkruiper,Bos,0.109,215.5,129,191,319,8138
+Boomkruiper,Heide en duin,0.054,105.9,50,94,199,2717
+Boomkruiper,Landbouw,0.719,1420.3,97,431,6311,4181
+Boomkruiper,Moeras en water,0.024,48,28,80,137,1660
+Boomkruiper,Suburbaan,0.031,62.1,21,68,201,909
+Boomkruiper,Urbaan,0.063,124.3,26,87,416,860
+Boomleeuwerik,Bos,0.249,48.4,29,191,319,1657
+Boomleeuwerik,Heide en duin,0.49,95.3,45,94,199,2429
+Boomleeuwerik,Landbouw,0.226,58.6,4,431,6311,63
+Boomleeuwerik,Moeras en water,0.035,8.6,5,80,137,162
+Boompieper,Bos,0.256,100.2,60,191,319,3196
+Boompieper,Heide en duin,0.303,118.6,56,94,199,3467
+Boompieper,Landbouw,0.411,175.7,12,431,6311,503
+Boompieper,Moeras en water,0.031,12,7,80,137,345
+Bosrietzanger,Heide en duin,0.014,10.6,5,94,199,102
+Bosrietzanger,Landbouw,0.878,527.1,36,431,6311,864
+Bosrietzanger,Moeras en water,0.068,41.1,24,80,137,718
+Bosrietzanger,Suburbaan,0.039,23.6,8,68,201,165
+Bruine kiekendief,Landbouw,0.975,395.4,27,431,6311,1268
+Bruine kiekendief,Moeras en water,0.025,12,7,80,137,270
+Buizerd,Bos,0.056,190.4,114,191,319,5810
+Buizerd,Heide en duin,0.027,93.1,44,94,199,2072
+Buizerd,Landbouw,0.89,3045.7,208,431,6311,10277
+Buizerd,Moeras en water,0.015,51.4,30,80,137,1339
+Buizerd,Suburbaan,0.008,29.6,10,68,201,241
+Buizerd,Urbaan,0.004,19.1,4,87,416,123
+Canadese gans,Bos,0.018,31.7,19,191,319,784
+Canadese gans,Heide en duin,0.034,61.4,29,94,199,1363
+Canadese gans,Landbouw,0.87,1552.1,106,431,6311,5273
+Canadese gans,Moeras en water,0.04,71.9,42,80,137,2164
+Canadese gans,Suburbaan,0.018,32.5,11,68,201,509
+Canadese gans,Urbaan,0.019,38.3,8,87,416,150
+Cetti's zanger,Heide en duin,0.075,14.8,7,94,199,148
+Cetti's zanger,Landbouw,0.782,146.4,10,431,6311,420
+Cetti's zanger,Moeras en water,0.142,24,14,80,137,596
+Dodaars,Bos,0.093,15,9,191,319,273
+Dodaars,Heide en duin,0.192,27.5,13,94,199,453
+Dodaars,Landbouw,0.511,87.9,6,431,6311,110
+Dodaars,Moeras en water,0.203,29.1,17,80,137,623
+Ekster,Bos,0.013,68.5,41,191,319,2135
+Ekster,Heide en duin,0.015,78.3,37,94,199,1704
+Ekster,Landbouw,0.858,4568.5,312,431,6311,18998
+Ekster,Moeras en water,0.018,94.2,55,80,137,3036
+Ekster,Suburbaan,0.032,168.5,57,68,201,3448
+Ekster,Urbaan,0.065,344.3,72,87,416,4902
+Fazant,Bos,0.015,68.5,41,191,319,2440
+Fazant,Heide en duin,0.017,80.4,38,94,199,2060
+Fazant,Landbouw,0.932,4319.6,295,431,6311,18275
+Fazant,Moeras en water,0.015,68.5,40,80,137,2368
+Fazant,Suburbaan,0.011,50.2,17,68,201,720
+Fazant,Urbaan,0.01,52.6,11,87,416,336
+Fitis,Bos,0.157,111.9,67,191,319,3670
+Fitis,Heide en duin,0.228,163,77,94,199,4431
+Fitis,Landbouw,0.492,351.4,24,431,6311,1054
+Fitis,Moeras en water,0.065,46.2,27,80,137,1737
+Fitis,Suburbaan,0.058,41.4,14,68,201,410
+Fuut,Bos,0.049,11.7,7,191,319,157
+Fuut,Heide en duin,0.104,21.2,10,94,199,217
+Fuut,Landbouw,0.503,102.5,7,431,6311,217
+Fuut,Moeras en water,0.344,70.2,41,80,137,1790
+Gaai,Bos,0.063,232.2,139,191,319,8408
+Gaai,Heide en duin,0.036,131.3,62,94,199,3347
+Gaai,Landbouw,0.801,2957.8,202,431,6311,9672
+Gaai,Moeras en water,0.021,77.1,45,80,137,2475
+Gaai,Suburbaan,0.023,85.7,29,68,201,1333
+Gaai,Urbaan,0.057,210.4,44,87,416,1947
+Geelgors,Bos,0.007,8.4,5,191,319,272
+Geelgors,Heide en duin,0.018,16.9,8,94,199,410
+Geelgors,Landbouw,0.967,893.2,61,431,6311,2984
+Geelgors,Moeras en water,0.007,6.8,4,80,137,127
+Gekraagde roodstaart,Bos,0.179,51.8,31,191,319,1136
+Gekraagde roodstaart,Heide en duin,0.292,84.7,40,94,199,1350
+Gekraagde roodstaart,Landbouw,0.505,161.1,11,431,6311,348
+Gekraagde roodstaart,Moeras en water,0.024,8.6,5,80,137,151
+Gele kwikstaart,Landbouw,0.995,2738.2,187,431,6311,9251
+Gele kwikstaart,Moeras en water,0.005,15.4,9,80,137,350
+Gierzwaluw,Bos,0.01,11.7,7,191,319,151
+Gierzwaluw,Heide en duin,0.032,31.8,15,94,199,388
+Gierzwaluw,Landbouw,0.585,585.7,40,431,6311,920
+Gierzwaluw,Moeras en water,0.038,37.7,22,80,137,644
+Gierzwaluw,Suburbaan,0.059,62.1,21,68,201,759
+Gierzwaluw,Urbaan,0.277,277.3,58,87,416,2189
+Glanskop,Bos,0.381,45.1,27,191,319,1430
+Glanskop,Landbouw,0.619,87.9,6,431,6311,315
+Goudhaan,Bos,0.176,162,97,191,319,5397
+Goudhaan,Heide en duin,0.069,63.5,30,94,199,1345
+Goudhaan,Landbouw,0.588,541.8,37,431,6311,1137
+Goudhaan,Moeras en water,0.026,24,14,80,137,469
+Goudhaan,Suburbaan,0.048,44.3,15,68,201,749
+Goudhaan,Urbaan,0.093,86.1,18,87,416,869
+Grasmus,Bos,0.008,30.1,18,191,319,518
+Grasmus,Heide en duin,0.021,76.2,36,94,199,1097
+Grasmus,Landbouw,0.93,3367.8,230,431,6311,7982
+Grasmus,Moeras en water,0.018,66.8,39,80,137,1453
+Grasmus,Suburbaan,0.013,47.3,16,68,201,453
+Grasmus,Urbaan,0.009,38.3,8,87,416,121
+Graspieper,Heide en duin,0.046,86.8,41,94,199,1672
+Graspieper,Landbouw,0.938,1757.1,120,431,6311,5692
+Graspieper,Moeras en water,0.007,13.7,8,80,137,303
+Graspieper,Suburbaan,0.008,17.7,6,68,201,108
+Grauwe gans,Bos,0.026,18.4,11,191,319,407
+Grauwe gans,Heide en duin,0.044,27.5,13,94,199,585
+Grauwe gans,Landbouw,0.859,541.8,37,431,6311,1749
+Grauwe gans,Moeras en water,0.071,44.5,26,80,137,1246
+Groene specht,Bos,0.033,143.6,86,191,319,4870
+Groene specht,Heide en duin,0.022,95.3,45,94,199,2470
+Groene specht,Landbouw,0.868,3748.5,256,431,6311,14988
+Groene specht,Moeras en water,0.017,71.9,42,80,137,2150
+Groene specht,Suburbaan,0.023,100.5,34,68,201,1539
+Groene specht,Urbaan,0.037,157.8,33,87,416,1457
+Groenling,Bos,0.017,63.5,38,191,319,1395
+Groenling,Heide en duin,0.011,40.2,19,94,199,747
+Groenling,Landbouw,0.858,3250.7,222,431,6311,10811
+Groenling,Moeras en water,0.012,44.5,26,80,137,1165
+Groenling,Suburbaan,0.028,106.4,36,68,201,2313
+Groenling,Urbaan,0.074,282.1,59,87,416,3304
+Grote bonte specht,Bos,0.063,243.8,146,191,319,9580
+Grote bonte specht,Heide en duin,0.037,144,68,94,199,4184
+Grote bonte specht,Landbouw,0.812,3118.9,213,431,6311,10649
+Grote bonte specht,Moeras en water,0.021,80.5,47,80,137,2647
+Grote bonte specht,Suburbaan,0.019,73.9,25,68,201,1331
+Grote bonte specht,Urbaan,0.047,181.7,38,87,416,1793
+Grote lijster,Bos,0.068,91.9,55,191,319,2796
+Grote lijster,Heide en duin,0.055,74.1,35,94,199,1685
+Grote lijster,Landbouw,0.862,1171.4,80,431,6311,3316
+Grote lijster,Moeras en water,0.009,12,7,80,137,303
+Grote lijster,Suburbaan,0.007,11.8,4,68,201,55
+Grutto,Landbouw,0.988,424.6,29,431,6311,1502
+Grutto,Moeras en water,0.012,6.8,4,80,137,82
+Halsbandparkiet,Bos,0.054,11.7,7,191,319,220
+Halsbandparkiet,Landbouw,0.555,117.1,8,431,6311,278
+Halsbandparkiet,Moeras en water,0.056,12,7,80,137,214
+Halsbandparkiet,Suburbaan,0.128,26.6,9,68,201,571
+Halsbandparkiet,Urbaan,0.207,38.3,8,87,416,395
+Havik,Bos,0.435,55.1,33,191,319,1195
+Havik,Heide en duin,0.217,27.5,13,94,199,646
+Havik,Landbouw,0.347,58.6,4,431,6311,124
+Heggenmus,Bos,0.019,100.2,60,191,319,2819
+Heggenmus,Heide en duin,0.017,88.9,42,94,199,2101
+Heggenmus,Landbouw,0.857,4539.2,310,431,6311,18128
+Heggenmus,Moeras en water,0.016,83.9,49,80,137,2534
+Heggenmus,Suburbaan,0.028,150.8,51,68,201,3271
+Heggenmus,Urbaan,0.063,334.7,70,87,416,4508
+Holenduif,Bos,0.032,135.3,81,191,319,4819
+Holenduif,Heide en duin,0.014,61.4,29,94,199,1664
+Holenduif,Landbouw,0.893,3792.5,259,431,6311,15754
+Holenduif,Moeras en water,0.015,65.1,38,80,137,1725
+Holenduif,Suburbaan,0.021,88.7,30,68,201,1128
+Holenduif,Urbaan,0.025,105.2,22,87,416,752
+Houtduif,Bos,0.04,248.9,149,191,319,9887
+Houtduif,Heide en duin,0.028,173.6,82,94,199,5239
+Houtduif,Landbouw,0.832,5168.9,353,431,6311,24484
+Houtduif,Moeras en water,0.017,106.2,62,80,137,4192
+Houtduif,Suburbaan,0.027,168.5,57,68,201,3648
+Houtduif,Urbaan,0.055,344.3,72,87,416,5028
+Huismus,Bos,0.004,20,12,191,319,317
+Huismus,Heide en duin,0.008,40.2,19,94,199,772
+Huismus,Landbouw,0.889,4466,305,431,6311,15936
+Huismus,Moeras en water,0.009,42.8,25,80,137,951
+Huismus,Suburbaan,0.022,112.3,38,68,201,2134
+Huismus,Urbaan,0.068,339.5,71,87,416,4418
+Huiszwaluw,Bos,0.006,6.7,4,191,319,69
+Huiszwaluw,Heide en duin,0.008,8.5,4,94,199,102
+Huiszwaluw,Landbouw,0.933,761.4,52,431,6311,1314
+Huiszwaluw,Moeras en water,0.013,12,7,80,137,180
+Huiszwaluw,Suburbaan,0.011,11.8,4,68,201,72
+Huiszwaluw,Urbaan,0.029,28.7,6,87,416,167
+Kauw,Bos,0.018,98.5,59,191,319,3050
+Kauw,Heide en duin,0.018,95.3,45,94,199,2449
+Kauw,Landbouw,0.864,4671,319,431,6311,20786
+Kauw,Moeras en water,0.014,77.1,45,80,137,2308
+Kauw,Suburbaan,0.025,136,46,68,201,2912
+Kauw,Urbaan,0.061,329.9,69,87,416,4758
+Kievit,Bos,0.006,30.1,18,191,319,482
+Kievit,Heide en duin,0.007,33.9,16,94,199,820
+Kievit,Landbouw,0.966,4509.9,308,431,6311,17427
+Kievit,Moeras en water,0.01,44.5,26,80,137,1303
+Kievit,Suburbaan,0.004,23.6,8,68,201,279
+Kievit,Urbaan,0.006,33.5,7,87,416,129
+Kleine karekiet,Bos,0.005,6.7,4,191,319,119
+Kleine karekiet,Heide en duin,0.015,16.9,8,94,199,137
+Kleine karekiet,Landbouw,0.888,863.9,59,431,6311,1972
+Kleine karekiet,Moeras en water,0.07,68.5,40,80,137,1400
+Kleine karekiet,Suburbaan,0.021,23.6,8,68,201,144
+Kleine mantelmeeuw,Landbouw,0.87,205,14,431,6311,681
+Kleine mantelmeeuw,Moeras en water,0.08,18.8,11,80,137,518
+Kleine mantelmeeuw,Suburbaan,0.05,14.8,5,68,201,174
+Kneu,Bos,0.007,15,9,191,319,421
+Kneu,Heide en duin,0.04,86.8,41,94,199,1719
+Kneu,Landbouw,0.927,1991.4,136,431,6311,6498
+Kneu,Moeras en water,0.01,22.3,13,80,137,494
+Kneu,Suburbaan,0.015,35.5,12,68,201,365
+Knobbelzwaan,Heide en duin,0.135,14.8,7,94,199,219
+Knobbelzwaan,Landbouw,0.466,58.6,4,431,6311,84
+Knobbelzwaan,Moeras en water,0.4,37.7,22,80,137,905
+Koekoek,Bos,0.03,53.4,32,191,319,1259
+Koekoek,Heide en duin,0.052,93.1,44,94,199,1347
+Koekoek,Landbouw,0.876,1581.4,108,431,6311,3672
+Koekoek,Moeras en water,0.035,63.4,37,80,137,1321
+Koekoek,Suburbaan,0.008,17.7,6,68,201,119
+Kokmeeuw,Bos,0.01,6.7,4,191,319,232
+Kokmeeuw,Heide en duin,0.037,19.1,9,94,199,493
+Kokmeeuw,Landbouw,0.823,424.6,29,431,6311,1153
+Kokmeeuw,Moeras en water,0.056,30.8,18,80,137,865
+Kokmeeuw,Suburbaan,0.046,26.6,9,68,201,454
+Kokmeeuw,Urbaan,0.028,19.1,4,87,416,142
+Koolmees,Bos,0.043,252.2,151,191,319,10055
+Koolmees,Heide en duin,0.03,173.6,82,94,199,5096
+Koolmees,Landbouw,0.823,4832.1,330,431,6311,20692
+Koolmees,Moeras en water,0.017,101,59,80,137,3787
+Koolmees,Suburbaan,0.028,162.6,55,68,201,3439
+Koolmees,Urbaan,0.059,349.1,73,87,416,4981
+Krakeend,Heide en duin,0.035,10.6,5,94,199,177
+Krakeend,Landbouw,0.663,175.7,12,431,6311,322
+Krakeend,Moeras en water,0.254,61.6,36,80,137,1388
+Krakeend,Suburbaan,0.049,14.8,5,68,201,152
+Kuifeend,Bos,0.026,11.7,7,191,319,119
+Kuifeend,Heide en duin,0.066,25.4,12,94,199,331
+Kuifeend,Landbouw,0.718,278.2,19,431,6311,604
+Kuifeend,Moeras en water,0.19,73.6,43,80,137,1749
+Kuifmees,Bos,0.394,147,88,191,319,5145
+Kuifmees,Heide en duin,0.238,88.9,42,94,199,2255
+Kuifmees,Landbouw,0.196,87.9,6,431,6311,298
+Kuifmees,Moeras en water,0.037,13.7,8,80,137,305
+Kuifmees,Suburbaan,0.071,29.6,10,68,201,318
+Kuifmees,Urbaan,0.064,28.7,6,87,416,210
+Matkop,Bos,0.183,28.4,17,191,319,902
+Matkop,Heide en duin,0.068,12.7,6,94,199,172
+Matkop,Landbouw,0.661,117.1,8,431,6311,201
+Matkop,Moeras en water,0.088,13.7,8,80,137,335
+Meerkoet,Bos,0.023,28.4,17,191,319,616
+Meerkoet,Heide en duin,0.036,44.5,21,94,199,659
+Meerkoet,Landbouw,0.815,1010.3,69,431,6311,2817
+Meerkoet,Moeras en water,0.072,89,52,80,137,2576
+Meerkoet,Suburbaan,0.024,32.5,11,68,201,316
+Meerkoet,Urbaan,0.031,43,9,87,416,152
+Merel,Bos,0.041,252.2,151,191,319,10004
+Merel,Heide en duin,0.027,167.2,79,94,199,5135
+Merel,Landbouw,0.831,5124.9,350,431,6311,23532
+Merel,Moeras en water,0.017,107.9,63,80,137,4065
+Merel,Suburbaan,0.027,168.5,57,68,201,3610
+Merel,Urbaan,0.057,349.1,73,87,416,5062
+Middelste Bonte Specht,Bos,1,30.1,18,191,319,716
+Nachtegaal,Heide en duin,0.63,25.4,12,94,199,332
+Nachtegaal,Moeras en water,0.37,15.4,9,80,137,277
+Nijlgans,Bos,0.015,26.7,16,191,319,703
+Nijlgans,Heide en duin,0.02,36,17,94,199,633
+Nijlgans,Landbouw,0.917,1654.6,113,431,6311,5176
+Nijlgans,Moeras en water,0.032,58.2,34,80,137,1715
+Nijlgans,Suburbaan,0.008,17.7,6,68,201,205
+Nijlgans,Urbaan,0.008,19.1,4,87,416,64
+Patrijs,Landbouw,1,2211,151,431,6311,6499
+Pimpelmees,Bos,0.044,227.1,136,191,319,8920
+Pimpelmees,Heide en duin,0.029,148.2,70,94,199,4062
+Pimpelmees,Landbouw,0.813,4158.5,284,431,6311,15909
+Pimpelmees,Moeras en water,0.019,97.6,57,80,137,3337
+Pimpelmees,Suburbaan,0.029,150.8,51,68,201,2810
+Pimpelmees,Urbaan,0.065,334.7,70,87,416,4318
+Putter,Bos,0.01,11.7,7,191,319,239
+Putter,Heide en duin,0.01,12.7,6,94,199,145
+Putter,Landbouw,0.897,907.8,62,431,6311,2303
+Putter,Moeras en water,0.019,18.8,11,80,137,464
+Putter,Suburbaan,0.026,26.6,9,68,201,428
+Putter,Urbaan,0.038,43,9,87,416,405
+Rietgors,Bos,0.009,6.7,4,191,319,140
+Rietgors,Heide en duin,0.073,40.2,19,94,199,810
+Rietgors,Landbouw,0.823,453.9,31,431,6311,1553
+Rietgors,Moeras en water,0.068,37.7,22,80,137,1089
+Rietgors,Suburbaan,0.027,17.7,6,68,201,207
+Rietzanger,Landbouw,0.967,556.4,38,431,6311,2121
+Rietzanger,Moeras en water,0.033,18.8,11,80,137,419
+Ringmus,Landbouw,0.996,1347.1,92,431,6311,3867
+Ringmus,Moeras en water,0.004,6.8,4,80,137,143
+Roek,Landbouw,0.944,483.2,33,431,6311,1709
+Roek,Urbaan,0.056,33.5,7,87,416,281
+Roodborst,Bos,0.059,252.2,151,191,319,10145
+Roodborst,Heide en duin,0.037,158.8,75,94,199,4480
+Roodborst,Landbouw,0.779,3338.5,228,431,6311,12304
+Roodborst,Moeras en water,0.021,90.8,53,80,137,3229
+Roodborst,Suburbaan,0.032,136,46,68,201,2377
+Roodborst,Urbaan,0.072,310.8,65,87,416,3338
+Roodborsttapuit,Bos,0.017,15,9,191,319,292
+Roodborsttapuit,Heide en duin,0.126,101.6,48,94,199,2384
+Roodborsttapuit,Landbouw,0.834,673.6,46,431,6311,2064
+Roodborsttapuit,Moeras en water,0.013,10.3,6,80,137,245
+Roodborsttapuit,Suburbaan,0.011,11.8,4,68,201,102
+Scholekster,Bos,0.004,10,6,191,319,260
+Scholekster,Heide en duin,0.009,23.3,11,94,199,546
+Scholekster,Landbouw,0.943,2181.8,149,431,6311,7982
+Scholekster,Moeras en water,0.018,41.1,24,80,137,1196
+Scholekster,Suburbaan,0.018,44.3,15,68,201,556
+Scholekster,Urbaan,0.008,23.9,5,87,416,179
+Sperwer,Bos,0.032,25.1,15,191,319,629
+Sperwer,Heide en duin,0.019,16.9,8,94,199,209
+Sperwer,Landbouw,0.878,688.2,47,431,6311,1614
+Sperwer,Moeras en water,0.017,15.4,9,80,137,323
+Sperwer,Suburbaan,0.011,11.8,4,68,201,98
+Sperwer,Urbaan,0.043,33.5,7,87,416,174
+Spotvogel,Heide en duin,0.033,19.1,9,94,199,159
+Spotvogel,Landbouw,0.956,556.4,38,431,6311,739
+Spotvogel,Moeras en water,0.012,8.6,5,80,137,74
+Spreeuw,Bos,0.011,61.8,37,191,319,1621
+Spreeuw,Heide en duin,0.015,82.6,39,94,199,1979
+Spreeuw,Landbouw,0.883,4846.7,331,431,6311,20502
+Spreeuw,Moeras en water,0.014,75.3,44,80,137,2365
+Spreeuw,Suburbaan,0.023,124.1,42,68,201,2373
+Spreeuw,Urbaan,0.055,301.2,63,87,416,3948
+Sprinkhaanzanger,Heide en duin,0.624,31.8,15,94,199,467
+Sprinkhaanzanger,Moeras en water,0.202,12,7,80,137,215
+Sprinkhaanzanger,Suburbaan,0.174,11.8,4,68,201,114
+Staartmees,Bos,0.079,91.9,55,191,319,2178
+Staartmees,Heide en duin,0.046,52.9,25,94,199,989
+Staartmees,Landbouw,0.72,834.6,57,431,6311,1823
+Staartmees,Moeras en water,0.046,53.1,31,80,137,1375
+Staartmees,Suburbaan,0.051,59.1,20,68,201,868
+Staartmees,Urbaan,0.058,66.9,14,87,416,509
+Stadsduif,Heide en duin,0.016,12.7,6,94,199,200
+Stadsduif,Landbouw,0.738,483.2,33,431,6311,1706
+Stadsduif,Moeras en water,0.021,13.7,8,80,137,431
+Stadsduif,Suburbaan,0.05,35.5,12,68,201,653
+Stadsduif,Urbaan,0.175,114.8,24,87,416,1235
+Tafeleend,Bos,0.196,6.7,4,191,319,31
+Tafeleend,Moeras en water,0.804,20.6,12,80,137,467
+Tjiftjaf,Bos,0.044,247.2,148,191,319,9723
+Tjiftjaf,Heide en duin,0.03,169.4,80,94,199,5097
+Tjiftjaf,Landbouw,0.821,4583.2,313,431,6311,19153
+Tjiftjaf,Moeras en water,0.019,104.5,61,80,137,4004
+Tjiftjaf,Suburbaan,0.028,156.7,53,68,201,3263
+Tjiftjaf,Urbaan,0.057,320.4,67,87,416,3677
+Torenvalk,Bos,0.004,11.7,7,191,319,271
+Torenvalk,Heide en duin,0.015,36,17,94,199,629
+Torenvalk,Landbouw,0.964,2255,154,431,6311,6729
+Torenvalk,Moeras en water,0.006,15.4,9,80,137,341
+Torenvalk,Suburbaan,0.01,26.6,9,68,201,289
+Tuinfluiter,Bos,0.047,70.1,42,191,319,1195
+Tuinfluiter,Heide en duin,0.052,76.2,36,94,199,874
+Tuinfluiter,Landbouw,0.842,1244.6,85,431,6311,1972
+Tuinfluiter,Moeras en water,0.039,58.2,34,80,137,1101
+Tuinfluiter,Suburbaan,0.02,29.6,10,68,201,165
+Turkse tortel,Bos,0.009,48.4,29,191,319,1205
+Turkse tortel,Heide en duin,0.014,72,34,94,199,1439
+Turkse tortel,Landbouw,0.872,4597.8,314,431,6311,17929
+Turkse tortel,Moeras en water,0.012,61.6,36,80,137,1548
+Turkse tortel,Suburbaan,0.027,141.9,48,68,201,2958
+Turkse tortel,Urbaan,0.066,349.1,73,87,416,4984
+Veldleeuwerik,Bos,0.005,13.4,8,191,319,278
+Veldleeuwerik,Heide en duin,0.025,63.5,30,94,199,1298
+Veldleeuwerik,Landbouw,0.958,2460,168,431,6311,9044
+Veldleeuwerik,Moeras en water,0.008,22.3,13,80,137,443
+Veldleeuwerik,Suburbaan,0.005,14.8,5,68,201,106
+Vink,Bos,0.044,250.5,150,191,319,10166
+Vink,Heide en duin,0.027,154.5,73,94,199,4906
+Vink,Landbouw,0.831,4729.6,323,431,6311,21435
+Vink,Moeras en water,0.017,95.9,56,80,137,3538
+Vink,Suburbaan,0.025,141.9,48,68,201,2768
+Vink,Urbaan,0.056,320.4,67,87,416,3966
+Waterhoen,Bos,0.011,25.1,15,191,319,554
+Waterhoen,Heide en duin,0.012,29.6,14,94,199,465
+Waterhoen,Landbouw,0.901,2123.2,145,431,6311,5969
+Waterhoen,Moeras en water,0.023,53.1,31,80,137,1434
+Waterhoen,Suburbaan,0.018,41.4,14,68,201,483
+Waterhoen,Urbaan,0.037,86.1,18,87,416,406
+Wielewaal,Bos,0.044,11.7,7,191,319,213
+Wielewaal,Heide en duin,0.056,14.8,7,94,199,152
+Wielewaal,Landbouw,0.833,190.4,13,431,6311,428
+Wielewaal,Moeras en water,0.067,15.4,9,80,137,276
+Wilde eend,Bos,0.015,68.5,41,191,319,1898
+Wilde eend,Heide en duin,0.022,101.6,48,94,199,2243
+Wilde eend,Landbouw,0.896,4056,277,431,6311,15542
+Wilde eend,Moeras en water,0.022,97.6,57,80,137,3264
+Wilde eend,Suburbaan,0.018,79.8,27,68,201,1152
+Wilde eend,Urbaan,0.027,124.3,26,87,416,928
+Winterkoning,Bos,0.043,248.9,149,191,319,9980
+Winterkoning,Heide en duin,0.026,150.3,71,94,199,4552
+Winterkoning,Landbouw,0.83,4846.7,331,431,6311,21907
+Winterkoning,Moeras en water,0.017,101,59,80,137,3787
+Winterkoning,Suburbaan,0.027,159.6,54,68,201,3285
+Winterkoning,Urbaan,0.057,329.9,69,87,416,4310
+Witte kwikstaart,Bos,0.011,50.1,30,191,319,956
+Witte kwikstaart,Heide en duin,0.014,61.4,29,94,199,1407
+Witte kwikstaart,Landbouw,0.927,4187.8,286,431,6311,15273
+Witte kwikstaart,Moeras en water,0.014,61.6,36,80,137,1631
+Witte kwikstaart,Suburbaan,0.02,88.7,30,68,201,1227
+Witte kwikstaart,Urbaan,0.015,66.9,14,87,416,679
+Wulp,Bos,0.022,15,9,191,319,246
+Wulp,Heide en duin,0.086,52.9,25,94,199,1215
+Wulp,Landbouw,0.879,541.8,37,431,6311,1841
+Wulp,Moeras en water,0.014,10.3,6,80,137,213
+Zanglijster,Bos,0.047,235.5,141,191,319,8912
+Zanglijster,Heide en duin,0.027,133.4,63,94,199,3907
+Zanglijster,Landbouw,0.831,4173.2,285,431,6311,16523
+Zanglijster,Moeras en water,0.018,90.8,53,80,137,3153
+Zanglijster,Suburbaan,0.025,124.1,42,68,201,2425
+Zanglijster,Urbaan,0.052,263,55,87,416,3040
+Zilvermeeuw,Heide en duin,0.021,8.5,4,94,199,221
+Zilvermeeuw,Landbouw,0.825,248.9,17,431,6311,983
+Zilvermeeuw,Moeras en water,0.051,15.4,9,80,137,484
+Zilvermeeuw,Suburbaan,0.039,14.8,5,68,201,291
+Zilvermeeuw,Urbaan,0.063,23.9,5,87,416,219
+Zwarte kraai,Bos,0.04,235.5,141,191,319,9237
+Zwarte kraai,Heide en duin,0.029,169.4,80,94,199,5119
+Zwarte kraai,Landbouw,0.833,4949.2,338,431,6311,23418
+Zwarte kraai,Moeras en water,0.018,106.2,62,80,137,4166
+Zwarte kraai,Suburbaan,0.027,162.6,55,68,201,3476
+Zwarte kraai,Urbaan,0.053,315.6,66,87,416,4425
+Zwarte mees,Bos,0.44,120.3,72,191,319,4125
+Zwarte mees,Heide en duin,0.163,44.5,21,94,199,1020
+Zwarte mees,Landbouw,0.322,87.9,6,431,6311,279
+Zwarte mees,Suburbaan,0.076,23.6,8,68,201,219
+Zwarte roodstaart,Bos,0.004,13.4,8,191,319,252
+Zwarte roodstaart,Heide en duin,0.006,19.1,9,94,199,365
+Zwarte roodstaart,Landbouw,0.901,2503.9,171,431,6311,7415
+Zwarte roodstaart,Moeras en water,0.01,27.4,16,80,137,667
+Zwarte roodstaart,Suburbaan,0.031,85.7,29,68,201,1603
+Zwarte roodstaart,Urbaan,0.048,133.9,28,87,416,1182
+Zwarte specht,Bos,0.459,113.6,68,191,319,3635
+Zwarte specht,Heide en duin,0.256,63.5,30,94,199,1516
+Zwarte specht,Landbouw,0.237,73.2,5,431,6311,158
+Zwarte specht,Moeras en water,0.048,12,7,80,137,441
+Zwartkop,Bos,0.047,247.2,148,191,319,9776
+Zwartkop,Heide en duin,0.029,154.5,73,94,199,4542
+Zwartkop,Landbouw,0.823,4334.2,296,431,6311,17135
+Zwartkop,Moeras en water,0.019,99.3,58,80,137,3765
+Zwartkop,Suburbaan,0.028,144.8,49,68,201,2839
+Zwartkop,Urbaan,0.054,286.9,60,87,416,3362

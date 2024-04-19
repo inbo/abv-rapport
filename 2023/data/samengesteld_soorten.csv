@@ -1,0 +1,181 @@
+indicator,soort,ondergrens,bovengrens
+Bos,Bonte vliegenvanger,0.9441,1.0592
+Bos,Boomklever,0.9441,1.0592
+Bos,Boomkruiper,0.9441,1.0592
+Bos,Boompieper,0.9441,1.0592
+Bos,Buizerd,0.9441,1.0592
+Bos,Fitis,0.9441,1.0592
+Bos,Gaai,0.9441,1.0592
+Bos,Gekraagde roodstaart,0.9441,1.0592
+Bos,Goudhaan,0.9441,1.0592
+Bos,Groene specht,0.9441,1.0592
+Bos,Groenling,0.9441,1.0592
+Bos,Grote bonte specht,0.9441,1.0592
+Bos,Grote lijster,0.9441,1.0592
+Bos,Holenduif,0.9441,1.0592
+Bos,Koekoek,0.9441,1.0592
+Bos,Kuifmees,0.9441,1.0592
+Bos,Matkop,0.9441,1.0592
+Bos,Nachtegaal,0.9441,1.0592
+Bos,Sperwer,0.9441,1.0592
+Bos,Tjiftjaf,0.9441,1.0592
+Bos,Tuinfluiter,0.9441,1.0592
+Bos,Wielewaal,0.9441,1.0592
+Bos,Zwarte mees,0.9441,1.0592
+Bos,Zwarte specht,0.9441,1.0592
+Bos,Zwartkop,0.9441,1.0592
+Generalist,Ekster,0.9361,1.0682
+Generalist,Fazant,0.9361,1.0682
+Generalist,Groenling,0.9361,1.0682
+Generalist,Grote bonte specht,0.9361,1.0682
+Generalist,Heggenmus,0.9361,1.0682
+Generalist,Houtduif,0.9361,1.0682
+Generalist,Huismus,0.9361,1.0682
+Generalist,Kauw,0.9361,1.0682
+Generalist,Koolmees,0.9361,1.0682
+Generalist,Merel,0.9361,1.0682
+Generalist,Pimpelmees,0.9361,1.0682
+Generalist,Roodborst,0.9361,1.0682
+Generalist,Spreeuw,0.9361,1.0682
+Generalist,Staartmees,0.9361,1.0682
+Generalist,Turkse tortel,0.9361,1.0682
+Generalist,Vink,0.9361,1.0682
+Generalist,Winterkoning,0.9361,1.0682
+Generalist,Zanglijster,0.9361,1.0682
+Generalist,Zwarte kraai,0.9361,1.0682
+Landbouw,Boerenzwaluw,0.9284,1.0771
+Landbouw,Geelgors,0.9284,1.0771
+Landbouw,Gele kwikstaart,0.9284,1.0771
+Landbouw,Grasmus,0.9284,1.0771
+Landbouw,Graspieper,0.9284,1.0771
+Landbouw,Grutto,0.9284,1.0771
+Landbouw,Kievit,0.9284,1.0771
+Landbouw,Kneu,0.9284,1.0771
+Landbouw,Patrijs,0.9284,1.0771
+Landbouw,Ringmus,0.9284,1.0771
+Landbouw,Roodborsttapuit,0.9284,1.0771
+Landbouw,Scholekster,0.9284,1.0771
+Landbouw,Torenvalk,0.9284,1.0771
+Landbouw,Veldleeuwerik,0.9284,1.0771
+Landbouw,Wulp,0.9284,1.0771
+NARA2020,Boerenzwaluw,0.9635,1.0378
+NARA2020,Bonte vliegenvanger,0.9635,1.0378
+NARA2020,Boomklever,0.9635,1.0378
+NARA2020,Boomkruiper,0.9635,1.0378
+NARA2020,Boompieper,0.9635,1.0378
+NARA2020,Buizerd,0.9635,1.0378
+NARA2020,Ekster,0.9635,1.0378
+NARA2020,Fazant,0.9635,1.0378
+NARA2020,Fitis,0.9635,1.0378
+NARA2020,Gaai,0.9635,1.0378
+NARA2020,Geelgors,0.9635,1.0378
+NARA2020,Gekraagde roodstaart,0.9635,1.0378
+NARA2020,Gele kwikstaart,0.9635,1.0378
+NARA2020,Goudhaan,0.9635,1.0378
+NARA2020,Grasmus,0.9635,1.0378
+NARA2020,Graspieper,0.9635,1.0378
+NARA2020,Groene specht,0.9635,1.0378
+NARA2020,Groenling,0.9635,1.0378
+NARA2020,Grote bonte specht,0.9635,1.0378
+NARA2020,Grote lijster,0.9635,1.0378
+NARA2020,Grutto,0.9635,1.0378
+NARA2020,Heggenmus,0.9635,1.0378
+NARA2020,Holenduif,0.9635,1.0378
+NARA2020,Houtduif,0.9635,1.0378
+NARA2020,Huismus,0.9635,1.0378
+NARA2020,Kauw,0.9635,1.0378
+NARA2020,Kievit,0.9635,1.0378
+NARA2020,Kneu,0.9635,1.0378
+NARA2020,Koekoek,0.9635,1.0378
+NARA2020,Koolmees,0.9635,1.0378
+NARA2020,Kuifmees,0.9635,1.0378
+NARA2020,Matkop,0.9635,1.0378
+NARA2020,Merel,0.9635,1.0378
+NARA2020,Nachtegaal,0.9635,1.0378
+NARA2020,Patrijs,0.9635,1.0378
+NARA2020,Pimpelmees,0.9635,1.0378
+NARA2020,Ringmus,0.9635,1.0378
+NARA2020,Roodborst,0.9635,1.0378
+NARA2020,Roodborsttapuit,0.9635,1.0378
+NARA2020,Scholekster,0.9635,1.0378
+NARA2020,Sperwer,0.9635,1.0378
+NARA2020,Spotvogel,0.9635,1.0378
+NARA2020,Spreeuw,0.9635,1.0378
+NARA2020,Staartmees,0.9635,1.0378
+NARA2020,Tjiftjaf,0.9635,1.0378
+NARA2020,Torenvalk,0.9635,1.0378
+NARA2020,Tuinfluiter,0.9635,1.0378
+NARA2020,Turkse tortel,0.9635,1.0378
+NARA2020,Veldleeuwerik,0.9635,1.0378
+NARA2020,Vink,0.9635,1.0378
+NARA2020,Wielewaal,0.9635,1.0378
+NARA2020,Winterkoning,0.9635,1.0378
+NARA2020,Witte kwikstaart,0.9635,1.0378
+NARA2020,Wulp,0.9635,1.0378
+NARA2020,Zanglijster,0.9635,1.0378
+NARA2020,Zwarte kraai,0.9635,1.0378
+NARA2020,Zwarte mees,0.9635,1.0378
+NARA2020,Zwarte roodstaart,0.9635,1.0378
+NARA2020,Zwarte specht,0.9635,1.0378
+NARA2020,Zwartkop,0.9635,1.0378
+Standvogel,Boomklever,0.9496,1.053
+Standvogel,Boomkruiper,0.9496,1.053
+Standvogel,Buizerd,0.9496,1.053
+Standvogel,Ekster,0.9496,1.053
+Standvogel,Fazant,0.9496,1.053
+Standvogel,Gaai,0.9496,1.053
+Standvogel,Goudhaan,0.9496,1.053
+Standvogel,Groene specht,0.9496,1.053
+Standvogel,Grote bonte specht,0.9496,1.053
+Standvogel,Heggenmus,0.9496,1.053
+Standvogel,Holenduif,0.9496,1.053
+Standvogel,Houtduif,0.9496,1.053
+Standvogel,Huismus,0.9496,1.053
+Standvogel,Kauw,0.9496,1.053
+Standvogel,Koolmees,0.9496,1.053
+Standvogel,Kuifmees,0.9496,1.053
+Standvogel,Matkop,0.9496,1.053
+Standvogel,Merel,0.9496,1.053
+Standvogel,Patrijs,0.9496,1.053
+Standvogel,Pimpelmees,0.9496,1.053
+Standvogel,Ringmus,0.9496,1.053
+Standvogel,Roodborst,0.9496,1.053
+Standvogel,Sperwer,0.9496,1.053
+Standvogel,Staartmees,0.9496,1.053
+Standvogel,Torenvalk,0.9496,1.053
+Standvogel,Turkse tortel,0.9496,1.053
+Standvogel,Vink,0.9496,1.053
+Standvogel,Winterkoning,0.9496,1.053
+Standvogel,Zwarte kraai,0.9496,1.053
+Standvogel,Zwarte mees,0.9496,1.053
+Standvogel,Zwarte specht,0.9496,1.053
+SubSaharaMigrant,Blauwborst,0.9392,1.0648
+SubSaharaMigrant,Boerenzwaluw,0.9392,1.0648
+SubSaharaMigrant,Bonte vliegenvanger,0.9392,1.0648
+SubSaharaMigrant,Boompieper,0.9392,1.0648
+SubSaharaMigrant,Bosrietzanger,0.9392,1.0648
+SubSaharaMigrant,Fitis,0.9392,1.0648
+SubSaharaMigrant,Gekraagde roodstaart,0.9392,1.0648
+SubSaharaMigrant,Gele kwikstaart,0.9392,1.0648
+SubSaharaMigrant,Gierzwaluw,0.9392,1.0648
+SubSaharaMigrant,Grasmus,0.9392,1.0648
+SubSaharaMigrant,Grutto,0.9392,1.0648
+SubSaharaMigrant,Huiszwaluw,0.9392,1.0648
+SubSaharaMigrant,Kleine karekiet,0.9392,1.0648
+SubSaharaMigrant,Koekoek,0.9392,1.0648
+SubSaharaMigrant,Nachtegaal,0.9392,1.0648
+SubSaharaMigrant,Rietzanger,0.9392,1.0648
+SubSaharaMigrant,Spotvogel,0.9392,1.0648
+SubSaharaMigrant,Sprinkhaanzanger,0.9392,1.0648
+SubSaharaMigrant,Tjiftjaf,0.9392,1.0648
+SubSaharaMigrant,Tuinfluiter,0.9392,1.0648
+SubSaharaMigrant,Wielewaal,0.9392,1.0648
+Watervogel,Bergeend,0.9086,1.1006
+Watervogel,Canadese gans,0.9086,1.1006
+Watervogel,Dodaars,0.9086,1.1006
+Watervogel,Fuut,0.9086,1.1006
+Watervogel,Grauwe gans,0.9086,1.1006
+Watervogel,Meerkoet,0.9086,1.1006
+Watervogel,Nijlgans,0.9086,1.1006
+Watervogel,Waterhoen,0.9086,1.1006
+Watervogel,Wilde eend,0.9086,1.1006

@@ -1,0 +1,119 @@
+..generic:
+  git2rdata: 0.4.0
+  optimize: no
+  NA string: NA
+  sorting:
+  - indicator
+  - frequentie
+  - referentie
+  - naar
+  hash: cd05348ce8e8d059bc28da5920c8237cbe247759
+  data_hash: 8dc5082123441b125ba6488d35e7e91a6cd7b4c3
+indicator:
+  class: factor
+  labels:
+  - Bos
+  - Generalist
+  - Landbouw
+  - NARA2020
+  - Standvogel
+  - SubSaharaMigrant
+  - Watervogel
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  ordered: no
+frequentie:
+  class: factor
+  labels:
+  - driejaarlijks
+  - jaarlijks
+  index:
+  - 1
+  - 2
+  ordered: no
+referentie:
+  class: integer
+naar:
+  class: integer
+schatting:
+  class: numeric
+lcl:
+  class: numeric
+ucl:
+  class: numeric
+klasse:
+  class: character
+wijziging:
+  class: character
+analyse:
+  class: factor
+  labels:
+  - 106c5f05239fe003eb709cc174f2f390906703a4
+  - 1080515a46eba7a990f4283dd0732b8de57d3fb9
+  - 1b1eff01fc9bd8c8faf06150d2018cdb467dcbc7
+  - 4c7f626c0ac1dc092c72c1a5b5fb909734fe0c83
+  - 50e7070c7087e7ce993c59fd71ba17db1963ca57
+  - 584e7adc66eed7cfe7822a865eda2c4279265b03
+  - 5d6bee1ad54c4e87ed3eb362bc8ad8c3dc2725a7
+  - 6714226e0dff29c7e5dbe71a1f43137b5a4f6656
+  - 84c6a4d9c834395f41120e6e4df67c82eb9e4e20
+  - a28c3e0a86e72290391aeee6d4cd4fbb8189ec5d
+  - a8c35af09973b4fb822f3bc8d98a9e50e385ccb5
+  - b19c23046c219b08c536b0a34b9d51a497c2fa82
+  - ea1d7d9655298ce0c62dad29b883c1ca478dae67
+  - f5aebd43ff9b6e06d1e1e7ba7ebb028c1ddd091d
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  ordered: no
+status:
+  class: factor
+  labels:
+  - 061095f13352c15db428b9c8240a8fbcbdb45da8
+  - 13a6e559b06aad0e52fd998071484e6aeac732e3
+  - 2129b580c54bd16d8ee81a75f4d53b6544f65c19
+  - 3d1a6347bb928d6e8fcf9136ea74379c266ce60d
+  - 6c82c50f423955843015fdd19cab0831ec173afa
+  - 77d0a87a3531fa26340f0e42be9de69e5d725a2e
+  - 7f219980c4af29977890f92d29ea28f1b685d087
+  - 9031e6af8f47e4165fd4129cd4aa19e632d2a017
+  - 917394c008929e2615318b4187305c2aed360039
+  - 955236099ad4638520b0d81f3fb6deadfe2dd1d6
+  - a8b38773eb7820ae284f0e5b2a993032d668ee3d
+  - c4bac531cde5c004e8c62d1fd2a10a48f9c7a147
+  - c4cdf489649ec156432a499bfa211e1190ec5584
+  - d9d351180db109ecd92048885caac9f769ff338e
+  index:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  ordered: no
