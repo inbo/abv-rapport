@@ -1,28 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="nl" xml:lang="nl"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-
-<title>Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV) 2007-2023 - Verwerking van de gegevens</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl-BE" xml:lang="nl-BE"><head>
 <script src="../libs/quarto-nav/quarto-nav.js"></script>
 <script src="../libs/quarto-nav/headroom.min.js"></script>
 <script src="../libs/clipboard/clipboard.min.js"></script>
@@ -38,78 +15,97 @@ ul.task-list li input[type="checkbox"] {
 <link href="../libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../libs/bootstrap/bootstrap.min.js"></script>
 <link href="../libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "Geen resultaten",
-    "search-matching-documents-text": "Gevonden documenten",
-    "search-copy-link-title": "Kopieer link om te zoeken",
-    "search-hide-matches-text": "Extra overeenkomsten verbergen",
-    "search-more-match-text": "meer overeenkomst in dit document",
-    "search-more-matches-text": "meer overeenkomsten in dit document",
-    "search-clear-button-title": "Wissen",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Annuleren",
-    "search-submit-button-title": "Verzenden",
-    "search-label": "Zoeken"
-  }
-}</script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
+<link href="../libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Algemene Broedvogelmonitoring Vlaanderen (ABV) 2007-2023 - Verwerking van de gegevens</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
     }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../css_styles/inbo_report.css">
-<link rel="stylesheet" href="../css_styles/custom.css">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../libs/quarto-contrib/quarto-project/inboqmd-report-website/css/agency.css">
+  <link rel="stylesheet" href="../libs/quarto-contrib/quarto-project/inboqmd-report-website/_extensions/flandersqmd-report-website/css/flanders_generic.css">
+  <script id="quarto-search-options" type="application/json">{
+    "location": "navbar",
+    "copy-button": false,
+    "collapse-after": 3,
+    "panel-placement": "end",
+    "type": "overlay",
+    "limit": 50,
+    "keyboard-shortcut": [
+      "f",
+      "/",
+      "s"
+    ],
+    "show-item-context": false,
+    "language": {
+      "search-no-results-text": "Geen resultaten",
+      "search-matching-documents-text": "Gevonden documenten",
+      "search-copy-link-title": "Kopieer link om te zoeken",
+      "search-hide-matches-text": "Extra overeenkomsten verbergen",
+      "search-more-match-text": "meer overeenkomst in dit document",
+      "search-more-matches-text": "meer overeenkomsten in dit document",
+      "search-clear-button-title": "Wissen",
+      "search-text-placeholder": "",
+      "search-detached-cancel-button-title": "Annuleren",
+      "search-submit-button-title": "Verzenden",
+      "search-label": "Zoeken"
+    }
+  }</script>
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 </head>
-
 <body class="nav-sidebar docked nav-fixed">
-
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Trends op basis van de Algemene Broedvogelmonitoring Vlaanderen (ABV) 2007-2023</span>
+    <span class="navbar-title">Algemene Broedvogelmonitoring Vlaanderen (ABV) 2007-2023</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Zoeken"></div>
@@ -119,20 +115,46 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../methodologie/index.html" aria-current="page"> 
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
+<span class="menu-text">Cover</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../samenvatting.html"> 
+<span class="menu-text">Samenvatting</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methodologie/index.html"> 
 <span class="menu-text">Methodologie</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../index/bos.html"> 
-<span class="menu-text">Indicatoren</span></a>
+<span class="menu-text">Samengestelde indices</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../soort/index.html"> 
-<span class="menu-text">Resultaten per soort</span></a>
+<span class="menu-text">Trends per soort</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools tools-wide">
+    <a href="https://mastodon.online/@inbo" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-mastodon"></i></a>
+    <a href="https://twitter.com/inbovlaanderen" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://www.facebook.com/INBOVlaanderen/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-facebook"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/inbo/abvanalysis">
+            Broncode
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/inbo/abvanalysis/issues">
+            Meld een probleem
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -864,49 +886,32 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Op deze pagina</h2>
-   
-  <ul>
-  <li><a href="#sec-relevant" id="toc-sec-relevant" class="nav-link active" data-scroll-target="#sec-relevant">Selectie van relevante gegevens per soort</a></li>
-  <li><a href="#s:trendberekening" id="toc-s:trendberekening" class="nav-link" data-scroll-target="#s\:trendberekening">Trendberekening</a>
-  <ul class="collapse">
-  <li><a href="#niet-lineaire-trends" id="toc-niet-lineaire-trends" class="nav-link" data-scroll-target="#niet-lineaire-trends">Niet-lineaire trends</a></li>
-  <li><a href="#statistische-verdelingen" id="toc-statistische-verdelingen" class="nav-link" data-scroll-target="#statistische-verdelingen">Statistische verdelingen</a></li>
-  <li><a href="#sec-lineairetrend" id="toc-sec-lineairetrend" class="nav-link" data-scroll-target="#sec-lineairetrend">Lineaire trends</a></li>
-  <li><a href="#resultaten-per-driejarige-cyclus" id="toc-resultaten-per-driejarige-cyclus" class="nav-link" data-scroll-target="#resultaten-per-driejarige-cyclus">Resultaten per driejarige cyclus</a></li>
-  <li><a href="#modellen-fitten" id="toc-modellen-fitten" class="nav-link" data-scroll-target="#modellen-fitten">Modellen fitten</a></li>
-  </ul></li>
-  <li><a href="#gemiddeld-aantal-dieren-per-meetpunt" id="toc-gemiddeld-aantal-dieren-per-meetpunt" class="nav-link" data-scroll-target="#gemiddeld-aantal-dieren-per-meetpunt">Gemiddeld aantal dieren per meetpunt</a></li>
-  <li><a href="#vergelijken-van-jaren" id="toc-vergelijken-van-jaren" class="nav-link" data-scroll-target="#vergelijken-van-jaren">Vergelijken van jaren</a></li>
-  <li><a href="#sec-stratumgewicht" id="toc-sec-stratumgewicht" class="nav-link" data-scroll-target="#sec-stratumgewicht">Gewicht van de strata</a></li>
-  <li><a href="#sec-samengesteld" id="toc-sec-samengesteld" class="nav-link" data-scroll-target="#sec-samengesteld">Samengestelde indices</a></li>
-  </ul>
+<h2 id="toc-title">Op deze pagina</h2>
+<ul>
+<li><a href="#sec-relevant" id="toc-sec-relevant" class="nav-link active" data-scroll-target="#sec-relevant"><span class="header-section-number">1</span> Selectie van relevante gegevens per soort</a></li>
+<li><a href="#s:trendberekening" id="toc-s:trendberekening" class="nav-link" data-scroll-target="#s\:trendberekening"><span class="header-section-number">2</span> Trendberekening</a>
+<ul class="collapse">
+<li><a href="#niet-lineaire-trends" id="toc-niet-lineaire-trends" class="nav-link" data-scroll-target="#niet-lineaire-trends"><span class="header-section-number">2.1</span> Niet-lineaire trends</a></li>
+<li><a href="#statistische-verdelingen" id="toc-statistische-verdelingen" class="nav-link" data-scroll-target="#statistische-verdelingen"><span class="header-section-number">2.2</span> Statistische verdelingen</a></li>
+<li><a href="#sec-lineairetrend" id="toc-sec-lineairetrend" class="nav-link" data-scroll-target="#sec-lineairetrend"><span class="header-section-number">2.3</span> Lineaire trends</a></li>
+<li><a href="#resultaten-per-driejarige-cyclus" id="toc-resultaten-per-driejarige-cyclus" class="nav-link" data-scroll-target="#resultaten-per-driejarige-cyclus"><span class="header-section-number">2.4</span> Resultaten per driejarige cyclus</a></li>
+<li><a href="#modellen-fitten" id="toc-modellen-fitten" class="nav-link" data-scroll-target="#modellen-fitten"><span class="header-section-number">2.5</span> Modellen fitten</a></li>
+</ul></li>
+<li><a href="#gemiddeld-aantal-dieren-per-meetpunt" id="toc-gemiddeld-aantal-dieren-per-meetpunt" class="nav-link" data-scroll-target="#gemiddeld-aantal-dieren-per-meetpunt"><span class="header-section-number">3</span> Gemiddeld aantal dieren per meetpunt</a></li>
+<li><a href="#vergelijken-van-jaren" id="toc-vergelijken-van-jaren" class="nav-link" data-scroll-target="#vergelijken-van-jaren"><span class="header-section-number">4</span> Vergelijken van jaren</a></li>
+<li><a href="#sec-stratumgewicht" id="toc-sec-stratumgewicht" class="nav-link" data-scroll-target="#sec-stratumgewicht"><span class="header-section-number">5</span> Gewicht van de strata</a></li>
+<li><a href="#sec-samengesteld" id="toc-sec-samengesteld" class="nav-link" data-scroll-target="#sec-samengesteld"><span class="header-section-number">6</span> Samengestelde indices</a></li>
+</ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../methodologie/index.html">Methodologie</a></li><li class="breadcrumb-item"><a href="../methodologie/verwerking.html">Verwerking van de gegevens</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Verwerking van de gegevens</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
+<header id="title-block-header">
+<h1 class="title display-7">Verwerking van de gegevens</h1>
 </header>
 
-
-<section id="sec-relevant" class="level2">
-<h2 class="anchored" data-anchor-id="sec-relevant">Selectie van relevante gegevens per soort</h2>
+<section id="sec-relevant" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="sec-relevant"><span class="header-section-number">1</span> Selectie van relevante gegevens per soort</h2>
 <p>Hoewel we alle waargenomen vogelsoorten op een meetpunt noteren, toch zijn niet alle hokken even relevant voor een bepaalde soort. Om de redenering op te bouwen, beschouwen we een fictieve soort die enkel op een afgelegen eiland voorkomt. Alle vogeltellingen buiten dit eiland zijn uiteraard niet informatief voor wijzigingen in de aantallen van deze fictieve soort. Buiten het eiland zullen de getelde aantallen immers per definitie nul zijn. Wanneer we deze tellingen toch zouden in rekening brengen, dan zullen ze de globale trend afvlakken. De globale trend is min of meer equivalent met een “gemiddelde” trend over de verschillende locaties. Als een locatie steeds nul geeft, dan zijn lokaal de aantallen wiskundig “stabiel” (geen lokale trend). Daarom is het noodzakelijk om de locaties die niet relevant zijn voor een soort buiten beschouwing te houden.</p>
 <p>In Vlaanderen is de situatie niet zo zwart-wit als bij het voorbeeld met het afgelegen eiland. Daarom hebben nood aan een set regels die we toepassen op de beschikbare gegevens.</p>
 <ol type="1">
@@ -930,114 +935,137 @@ Figuur&nbsp;1: Aantal onderzochte hokken per stratum en per jaar waarbij we enke
 </div>
 </div>
 </div>
-<p>Na het toepassen van deze regels gaan we na of we minstens 100 waarnemingen van de soort hebben. Hierbij is een waarneming de telling van minstens één dier in een combinatie van jaar, periode, hok en meetpunt. Stel dat we een soort hebben waarbij we de drie periodes weerhouden en de waarnemer ziet de soort op elk van de zes meetpunten tijdens alle periodes van een bepaald jaar, dan hebben we <span class="math inline">\(3 \times 6 = 18\)</span> waarnemingen voor dat hok in dat jaar.</p>
+<p>Na het toepassen van deze regels gaan we na of we minstens 100 waarnemingen van de soort hebben. Hierbij is een waarneming de telling van minstens één dier in een combinatie van jaar, periode, hok en meetpunt. Stel dat we een soort hebben waarbij we de drie periodes weerhouden en de waarnemer ziet de soort op elk van de zes meetpunten tijdens alle periodes van een bepaald jaar, dan hebben we <span class="math inline">3 \times 6 = 18</span> waarnemingen voor dat hok in dat jaar.</p>
 <p>Als we minder dan 100 waarnemingen voorhouden voor een soort, dan stopt voorlopig het verhaal voor deze soort. We hebben dan te weinig waarnemingen voor een betrouwbare trendberekening. Dit wil niet zeggen dat we deze soort permanent afschrijven! Wanneer we deze regels in de toekomst opnieuw toepassen hebben we mogelijk wel voldoende waarnemingen. Ook hokken of strata in de toekomst gekoloniseerd worden, worden dan opgepikt.</p>
 </section>
-<section id="s:trendberekening" class="level2">
-<h2 class="anchored" data-anchor-id="s:trendberekening">Trendberekening</h2>
-<section id="niet-lineaire-trends" class="level3">
-<h3 class="anchored" data-anchor-id="niet-lineaire-trends">Niet-lineaire trends</h3>
-<p>Om de trends te berekenen, voorspellen we de waargenomen aantallen aan de hand van een statistisch model. <span class="math inline">\(Y_{jpshm}\)</span> is de voorspelling voor jaar <span class="math inline">\(j\)</span>, periode <span class="math inline">\(p\)</span>, stratum <span class="math inline">\(s\)</span>, hok <span class="math inline">\(h\)</span> en meetpunt <span class="math inline">\(m\)</span>. We veronderstellen dat deze aantallen uit een <code>zero-inflated negative binomial</code><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> verdeling komen met parameters <span class="math inline">\(\mu_{jpshm}\)</span>, <span class="math inline">\(\nu\)</span> en <span class="math inline">\(\pi\)</span>.</p>
-<p><span class="math display">\[Y_{jpshm} \sim ZINB(\mu_{jpshm}, \nu, \pi)\]</span></p>
-<p>Laat ons eerst focussen op <span class="math inline">\(\mu_{jpshm}\)</span>. Deze parameter is via een <span class="math inline">\(\log\)</span> link gerelateerd aan de <code>lineaire predictor</code> <span class="math inline">\(\eta_{jpshm}\)</span>. Door deze <span class="math inline">\(\log\)</span> link kunnen we de individuele termen van de <code>lineare predictor</code> interpreteren als relatieve effecten.</p>
-<p><span class="math display">\[\log\mu_{jpshm} = \eta_{jpshm}\]</span></p>
+<section id="s:trendberekening" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="s:trendberekening"><span class="header-section-number">2</span> Trendberekening</h2>
+<section id="niet-lineaire-trends" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="niet-lineaire-trends"><span class="header-section-number">2.1</span> Niet-lineaire trends</h3>
+<p>Om de trends te berekenen, voorspellen we de waargenomen aantallen aan de hand van een statistisch model. <span class="math inline">Y_{jpshm}</span> is de voorspelling voor jaar <span class="math inline">j</span>, periode <span class="math inline">p</span>, stratum <span class="math inline">s</span>, hok <span class="math inline">h</span> en meetpunt <span class="math inline">m</span>. We veronderstellen dat deze aantallen uit een <code>zero-inflated negative binomial</code><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> verdeling komen met parameters <span class="math inline">\mu_{jpshm}</span>, <span class="math inline">\nu</span> en <span class="math inline">\pi</span>.</p>
+<p><span class="math display">Y_{jpshm} \sim ZINB(\mu_{jpshm}, \nu, \pi)</span></p>
+<p>Laat ons eerst focussen op <span class="math inline">\mu_{jpshm}</span>. Deze parameter is via een <span class="math inline">\log</span> link gerelateerd aan de <code>lineaire predictor</code> <span class="math inline">\eta_{jpshm}</span>. Door deze <span class="math inline">\log</span> link kunnen we de individuele termen van de <code>lineare predictor</code> interpreteren als relatieve effecten.</p>
+<p><span class="math display">\log\mu_{jpshm} = \eta_{jpshm}</span></p>
 <p>En nu wordt het interessant want deze <code>lineaire predictor</code> hangt af van vijf termen:</p>
 <ul>
-<li><span class="math inline">\(\beta_s\)</span>: het effect van stratum <span class="math inline">\(s\)</span>.</li>
-<li><span class="math inline">\(\beta_p\)</span>: het verschil tussen periode <span class="math inline">\(p\)</span> en de referentieperiode.</li>
-<li><span class="math inline">\(b_h\)</span>: het effect van hok <span class="math inline">\(h\)</span>. Deze effecten komen uit een Gaussiaanse verdeling met gemiddelde 0 en variantie <span class="math inline">\(\sigma^2_h\)</span>.</li>
-<li><span class="math inline">\(b_m\)</span>: het effect van meetpunt <span class="math inline">\(m\)</span>. Deze effecten komen uit een Gaussiaanse verdeling met gemiddelde 0 en variantie <span class="math inline">\(\sigma^2_m\)</span>.</li>
-<li><span class="math inline">\(b_{j,s}\)</span>: het effect van jaar <span class="math inline">\(j\)</span> in stratum <span class="math inline">\(s\)</span>. Dit effect modelleert een eerste orde random walk per stratum. Het verschil tussen twee opeenvolgende jaren komt uit een Gaussiaanse verdeling met gemiddelde 0 en variantie <span class="math inline">\(\sigma^2_j\)</span>.</li>
+<li><span class="math inline">\beta_s</span>: het effect van stratum <span class="math inline">s</span>.</li>
+<li><span class="math inline">\beta_p</span>: het verschil tussen periode <span class="math inline">p</span> en de referentieperiode.</li>
+<li><span class="math inline">b_h</span>: het effect van hok <span class="math inline">h</span>. Deze effecten komen uit een Gaussiaanse verdeling met gemiddelde 0 en variantie <span class="math inline">\sigma^2_h</span>.</li>
+<li><span class="math inline">b_m</span>: het effect van meetpunt <span class="math inline">m</span>. Deze effecten komen uit een Gaussiaanse verdeling met gemiddelde 0 en variantie <span class="math inline">\sigma^2_m</span>.</li>
+<li><span class="math inline">b_{j,s}</span>: het effect van jaar <span class="math inline">j</span> in stratum <span class="math inline">s</span>. Dit effect modelleert een eerste orde random walk per stratum. Het verschil tussen twee opeenvolgende jaren komt uit een Gaussiaanse verdeling met gemiddelde 0 en variantie <span class="math inline">\sigma^2_j</span>.</li>
 </ul>
-<p><span class="math display">\[\eta_{jpshm} = \beta_s + \beta_p + b_h + b_m + b_{j,s}\]</span> <span class="math display">\[b_h \sim \mathcal{N}(0, \sigma^2_h)\]</span> <span class="math display">\[b_m \sim \mathcal{N}(0, \sigma^2_m)\]</span> <span class="math display">\[b_{j,s} - b_{j-1, s} = \Delta b_{j,s} \sim \mathcal{N}(0, \sigma^2_j)\]</span></p>
-<p>De random walk <span class="math inline">\(b_{j,s}\)</span> is de term die ons het meest interesseert aangezien deze modelleert hoe de aantallen in de tijd wijzigen. Het komt er op neer dat de aantallen in jaar <span class="math inline">\(j\)</span> en stratum <span class="math inline">\(s\)</span> een factor <span class="math inline">\(e^{\Delta b_{j,s}}\)</span> verschillen van het voorgaande jaar in datzelfde stratum. De variantie <span class="math inline">\(\sigma^2_j\)</span> bepaalt hoe groot de sterkste schommelingen tussen de opeenvolgende jaren kunnen zijn. Het model laat toe dat elk stratum zijn eigen trend heeft.</p>
+<p><span class="math display">\eta_{jpshm} = \beta_s + \beta_p + b_h + b_m + b_{j,s}</span> <span class="math display">b_h \sim \mathcal{N}(0, \sigma^2_h)</span> <span class="math display">b_m \sim \mathcal{N}(0, \sigma^2_m)</span> <span class="math display">b_{j,s} - b_{j-1, s} = \Delta b_{j,s} \sim \mathcal{N}(0, \sigma^2_j)</span></p>
+<p>De random walk <span class="math inline">b_{j,s}</span> is de term die ons het meest interesseert aangezien deze modelleert hoe de aantallen in de tijd wijzigen. Het komt er op neer dat de aantallen in jaar <span class="math inline">j</span> en stratum <span class="math inline">s</span> een factor <span class="math inline">e^{\Delta b_{j,s}}</span> verschillen van het voorgaande jaar in datzelfde stratum. De variantie <span class="math inline">\sigma^2_j</span> bepaalt hoe groot de sterkste schommelingen tussen de opeenvolgende jaren kunnen zijn. Het model laat toe dat elk stratum zijn eigen trend heeft.</p>
 </section>
-<section id="statistische-verdelingen" class="level3">
-<h3 class="anchored" data-anchor-id="statistische-verdelingen">Statistische verdelingen</h3>
-<p>Een standaard distributie voor aantallen is de Poisson verdeling. Deze heeft als kenmerk dat de variantie gelijk is aan het gemiddelde (<span class="math inline">\(\sigma^2 = \mu\)</span>). Bij veel ecologisch gegevens zien we dat de variantie in de praktijk groter is dan het gemiddelde, een fenomeen dat we overdispersie noemen. In dat geval kunnen we een negatief binomiale verdeling gebruiken. Deze heeft als variantie <span class="math inline">\(\sigma^2 = \mu + \mu^2/\nu\)</span>, waarbij de parameter <span class="math inline">\(\nu\)</span> is een maat voor overdispersie. Merk op dat als de overdispersieparameter zeer groot wordt (<span class="math inline">\(\nu = \infty\)</span>), dan wordt de term <span class="math inline">\(\mu/\nu = 0\)</span> en bijgevolg reduceert de negatief binomiale verdeling dan tot een Poisson verdeling.</p>
-<p>Sommige ecologische gegevens vertonen een “overmaat” aan nullen, dat zijn meer nulwaarnemingen dan de Poisson of negatief binomiale verdeling kan modelleren. In dergelijke gevallen kunnen we overschakelen naar de <code>zero-inflated</code> versie van deze verdelingen. Deze hebben een parameter <span class="math inline">\(\pi\)</span> die een maat is voor de kans op een overmatige nul.</p>
-<p>Bij het modelleren zullen we in eerste instantie deze twee parameters instellen op <span class="math inline">\(\nu = \infty\)</span> en <span class="math inline">\(\pi = 0\)</span>, m.a.w. geen overdispersie en geen overmaat aan nullen zodat we een Poisson verdeling krijgen. Vervolgens gaan we na of er voldoende aanwijzingen zijn voor overdispersie of een overmaat aan nullen. In het geval van overdispersie laten we <span class="math inline">\(\nu\)</span> door het model schatten waardoor we overgaan van een Poisson naar een negatief binomiaal. In het geval van een overmaat aan nullen laten we <span class="math inline">\(\pi\)</span> door het model schatten waardoor we overgaan van een Poisson naar een <code>zero-inflated</code> Poisson. Soms hebben we zowel aanwijzingen voor overdispersie als een overmaat aan nullen. In die gevallen kiezen we de negatief binomiaal of <code>zero-inflated</code> Poisson naargelang welke de sterkste aanwijzingen heeft. Vervolgens gaan we na of we de andere parameter ook nog een probleem vormt. Zo ja, gaan we over naar een <code>zero-inflated</code> negatief binomiaal waarbij het model zowel <span class="math inline">\(\nu\)</span> als <span class="math inline">\(\pi\)</span> zal schatten.</p>
+<section id="statistische-verdelingen" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="statistische-verdelingen"><span class="header-section-number">2.2</span> Statistische verdelingen</h3>
+<p>Een standaard distributie voor aantallen is de Poisson verdeling. Deze heeft als kenmerk dat de variantie gelijk is aan het gemiddelde (<span class="math inline">\sigma^2 = \mu</span>). Bij veel ecologisch gegevens zien we dat de variantie in de praktijk groter is dan het gemiddelde, een fenomeen dat we overdispersie noemen. In dat geval kunnen we een negatief binomiale verdeling gebruiken. Deze heeft als variantie <span class="math inline">\sigma^2 = \mu + \mu^2/\nu</span>, waarbij de parameter <span class="math inline">\nu</span> is een maat voor overdispersie. Merk op dat als de overdispersieparameter zeer groot wordt (<span class="math inline">\nu = \infty</span>), dan wordt de term <span class="math inline">\mu/\nu = 0</span> en bijgevolg reduceert de negatief binomiale verdeling dan tot een Poisson verdeling.</p>
+<p>Sommige ecologische gegevens vertonen een “overmaat” aan nullen, dat zijn meer nulwaarnemingen dan de Poisson of negatief binomiale verdeling kan modelleren. In dergelijke gevallen kunnen we overschakelen naar de <code>zero-inflated</code> versie van deze verdelingen. Deze hebben een parameter <span class="math inline">\pi</span> die een maat is voor de kans op een overmatige nul.</p>
+<p>Bij het modelleren zullen we in eerste instantie deze twee parameters instellen op <span class="math inline">\nu = \infty</span> en <span class="math inline">\pi = 0</span>, m.a.w. geen overdispersie en geen overmaat aan nullen zodat we een Poisson verdeling krijgen. Vervolgens gaan we na of er voldoende aanwijzingen zijn voor overdispersie of een overmaat aan nullen. In het geval van overdispersie laten we <span class="math inline">\nu</span> door het model schatten waardoor we overgaan van een Poisson naar een negatief binomiaal. In het geval van een overmaat aan nullen laten we <span class="math inline">\pi</span> door het model schatten waardoor we overgaan van een Poisson naar een <code>zero-inflated</code> Poisson. Soms hebben we zowel aanwijzingen voor overdispersie als een overmaat aan nullen. In die gevallen kiezen we de negatief binomiaal of <code>zero-inflated</code> Poisson naargelang welke de sterkste aanwijzingen heeft. Vervolgens gaan we na of we de andere parameter ook nog een probleem vormt. Zo ja, gaan we over naar een <code>zero-inflated</code> negatief binomiaal waarbij het model zowel <span class="math inline">\nu</span> als <span class="math inline">\pi</span> zal schatten.</p>
 </section>
-<section id="sec-lineairetrend" class="level3">
-<h3 class="anchored" data-anchor-id="sec-lineairetrend">Lineaire trends</h3>
-<p>Lineaire trends veronderstellen dat er een constante wijziging is over de volledige looptijd. Het model dat we hiervoor gebruiken is nagenoeg identiek aan het niet-lineaire model. Het enige verschil zit in de <code>lineaire predictor</code> waar we de first order random walk (<span class="math inline">\(b_{j,s}\)</span>) vervangen door een lineaire trend per stratum (<span class="math inline">\(\beta_{s1} j\)</span>).</p>
-<p><span class="math display">\[\eta_{jpshm} = \beta_s + \beta_p + b_h + b_m + \beta_{s1} j\]</span></p>
-<p>Het lineaire model is een vereenvoudiging van het niet-lineaire model. We kunnen deze modellen met elkaar vergelijken op basis van het <code>Wantanabe-Akaike Information Criterion</code> (WAIC) <span class="citation" data-cites="gelmanUnderstandingPredictiveInformation2014">[@gelmanUnderstandingPredictiveInformation2014]</span>. De WAIC waarde daalt naarmate het model de gegevens beter kan beschrijven en stijgt wanneer het model complexer wordt. Als we modellen met elkaar vergelijken op basis van WAIC, zal het model met de laagste WAIC de beste mix zijn tussen een goede beschrijving van de gegevens en een zo eenvoudig mogelijk model. We beschouwen de trend als <strong>lineair</strong> wanneer het lineaire model de laagste WAIC heeft. Wanneer de WAIC van het niet-lineaire model minder dan 2 eenheden lager is dan deze van het lineaire model, beschouwen de trend als <strong>mogelijk niet-lineair</strong>. Pas wanneer de WAIC van het niet-lineaire model duidelijk lager is dan het lineaire model, stellen we dat de trend <strong>niet-lineair</strong> is. In dat geval de gebruiker moet de gerapporteerde lineaire trend met de nodige voorzichtigheid interpreteren. Kijk zeker naar de bijhorende niet-lineaire trend vooraleer de cijfers te interpreteren.</p>
+<section id="sec-lineairetrend" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="sec-lineairetrend"><span class="header-section-number">2.3</span> Lineaire trends</h3>
+<p>Lineaire trends veronderstellen dat er een constante wijziging is over de volledige looptijd. Het model dat we hiervoor gebruiken is nagenoeg identiek aan het niet-lineaire model. Het enige verschil zit in de <code>lineaire predictor</code> waar we de first order random walk (<span class="math inline">b_{j,s}</span>) vervangen door een lineaire trend per stratum (<span class="math inline">\beta_{s1} j</span>).</p>
+<p><span class="math display">\eta_{jpshm} = \beta_s + \beta_p + b_h + b_m + \beta_{s1} j</span></p>
+<p>Het lineaire model is een vereenvoudiging van het niet-lineaire model. We kunnen deze modellen met elkaar vergelijken op basis van het <code>Wantanabe-Akaike Information Criterion</code> (WAIC) <span class="citation" data-cites="gelmanUnderstandingPredictiveInformation2014">(<a href="#ref-gelmanUnderstandingPredictiveInformation2014" role="doc-biblioref">Gelman, Hwang, en Vehtari 2014</a>)</span>. De WAIC waarde daalt naarmate het model de gegevens beter kan beschrijven en stijgt wanneer het model complexer wordt. Als we modellen met elkaar vergelijken op basis van WAIC, zal het model met de laagste WAIC de beste mix zijn tussen een goede beschrijving van de gegevens en een zo eenvoudig mogelijk model. We beschouwen de trend als <strong>lineair</strong> wanneer het lineaire model de laagste WAIC heeft. Wanneer de WAIC van het niet-lineaire model minder dan 2 eenheden lager is dan deze van het lineaire model, beschouwen de trend als <strong>mogelijk niet-lineair</strong>. Pas wanneer de WAIC van het niet-lineaire model duidelijk lager is dan het lineaire model, stellen we dat de trend <strong>niet-lineair</strong> is. In dat geval de gebruiker moet de gerapporteerde lineaire trend met de nodige voorzichtigheid interpreteren. Kijk zeker naar de bijhorende niet-lineaire trend vooraleer de cijfers te interpreteren.</p>
 </section>
-<section id="resultaten-per-driejarige-cyclus" class="level3">
-<h3 class="anchored" data-anchor-id="resultaten-per-driejarige-cyclus">Resultaten per driejarige cyclus</h3>
-<p>Zoals <a href="inzameling.html#sec-steekproef">eerder</a> aangegeven zullen we een bepaald hok in principe om de drie jaar herbezoeken. Hierdoor krijgen we drie sets van hokken. Er bestaat een kans dat de schatting voor een bepaald jaar beïnvloed is door de set van hokken die in dat jaar onderzocht worden. Om dit effect uit te schakelen, analyseren we de gegevens tevens op basis van de driejarige cyclus <span class="math inline">\(c\)</span> i.p.v. jaar <span class="math inline">\(j\)</span>.</p>
+<section id="resultaten-per-driejarige-cyclus" class="level3" data-number="2.4">
+<h3 data-number="2.4" class="anchored" data-anchor-id="resultaten-per-driejarige-cyclus"><span class="header-section-number">2.4</span> Resultaten per driejarige cyclus</h3>
+<p>Zoals <a href="inzameling.html#sec-steekproef">eerder</a> aangegeven zullen we een bepaald hok in principe om de drie jaar herbezoeken. Hierdoor krijgen we drie sets van hokken. Er bestaat een kans dat de schatting voor een bepaald jaar beïnvloed is door de set van hokken die in dat jaar onderzocht worden. Om dit effect uit te schakelen, analyseren we de gegevens tevens op basis van de driejarige cyclus <span class="math inline">c</span> i.p.v. jaar <span class="math inline">j</span>.</p>
 <p>De eerste cyclus omvat de eerste drie jaar sinds de start van het meetnet (2007-2009). De volgende cyclus omvat telkens de volgende drie jaar aansluitend op de vorige cyclus. Aangezien we alle beschikbare gegevens gebruiken bij de analyse bevat de laatste cyclus mogelijk minder dan drie jaar. Dit is duidelijk zichtbaar doordat het laatste jaar van de cyclus op dat ogenblik in de toekomst ligt. Als bijvoorbeeld 2019 het meest recente jaar met gegevens is, dan is de laatste cyclus 2019-2021.</p>
 <p>Hieronder geven we aan op welke manier we de eerste beschreven modellen aanpassen.</p>
-<p><span class="math display">\[Y_{cpshm} \sim ZINB(\mu_{cpshm}, \nu, \pi)\]</span> <span class="math display">\[\log\mu_{cpshm} = \eta_{cpshm}\]</span></p>
+<p><span class="math display">Y_{cpshm} \sim ZINB(\mu_{cpshm}, \nu, \pi)</span> <span class="math display">\log\mu_{cpshm} = \eta_{cpshm}</span></p>
 <p><strong>Niet-lineaire trend</strong></p>
-<p><span class="math display">\[\eta_{cpshm} = \beta_s + \beta_p + b_h + b_m + b_{c,s}\]</span> <span class="math display">\[b_{c,s} - b_{c-1, s} = \Delta b_{c,s} \sim \mathcal{N}(0, \sigma^2_c)\]</span></p>
-<p><span class="math inline">\(b_{c,s}\)</span>: het effect van driejarige cyclus <span class="math inline">\(c\)</span> in stratum <span class="math inline">\(s\)</span>. Dit effect modelleert een eerste orde random walk per stratum. Het verschil tussen twee opeenvolgende driejarige cycli komt uit een Gaussiaanse verdeling met gemiddelde 0 en variantie <span class="math inline">\(\sigma^2_c\)</span>.</p>
+<p><span class="math display">\eta_{cpshm} = \beta_s + \beta_p + b_h + b_m + b_{c,s}</span> <span class="math display">b_{c,s} - b_{c-1, s} = \Delta b_{c,s} \sim \mathcal{N}(0, \sigma^2_c)</span></p>
+<p><span class="math inline">b_{c,s}</span>: het effect van driejarige cyclus <span class="math inline">c</span> in stratum <span class="math inline">s</span>. Dit effect modelleert een eerste orde random walk per stratum. Het verschil tussen twee opeenvolgende driejarige cycli komt uit een Gaussiaanse verdeling met gemiddelde 0 en variantie <span class="math inline">\sigma^2_c</span>.</p>
 <p><strong>Lineaire trend</strong></p>
-<p><span class="math display">\[\eta_{cpshm} = \beta_s + \beta_p + b_h + b_m + \beta_{s1} c\]</span></p>
+<p><span class="math display">\eta_{cpshm} = \beta_s + \beta_p + b_h + b_m + \beta_{s1} c</span></p>
 </section>
-<section id="modellen-fitten" class="level3">
-<h3 class="anchored" data-anchor-id="modellen-fitten">Modellen fitten</h3>
-<p>We fitten de statische modellen in R <span class="citation" data-cites="R">[@R]</span> met het INLA package <span class="citation" data-cites="rueINLAFunctionsWhich2009">[@rueINLAFunctionsWhich2009]</span>. INLA gebruikt een Bayesiaanse benadering om de modellen te fitten. Daarom moeten we priors specificeren voor de parameters en hyperparameters.</p>
+<section id="modellen-fitten" class="level3" data-number="2.5">
+<h3 data-number="2.5" class="anchored" data-anchor-id="modellen-fitten"><span class="header-section-number">2.5</span> Modellen fitten</h3>
+<p>We fitten de statische modellen in R <span class="citation" data-cites="R">(<a href="#ref-R" role="doc-biblioref">R Core Team 2023</a>)</span> met het INLA package <span class="citation" data-cites="rueINLAFunctionsWhich2009">(<a href="#ref-rueINLAFunctionsWhich2009" role="doc-biblioref">Rue e.a. 2009</a>)</span>. INLA gebruikt een Bayesiaanse benadering om de modellen te fitten. Daarom moeten we priors specificeren voor de parameters en hyperparameters.</p>
 <ul>
-<li><span class="math inline">\(\beta_s\)</span>, <span class="math inline">\(\beta_p\)</span> en <span class="math inline">\(\beta_{s1}\)</span> krijgen een Gaussiaanse prior <span class="math inline">\(\mathcal{N}(0, 5)\)</span>.</li>
-<li><span class="math inline">\(\sigma^2_h\)</span> krijgt een <code>penalised complexity</code> prior <span class="citation" data-cites="simpson.rue.ea2017PenalisingModelComponent">[@simpson.rue.ea2017PenalisingModelComponent]</span> zodat <span class="math inline">\(Prob(\sigma_h &gt; 1) = 0.01\)</span>.</li>
-<li><span class="math inline">\(\sigma^2_m\)</span> krijgt een <code>penalised complexity</code> prior zodat <span class="math inline">\(Prob(\sigma_m &gt; 1) = 0.01\)</span>.</li>
-<li><span class="math inline">\(\sigma^2_j\)</span> krijgt een <code>penalised complexity</code> prior zodat <span class="math inline">\(Prob(\sigma_j &gt; 0.5) = 0.01\)</span>.</li>
-<li><span class="math inline">\(\sigma^2_c\)</span> krijgt een <code>penalised complexity</code> prior zodat <span class="math inline">\(Prob(\sigma_c &gt; 0.5) = 0.01\)</span>.</li>
-<li><span class="math inline">\(\nu\)</span> krijgt een Gamma prior zodat <span class="math inline">\(\nu \sim \Gamma(1/7, 1/7)\)</span>.</li>
-<li><span class="math inline">\(\pi\)</span> wordt intern geparametriseerd als <span class="math inline">\(\theta = \log\frac{\pi}{1 - \pi}\)</span> met Gaussiaanse prior <span class="math inline">\(\theta ~ \sim \mathcal{N}(-1, 5)\)</span>.</li>
+<li><span class="math inline">\beta_s</span>, <span class="math inline">\beta_p</span> en <span class="math inline">\beta_{s1}</span> krijgen een Gaussiaanse prior <span class="math inline">\mathcal{N}(0, 5)</span>.</li>
+<li><span class="math inline">\sigma^2_h</span> krijgt een <code>penalised complexity</code> prior <span class="citation" data-cites="simpson.rue.ea2017PenalisingModelComponent">(<a href="#ref-simpson.rue.ea2017PenalisingModelComponent" role="doc-biblioref">Simpson e.a. 2017</a>)</span> zodat <span class="math inline">Prob(\sigma_h &gt; 1) = 0.01</span>.</li>
+<li><span class="math inline">\sigma^2_m</span> krijgt een <code>penalised complexity</code> prior zodat <span class="math inline">Prob(\sigma_m &gt; 1) = 0.01</span>.</li>
+<li><span class="math inline">\sigma^2_j</span> krijgt een <code>penalised complexity</code> prior zodat <span class="math inline">Prob(\sigma_j &gt; 0.5) = 0.01</span>.</li>
+<li><span class="math inline">\sigma^2_c</span> krijgt een <code>penalised complexity</code> prior zodat <span class="math inline">Prob(\sigma_c &gt; 0.5) = 0.01</span>.</li>
+<li><span class="math inline">\nu</span> krijgt een Gamma prior zodat <span class="math inline">\nu \sim \Gamma(1/7, 1/7)</span>.</li>
+<li><span class="math inline">\pi</span> wordt intern geparametriseerd als <span class="math inline">\theta = \log\frac{\pi}{1 - \pi}</span> met Gaussiaanse prior <span class="math inline">\theta ~ \sim \mathcal{N}(-1, 5)</span>.</li>
 </ul>
 </section>
 </section>
-<section id="gemiddeld-aantal-dieren-per-meetpunt" class="level2">
-<h2 class="anchored" data-anchor-id="gemiddeld-aantal-dieren-per-meetpunt">Gemiddeld aantal dieren per meetpunt</h2>
-<p>Een gemiddeld hok heeft als effect <span class="math inline">\(b_h = 0\)</span> en een gemiddeld meetpunt <span class="math inline">\(b_m = 0\)</span>. In de referentieperiode is <span class="math inline">\(\beta_p = 0\)</span>. In deze gevallen vereenvoudigt de <code>lineaire predictor</code> tot het effect van stratum <span class="math inline">\(s\)</span> en de trend in dat stratum:</p>
-<p><span class="math display">\[\eta_{js} = \beta_s + b_{j,s}\]</span></p>
-<p>Door de effecten van de strata te vermenigvuldigen met hun stratumgewicht (<span class="math inline">\(\gamma_s\)</span>) krijgen we een schatting voor Vlaanderen.</p>
-<p><span class="math display">\[\eta_{j} = \sum_s(\gamma_s\beta_s + \gamma_sb_{j,s})\]</span></p>
-<p>Om de schatting van het gemiddelde aantal in Vlaanderen te krijgen, moeten we de <code>lineaire predictor</code> terug omzetten van de <span class="math inline">\(\log\)</span> schaal naar de natuurlijke schaal en corrigeren voor de eventuele overmaat aan nullen. We krijgen dan:</p>
-<p><span class="math display">\[E[Y_j] = (1 - \pi) e^{\eta_j} \prod_s(e^{\gamma_s \beta_s} e ^ {\gamma_s b_{j,s}})\]</span></p>
+<section id="gemiddeld-aantal-dieren-per-meetpunt" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="gemiddeld-aantal-dieren-per-meetpunt"><span class="header-section-number">3</span> Gemiddeld aantal dieren per meetpunt</h2>
+<p>Een gemiddeld hok heeft als effect <span class="math inline">b_h = 0</span> en een gemiddeld meetpunt <span class="math inline">b_m = 0</span>. In de referentieperiode is <span class="math inline">\beta_p = 0</span>. In deze gevallen vereenvoudigt de <code>lineaire predictor</code> tot het effect van stratum <span class="math inline">s</span> en de trend in dat stratum:</p>
+<p><span class="math display">\eta_{js} = \beta_s + b_{j,s}</span></p>
+<p>Door de effecten van de strata te vermenigvuldigen met hun stratumgewicht (<span class="math inline">\gamma_s</span>) krijgen we een schatting voor Vlaanderen.</p>
+<p><span class="math display">\eta_{j} = \sum_s(\gamma_s\beta_s + \gamma_sb_{j,s})</span></p>
+<p>Om de schatting van het gemiddelde aantal in Vlaanderen te krijgen, moeten we de <code>lineaire predictor</code> terug omzetten van de <span class="math inline">\log</span> schaal naar de natuurlijke schaal en corrigeren voor de eventuele overmaat aan nullen. We krijgen dan:</p>
+<p><span class="math display">E[Y_j] = (1 - \pi) e^{\eta_j} \prod_s(e^{\gamma_s \beta_s} e ^ {\gamma_s b_{j,s}})</span></p>
 </section>
-<section id="vergelijken-van-jaren" class="level2">
-<h2 class="anchored" data-anchor-id="vergelijken-van-jaren">Vergelijken van jaren</h2>
-<p>We kunnen twee jaren <span class="math inline">\(a\)</span> en <span class="math inline">\(b\)</span> met elkaar vergelijken door hun <code>lineaire predictoren</code> voor het gemiddeld aantal dieren van elkaar af te trekken.</p>
-<p><span class="math display">\[\eta_a - \eta_b = \sum_s(\gamma_s\beta_s + \gamma_sb_{a,s}) - \sum_s(\gamma_s\beta_s + \gamma_sb_{b,s})\]</span></p>
+<section id="vergelijken-van-jaren" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="vergelijken-van-jaren"><span class="header-section-number">4</span> Vergelijken van jaren</h2>
+<p>We kunnen twee jaren <span class="math inline">a</span> en <span class="math inline">b</span> met elkaar vergelijken door hun <code>lineaire predictoren</code> voor het gemiddeld aantal dieren van elkaar af te trekken.</p>
+<p><span class="math display">\eta_a - \eta_b = \sum_s(\gamma_s\beta_s + \gamma_sb_{a,s}) - \sum_s(\gamma_s\beta_s + \gamma_sb_{b,s})</span></p>
 <p>Aangezien het globale stratumeffecten en de stratumgewichten niet wijzigen in de tijd, kunnen we dit vereenvoudigen tot</p>
-<p><span class="math display">\[\eta_a - \eta_b = \sum_s\gamma_s(b_{a,s} -b_{b,s})\]</span></p>
-<p>De wijziging in Vlaanderen is het gewogen gemiddelde van de wijzigingen in de strata. Na omzetting van de <span class="math inline">\(log\)</span> schaal naar de natuurlijke schaal krijgen we het relatieve aantal <span class="math inline">\(I_{a|b}\)</span> van jaar <span class="math inline">\(a\)</span> t.o.v. jaar <span class="math inline">\(b\)</span></p>
-<p><span class="math display">\[I_{a|b}=\frac{e^{\nu_a}}{e^{\nu_b}} = \prod_s\left(\frac{e^{\gamma_sb_{a,s}}}{e^{\gamma_sb_{b,s}}}\right)\]</span></p>
-<p>Wanneer we een jaar met zichzelf vergelijken krijgen we per definitie <span class="math inline">\(I_{a|a} = 1 = 100\%\)</span>. Wanneer we meerdere jaren met eenzelfde referentiejaar vergelijken krijgen we een indexwaarde: het relatieve verschil van elk jaar t.o.v. van een bepaald referentiejaar.</p>
+<p><span class="math display">\eta_a - \eta_b = \sum_s\gamma_s(b_{a,s} -b_{b,s})</span></p>
+<p>De wijziging in Vlaanderen is het gewogen gemiddelde van de wijzigingen in de strata. Na omzetting van de <span class="math inline">log</span> schaal naar de natuurlijke schaal krijgen we het relatieve aantal <span class="math inline">I_{a|b}</span> van jaar <span class="math inline">a</span> t.o.v. jaar <span class="math inline">b</span></p>
+<p><span class="math display">I_{a|b}=\frac{e^{\nu_a}}{e^{\nu_b}} = \prod_s\left(\frac{e^{\gamma_sb_{a,s}}}{e^{\gamma_sb_{b,s}}}\right)</span></p>
+<p>Wanneer we een jaar met zichzelf vergelijken krijgen we per definitie <span class="math inline">I_{a|a} = 1 = 100\%</span>. Wanneer we meerdere jaren met eenzelfde referentiejaar vergelijken krijgen we een indexwaarde: het relatieve verschil van elk jaar t.o.v. van een bepaald referentiejaar.</p>
 </section>
-<section id="sec-stratumgewicht" class="level2">
-<h2 class="anchored" data-anchor-id="sec-stratumgewicht">Gewicht van de strata</h2>
-<p>In het vorige onderdeel hebben gebruikt gemaakt van stratumgewichten <span class="math inline">\(\gamma_s\)</span> zonder deze te definiëren. We bepalen het gewicht van een stratum op basis van drie kenmerken: het totaal aantal hokken van het stratum in Vlaanderen (<span class="math inline">\(N_s\)</span>), het aantal onderzochte hokken in het stratum (<span class="math inline">\(T_s\)</span>) ongeacht of ze al dan niet relevant zijn voor de soort en het aantal relevante hokken voor de soort in het stratum (<span class="math inline">\(R_s\)</span>).</p>
-<p>Het aandeel relevante hokken per stratum (<span class="math inline">\(R_s/T_s\)</span>) is een goede maat van de frequentie waarmee een soort aanwezig is binnen een stratum. Wanneer een soort in nagenoeg alle onderzochte hokken van het stratum waargenomen wordt is <span class="math inline">\(R_s/T_s \simeq 1\)</span>. Is de soort zeer zeldzaam (komt slechts in een paar van de onderzochte hokken voor) dan is <span class="math inline">\(R_s/T_s \simeq 0\)</span>.</p>
-<p>Het basisgewicht <span class="math inline">\(\gamma_{sb}\)</span> voor stratum <span class="math inline">\(s\)</span> is het aandeel relevante hokken vermenigvuldigd met het totaal aantal hokken in het stratum. Dit is een schatting van het totaal aantal hokken in het stratum waar de soort voldoende frequent voorkomt.</p>
-<p><span class="math display">\[\gamma_{sb} = \frac{R_s}{T_s}N_s\]</span></p>
+<section id="sec-stratumgewicht" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="sec-stratumgewicht"><span class="header-section-number">5</span> Gewicht van de strata</h2>
+<p>In het vorige onderdeel hebben gebruikt gemaakt van stratumgewichten <span class="math inline">\gamma_s</span> zonder deze te definiëren. We bepalen het gewicht van een stratum op basis van drie kenmerken: het totaal aantal hokken van het stratum in Vlaanderen (<span class="math inline">N_s</span>), het aantal onderzochte hokken in het stratum (<span class="math inline">T_s</span>) ongeacht of ze al dan niet relevant zijn voor de soort en het aantal relevante hokken voor de soort in het stratum (<span class="math inline">R_s</span>).</p>
+<p>Het aandeel relevante hokken per stratum (<span class="math inline">R_s/T_s</span>) is een goede maat van de frequentie waarmee een soort aanwezig is binnen een stratum. Wanneer een soort in nagenoeg alle onderzochte hokken van het stratum waargenomen wordt is <span class="math inline">R_s/T_s \simeq 1</span>. Is de soort zeer zeldzaam (komt slechts in een paar van de onderzochte hokken voor) dan is <span class="math inline">R_s/T_s \simeq 0</span>.</p>
+<p>Het basisgewicht <span class="math inline">\gamma_{sb}</span> voor stratum <span class="math inline">s</span> is het aandeel relevante hokken vermenigvuldigd met het totaal aantal hokken in het stratum. Dit is een schatting van het totaal aantal hokken in het stratum waar de soort voldoende frequent voorkomt.</p>
+<p><span class="math display">\gamma_{sb} = \frac{R_s}{T_s}N_s</span></p>
 <p>Om makkelijker te kunnen rekenen delen we de basisgewichten door hun som zodat de stratumgewichten sommeren tot 1.</p>
-<p><span class="math display">\[\gamma_s = \frac{\gamma_{sb}}{\sum_s\gamma_{sb}}\]</span></p>
-<p>Merk op dat het aantal relevante hokken per stratum (<span class="math inline">\(R_s\)</span>) soortafhankelijk is. Bijgevolg zijn de stratumgewichten eveneens soortafhankelijk.</p>
+<p><span class="math display">\gamma_s = \frac{\gamma_{sb}}{\sum_s\gamma_{sb}}</span></p>
+<p>Merk op dat het aantal relevante hokken per stratum (<span class="math inline">R_s</span>) soortafhankelijk is. Bijgevolg zijn de stratumgewichten eveneens soortafhankelijk.</p>
 </section>
-<section id="sec-samengesteld" class="level2">
-<h2 class="anchored" data-anchor-id="sec-samengesteld">Samengestelde indices</h2>
+<section id="sec-samengesteld" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="sec-samengesteld"><span class="header-section-number">6</span> Samengestelde indices</h2>
 <p>We berekenen een aantal samengestelde indices die de trends voor een groep van soorten aggregeren. Deze indices zijn het meetkundig gemiddelde van de verschillen tussen jaren voor alle soorten van de groep. Bij de berekening maken we gebruik van het trucje dat we een product kunnen schrijven als een som van logaritmes die we nadien terug exponentiëren. Een meetkundig gemiddelde in de natuurlijke schaal kunnen we dat schrijven als een rekenkundig gemiddelde in de log-schaal.</p>
-<p><span class="math display">\[\sqrt[n]{\prod_{i+1}^na_i} = \exp\left(\frac{\sum_{i = 1}^n\log a_i}{n}\right)\]</span> Het voordeel aan deze techniek is dat de schattingen van de paarsgewijze verschillen tussen de jaren reeds beschikbaar zijn in de log-schaal. Bovendien beschikken we tevens over hun variantie in de log-schaal. Dit laat ons toe om makkelijk het betrouwbaarheidsinterval te berekenen aan de hand van een paar vuistregels.</p>
+<p><span class="math display">\sqrt[n]{\prod_{i+1}^na_i} = \exp\left(\frac{\sum_{i = 1}^n\log a_i}{n}\right)</span> Het voordeel aan deze techniek is dat de schattingen van de paarsgewijze verschillen tussen de jaren reeds beschikbaar zijn in de log-schaal. Bovendien beschikken we tevens over hun variantie in de log-schaal. Dit laat ons toe om makkelijk het betrouwbaarheidsinterval te berekenen aan de hand van een paar vuistregels.</p>
 <ol type="1">
-<li>Bij onafhankelijke variabelen geldt dat de variantie van hun som gelijk is aan de som van de varianties. <span class="math inline">\(\sigma^2_{\sum X_i} = \sum \sigma^2_{X_i}\)</span></li>
-<li>De variantie van het product van een variabele en een constante is gelijk aan de variantie van de variabele vermenigvuldigd met die constante. <span class="math inline">\(\sigma^2_{aX} = a \sigma^2_X\)</span></li>
+<li>Bij onafhankelijke variabelen geldt dat de variantie van hun som gelijk is aan de som van de varianties. <span class="math inline">\sigma^2_{\sum X_i} = \sum \sigma^2_{X_i}</span></li>
+<li>De variantie van het product van een variabele en een constante is gelijk aan de variantie van de variabele vermenigvuldigd met die constante. <span class="math inline">\sigma^2_{aX} = a \sigma^2_X</span></li>
 <li>Het model veronderstelt dat de individuele modelparameters een Gaussiaanse verdeling volgen. Hierdoor volgen de paarsgewijze verschillen tussen de jaren en hun gemiddelde (telkens in de log-schaal) een Gaussiaanse verdeling. Aangezien we zowel het gemiddeld als de variantie van deze verdeling kennen, kunnen we hieruit de gewenste kwantielen voor de betrouwbaarheidsintervallen berekenen (nog steeds in de log-schaal).</li>
-<li>De log-transformatie is een monotoon stijgende functie aangezien <span class="math inline">\(\log(x)\)</span> steeds groter wordt wanneer <span class="math inline">\(x\)</span> groter wordt. Een kenmerk van een monotoon stijgende transformatie is dat ze de volgorde behouden: het 5% kleinste element zal ook na de transformatie het 5% kleinste element zijn. Waardoor we de kwantielen van de betrouwbaarheidsintervallen zonder probleem kunnen terugrekenen naar de natuurlijke schaal.</li>
+<li>De log-transformatie is een monotoon stijgende functie aangezien <span class="math inline">\log(x)</span> steeds groter wordt wanneer <span class="math inline">x</span> groter wordt. Een kenmerk van een monotoon stijgende transformatie is dat ze de volgorde behouden: het 5% kleinste element zal ook na de transformatie het 5% kleinste element zijn. Waardoor we de kwantielen van de betrouwbaarheidsintervallen zonder probleem kunnen terugrekenen naar de natuurlijke schaal.</li>
 </ol>
 
 
+
 </section>
 
 
-<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="cc-by.svg" class="cc img-fluid" alt="CC BY 4.0 logo"></a> Onkelinx, et al.&nbsp;(2024) <a href="https://doi.org/inbor.102669823">inbor.102669823</a></p><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Voetnoten</h2>
+<p>&nbsp;</p>
+<p>
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+    <img alt="Creative Commons-License" style="border-width:0" class="ccby"></a>
+     Onkelinx, T. et al.
+    2024
+    <a href="https://doi.org/10.21436/inbor.102669823">10.21436/inbor.102669823</a>
+
+
+</p><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referenties</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-gelmanUnderstandingPredictiveInformation2014" class="csl-entry" role="listitem">
+Gelman, Andrew, Jessica Hwang, en Aki Vehtari. 2014. <span>‘Understanding Predictive Information Criteria for <span>Bayesian</span> Models’</span>. <em>Statistics and Computing</em> 24 (6): 997–1016. <a href="https://doi.org/10.1007/s11222-013-9416-2">https://doi.org/10.1007/s11222-013-9416-2</a>.
+</div>
+<div id="ref-R" class="csl-entry" role="listitem">
+R Core Team. 2023. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+</div>
+<div id="ref-rueINLAFunctionsWhich2009" class="csl-entry" role="listitem">
+Rue, Håvard, Sara Martino, Finn Lindgren, Daniel Simpson, en Andrea Riebler. 2009. <em><span>INLA</span>: <span>Functions</span> Which Allow to Perform Full <span>Bayesian</span> Analysis of Latent <span>Gaussian</span> Models Using <span>Integrated Nested Laplace Approximation</span></em>.
+</div>
+<div id="ref-simpson.rue.ea2017PenalisingModelComponent" class="csl-entry" role="listitem">
+Simpson, Daniel P., HRue, Thiago G. Martins, Andrea Riebler, en Sigrunn H. Sørbye. 2017. <span>‘Penalising Model Component Complexity: <span>A</span> Principled, Practical Approach to Constructing Priors’</span>. <em>Statistical Science</em> 32 (1): 1–28. <a href="https://doi.org/10.1214/16-STS576">https://doi.org/10.1214/16-STS576</a>.
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Voetnoten</h2>
 
 <ol>
-<li id="fn1"><p>Het meetkundig gemiddelde of geometrisch gemiddelde van <span class="math inline">\(n\)</span> getallen wordt verkregen door de getallen met elkaar te vermenigvuldigen en vervolgens van het product de n<sup>de</sup> machtswortel te nemen. <span class="math display">\[m=\left(\prod _{i=1}^{n}a_{i}\right)^{1/n}\]</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Het meetkundig gemiddelde of geometrisch gemiddelde van <span class="math inline">n</span> getallen wordt verkregen door de getallen met elkaar te vermenigvuldigen en vervolgens van het product de n<sup>de</sup> machtswortel te nemen. <span class="math display">m=\left(\prod _{i=1}^{n}a_{i}\right)^{1/n}</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Een negatief binomiale verdeling met een overmaat aan nullen.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
@@ -1429,7 +1457,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-
 
 
 
