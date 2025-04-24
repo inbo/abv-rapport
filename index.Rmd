@@ -32,3 +32,5 @@ Voor een ecologische interpretatie van de resultaten verwijzen we naar andere pu
 | 2007 - 2021 | [10.21436/inbor.73009782](https://doi.org/10.21436/inbor.73009782) | [html](2021/index.html) | [pdf](2021/abv_standaard_rapport.pdf) | [epub](2021/abv_standaard_rapport.epub) |
 | 2007 - 2022 | [10.21436/inbor.89419879](https://doi.org/10.21436/inbor.89419879) | [html](2022/index.html) | [pdf](2022/abv_standaard_rapport.pdf) | [epub](2022/abv_standaard_rapport.epub) |
 | 2007 - 2023 |[10.21436/inbor.102669823](https://doi.org/10.21436/inbor.102669823) | [html](2023/index.html) | [pdf](2023/abv_standaard_rapport.pdf) | [epub](2023/abv_standaard_rapport.epub)
+| 2007 - 2024 |[10.21436/119461371](https://doi.org/10.21436/inbor.119461371) | [html](https://www.vlaanderen.be/inbo/rapporten/abv-trends-2007-2024/index.html) | [pdf](https://www.vlaanderen.be/inbo/rapporten/abv-trends-2007-2024/onkelinx_etal_2025_abv.pdf) |
+
